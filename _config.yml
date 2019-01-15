@@ -1,1 +1,8 @@
 theme: jekyll-theme-architect
+name: spark-fi
+description: No spark is too small to fire a dream
+---
+layout: default
+comments: true
+# other options
+---

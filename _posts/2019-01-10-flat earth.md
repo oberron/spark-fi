@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 The grand master stood up: 
 
 > You have passed the last stage of your initiation, you may now ask any question.

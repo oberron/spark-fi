@@ -2,6 +2,8 @@ theme: jekyll-theme-architect
 name: spark-fi
 description: No spark is too small to fire a dream
 disqus: oberron
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 ---
 layout: default
 comments: true

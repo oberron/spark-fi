@@ -1,6 +1,7 @@
 theme: jekyll-theme-architect
 name: spark-fi
 description: No spark is too small to fire a dream
+disqus: oberron
 ---
 layout: default
 comments: true

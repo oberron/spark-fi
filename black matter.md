@@ -7,4 +7,4 @@ White matter won and now rules the universe.
 
 But black mater still lurks around looking for trouble and drilling holes in the patterns woven by its enemy.
 
-[](https://commons.wikimedia.org/wiki/File:BH_LMC.png) Credits: imulated view of a black hole in front of the Large Magellanic Cloud by Alain r, distributed under a [CC-BY-SA-2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+![](https://commons.wikimedia.org/wiki/File:BH_LMC.png) Credits: Simulated view of a black hole in front of the Large Magellanic Cloud by Alain r, distributed under a [CC-BY-SA-2.5](https://creativecommons.org/licenses/by-sa/2.5/)

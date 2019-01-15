@@ -93,9 +93,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false #"google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-65806582-1"
+    tracking_id          : #"UA-65806582-1"
     anonymize_ip         : # true, false (default)
 
 
@@ -104,7 +104,7 @@ author:
   name             : *name
   avatar           : bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Interested in intersections of technology, math, culture and history"
-  location         : "Udaipur"
+  location         : "Aix-en-Provence"
   email            : "hello@shailendra.me"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -137,6 +137,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

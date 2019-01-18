@@ -1,6 +1,8 @@
 ---
 title: flat earth conspiracy
 published: true
+date:2019-01-10
+category: conspiracy
 ---
 
 The grand master stood up: 

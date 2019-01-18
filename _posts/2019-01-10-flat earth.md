@@ -1,7 +1,7 @@
 ---
 title: flat earth conspiracy
 published: true
-date:2019-01-10
+date: 2019-01-10
 category: conspiracy
 ---
 

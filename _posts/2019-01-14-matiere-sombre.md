@@ -12,4 +12,4 @@ Mais un jour la guerre explosa, bien que brève elle fut aveuglante,
 
 En un éclat, la matière claire vainquit, et depuis régit l'univers.
 
-Défaite, l'autre, cherche à percer l'étoffe tissée par sa soeur, de facon incessante.
+Défaite, l'autre, cherche à percer l'étoffe tissée par sa sœur, de facon incessante.

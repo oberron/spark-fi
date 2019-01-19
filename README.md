@@ -1,10 +1,9 @@
 ## My Stack Problems
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+> This project forked and has been modified from [agusmakam](https://agusmakmun.github.io) itself forked and modified from  [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
 
 ### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+* [https://oberron.github.io/spark-fi/](https://oberron.github.io/spark-fi/)
 
 #### Features
 
@@ -18,12 +17,13 @@
 * Disqus comment
 * Projects page & Detail Project page
 * Share on social media
+* Whare with Whatsapp including Whatsapp
 * Google analytics
 * HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
 
 #### Screenshot
 
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+![Screenshot Post Page]()
 
 ### Install & Configuration
 

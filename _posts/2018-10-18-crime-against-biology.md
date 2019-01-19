@@ -4,7 +4,7 @@ date: 2018-10-18
 category: fiction
 ---
 
-A fleet of orbiter suddendly appeared in low orbit.
+A fleet of orbiter suddendly appeared in Earth low orbit.
 
 “- Stop all your AI activities now, General AI is a crime against biological life” was broadcasted in English and 汉语.
 

@@ -1,5 +1,5 @@
 ---
-title: DNA Code Rview
+title: DNA Code Review
 published: true
 date: 2019-01-20
 category: conspiracy

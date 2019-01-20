@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: myths
-title: Myths
+categories: fiction
+title: Fiction
 permalink: /category/myths
 ---

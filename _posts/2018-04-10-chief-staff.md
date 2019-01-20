@@ -1,10 +1,10 @@
-----
+---
 title: Chief of Staff - UHNW
 date: 2018-04-10
 published: yes
 category: fictions
 lang: en
-----
+---
 
 "Dear passengers, we have just landed in Paris CDG airport, you can now switch your devices back-on"
 -ok Google, has someone applied for the Chief of Staff position?

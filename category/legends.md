@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: myths
-title: Myths
-permalink: /category/myths
+categories: legends
+title: legends
+permalink: /category/legends
 ---

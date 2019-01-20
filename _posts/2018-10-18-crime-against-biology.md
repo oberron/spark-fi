@@ -1,7 +1,8 @@
 ---
 title: Crime against biology
 date: 2018-10-18
-category: fiction
+category: fictions
+lang: en
 ---
 
 A fleet of orbiter suddendly appeared in Earth low orbit.

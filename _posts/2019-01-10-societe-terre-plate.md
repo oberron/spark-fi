@@ -2,7 +2,7 @@
 title: Société de la terre plate
 published: true
 date: 2019-01-10
-category: conspiracy
+category: conspiracies
 ref: flat_earth
 lang: fr
 ---

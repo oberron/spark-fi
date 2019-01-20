@@ -2,7 +2,7 @@
 title: DNA Code Review
 published: true
 date: 2019-01-20
-category: fiction
+category: fictions
 ref: dna_review
 lang: en
 ---

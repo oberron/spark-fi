@@ -1,11 +1,11 @@
 ---
-title: Merlin's legacy
+title: Science, Merlin's true legacy
 date: 2018-03-18
-category: legend
+category: legends
+ref: merlin
+lang: en
 published: true
 ---
-
-# Science, Merlin's true legacy
 
 As soon as Merlin held the Holy Grail, he knew that the Age of Magic had rea    ched an end.
 

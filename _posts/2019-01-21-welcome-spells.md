@@ -1,5 +1,5 @@
 ---
-title: Wellcome spells
+title: Welcome spells
 published: yes
 date: 2019-01-20
 category: myths

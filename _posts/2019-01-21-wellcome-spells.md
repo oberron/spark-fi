@@ -6,9 +6,8 @@ category: myths
 ref: spells
 lang: en
 ---
+For millennia humans practised spells to invite spirits in their homes.
 
-For millennia humans practised spells to invite/ban spirits from their homes.
+Then as they slowly forgot those, they started hoping for aliens to visit Earth.
 
-The as they slowly forgot those, they started hoping/fearing aliens would come to visit Earth.
-
-Had they remembered those spells, they would have understood that these were the polite formulas for aliens, just had not been addressed at first to the right guests.
+Had they remembered spells, they would have understood these were aliens polite formulas, just had wrong addressees at first.

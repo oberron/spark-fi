@@ -1,7 +1,7 @@
 ---
 title: Modern angry fairy
 date: 2019-02-05
-category: legends
+category: myths
 ref: angry_fairy
 lang: en
 published: true

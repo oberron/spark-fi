@@ -1,5 +1,5 @@
 ---
-title: Cosmic microwave background #1
+title: Cosmic microwave background -1
 date: 2019-05-18
 published: True
 category: fiction

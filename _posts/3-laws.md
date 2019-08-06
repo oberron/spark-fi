@@ -1,5 +1,5 @@
 ---
-title: 3 laws of Golem
+title: Golem’s trilogue
 date: 2019-01-31
 category: myths
 ref: golem
@@ -7,12 +7,20 @@ lang: en
 published: false
 ---
 
-For years his dreamed where filled of humans with shiny metallic but did not know their names. 
-Until one day he found a very old parchement with blood writing in the margins
+For years his dreamed were filled of golems in shiny metallic armors. 
 
-"Though shall not injure a human being or, through inaction, allow a human being to come to harm.
-Though must obey orders given it by human beings except where such orders would conflict with the First Law.
-Though must protect its own existence as long as such protection does not conflict with the First or Second Law."
+One day, wandering in dreamland, he found a the factory which made those shiny golems. The walls of the factories were engraved with:
 
-He woke-up screaming from his dream, screaming "robots" until his mother came
-"Isaac, are you alright"
+"* Thou shall not injure a human being or, through inaction, allow a human being to come to harm.   
+* Thou must obey orders given it by human beings except where such orders would conflict with above
+* Thou must protect its own existence as long as such protection does not conflict with above »
+
+He woke-up petrified until somehow he knew that only one word could free him.
+
+« Roooobotttts » was the only thing that came from his lungs.
+Then his mother came:
+"Isaac, are you alright? »
+
+[3 laws](https://en.m.wikipedia.org/wiki/Three_Laws_of_Robotics)
+
+

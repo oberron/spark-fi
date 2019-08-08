@@ -1,8 +1,8 @@
-‘’’
+——
 title: Dream Catcher
 date:2018-08-08
 language:en
-‘’’
+—-
 
 As the young hippie emerged from the edge of the glade, Chatan one the shaman from the Lakota tribe, thought to himself with exhaustion
 “Yet another dusty mind”

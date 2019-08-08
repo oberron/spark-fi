@@ -5,7 +5,7 @@ Until one day, his wife said:
 
 Perplexed he sat with them, trying to figure out what entertaining young kids could mean.
 
-For days he let them pull his beard, undo the knot of his shoes, paint on his face with colored dust... 
+For days he let them pull his beard, undo the knot of his shoes, paint on his face with charcoal... 
 
 Then one night he woke up suddendly, went to his laboratory, modified the artifact he had inherited for wand making and produce the first lot of very small wands for kids. he had replaced dragon scales or unicorn hair with colored clay.
 

@@ -7,7 +7,7 @@ published: True
 ---
 
 As the young hopeful emerged from the edge of the glade, Chatan one the shaman from the Lakota tribe, thought to himself with exhaustion.  
-“Yet another dusty mind”   
+“Yet another dusty mind...”   
 Carried by his sense of duty, he readied himself for hours of blaterring from the young man...   
 After a long night, as dawn was coming, and as he felt the young soul ready, he asked:   
 “How long has this asabikeshiinh been in your family since you left our traditional land? I mean the dream catcher? 

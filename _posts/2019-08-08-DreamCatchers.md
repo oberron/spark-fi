@@ -2,7 +2,7 @@
 title: Dream Catcher
 date: 2018-08-08
 language: en
-category: fiction
+category: fictions
 published: True
 ---
 

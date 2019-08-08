@@ -1,7 +1,9 @@
 ---
 title: Dream Catcher
-date:2018-08-08
-language:en
+date: 2018-08-08
+language: en
+category: fiction
+published: True
 ---
 
 As the young hippie emerged from the edge of the glade, Chatan one the shaman from the Lakota tribe, thought to himself with exhaustion

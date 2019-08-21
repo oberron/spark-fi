@@ -1,11 +1,20 @@
-~~~~~
+---
 title: Dark Side of Centaurs
-date: 2019-08-21
 lang: en
+date: 2019-08-21
+published: True
+category: myths
+ref: dark_side_centaurs
+---
 
-~~~~~
-
-“Yes, a Centaur's strength flows from the Force and Wisdom. But beware of the dark side. Anger, fear, aggression; the dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, and you’ll be known as one Atilla’s Huns or Kambojas”
+“Yes, a Centaur's strength flows from the Force and Wisdom. 
+But beware of the dark side. 
+Anger, fear, aggression; the dark side of the Force are they.
+ Easily they flow, quick to join you in a fight. 
+If once you start down the dark path, 
+forever will it dominate your destiny, 
+consume you it will, and you’ll be known as 
+one Atilla’s Huns or Kambojas”
 
 recently deciphered linear A tablet - dated ~1500 BC
 

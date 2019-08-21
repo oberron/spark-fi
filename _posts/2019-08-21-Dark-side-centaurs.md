@@ -18,6 +18,6 @@ one Atilla’s Huns or Kambojas”
 
 recently deciphered linear A tablet - dated ~1500 BC
 
-[credits](https://en.m.wikiquote.org/wiki/Return_of_the_Jedi)
-[linear A](https://en.m.wikipedia.org/wiki/Linear_A)
-[Kambojas](https://en.m.wikipedia.org/wiki/Kinnara_Kingdom)
+[credits](https://en.m.wikiquote.org/wiki/Return_of_the_Jedi)    
+[linear A](https://en.m.wikipedia.org/wiki/Linear_A)    
+[Kambojas](https://en.m.wikipedia.org/wiki/Kinnara_Kingdom)    

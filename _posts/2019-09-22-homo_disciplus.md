@@ -9,7 +9,7 @@ When all humans and animals were created, they each had a role and function to a
 elephants were gardens of the savana, and each of the human species also had a role. Elves where the plant diplomats for all animal kingdom, 
 Dwarves were the diplomats of the mineral world for all plants and animal kingdom, Neanderthals were in charge of keeping the balance between all
 animals, Denisovans were in charge to navigate the sea and be the diplomats between landmass sea living animals, ...  and the smallest of all humans
-*disciplus* was charged to learn about the world and record any learnings reported to them.
+*homo-disciplus* (the man who studies) - was charged to learn about the world and record any learnings reported to them.
 
 But the snake thought that if the world was less harmonious it would be able to eat a bigger share than it had been allowed. The snake was keen on 
 smuthering food to eat more and faster. So it went to homo-disciplus and said:   

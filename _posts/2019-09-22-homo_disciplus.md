@@ -2,6 +2,7 @@
 title: Homo disciplus
 date: 2019-09-22
 category: myths
+ref: homo_disciplus
 lang: en
 ---
 

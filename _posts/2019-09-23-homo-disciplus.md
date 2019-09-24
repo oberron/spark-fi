@@ -2,9 +2,10 @@
 title: Homo disciplus
 date: 2019-09-22
 category: myths
-
+ref: homo_disciplus
 lang: fr
 ---
+
 Quand les animaux et les humains furent creés, il leur fut donné à chacun un role.
 
 Les abeilles devaient polleniser les fleurs, les éléphants étaient les jardiniers de la savane, ...

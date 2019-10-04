@@ -1,6 +1,13 @@
+---
+title:The fox and the owl
+date: 2019-10-04
+published: True
+category: legends
+label: fox_and_owl
+---
 
 « The fox and the owl ... »
-ince the story was finished, the voice paused, then added with a frangrance of sadness:
+Once the story was finished, the voice paused, then added with almost a frangrance of sadness:
 « and so, my daughter, is how the world works.
 - but father, wild life has long since disappeared??!??
 - can’t you see, that animals names are used not to upset our masters?

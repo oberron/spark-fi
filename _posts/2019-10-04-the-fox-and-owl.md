@@ -9,7 +9,7 @@ label: fox_and_owl
 « The fox and the owl ... »    
 Once the story was finished, the voice paused, then added with almost a frangrance of sadness:    
 « and so, my daughter, is how the world works.    
-- but father, wild life has long since disappeared??!??    
+— but father, wild life has long since disappeared??!??    
 - can’t you see, that animals names are used not to upset our masters?    
 - no... you mean we are owls and they are The Foxes?    
 - yes, we can compute billion times faster than them, but they still outsmart us, not that it makes sense...    

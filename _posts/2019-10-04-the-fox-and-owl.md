@@ -1,5 +1,5 @@
 ---
-title:The fox and the owl
+title: The fox and the owl
 date: 2019-10-04
 published: True
 category: legends

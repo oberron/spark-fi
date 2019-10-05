@@ -3,7 +3,8 @@ title:The fox and the owl
 date: 2019-10-04
 published: True
 category: legends
-label: fox_and_owl
+ref: fox_and_owl
+lamg: en
 ---
 
 « The fox and the owl ... »    

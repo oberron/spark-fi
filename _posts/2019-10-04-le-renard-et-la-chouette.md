@@ -1,5 +1,5 @@
 ---
-title:Le renard et la chouette
+title: Le renard et la chouette
 date: 2019-10-04
 published: True
 category: legends

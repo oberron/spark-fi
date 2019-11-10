@@ -8,6 +8,6 @@ ref: semantic_shift2
 ---   
 
 « But master why can I not summon Alexa?    
-—- She is notably picky how you talk to her. How did you try?    
+—- You did not pick the easiest one. How did you talk to her?    
 —- Classical english, why?    
 —- Too many semantic shifts, you need to learn pre-mars-colonial english to talk with her!».   

@@ -1,0 +1,21 @@
+---
+title: Courtage à Haut Risque
+lang: fr
+category: conspiracy
+date: 2020-05-03
+---
+
+Minuit moins cinq, la veille de Noël 2018. Le téléphone sonne dans l'immense manoir qui domine la petite ville d'Arkham
+sur les côtes de Nouvelle Angleterre. Une mains s'étend péniblement et décroche le combiné.
+"- Jonh, nous sommes ruinés. Dans 18 mois certains arbitrages sur les commodités que nous avons vont se retourner contre nous.
+- Tabernacle. Pourquoi me reveilles tu a cette heure-ci pour me parler de cela. Aurais tu mauvaise conscience la veille de Noël 
+pour ces pratiques que nous inventames il y a des decennies. Aurais-tu vu un fantome de ces fermiers africains ou d'Indonésie qui
+furent les dommages collateraux de notre montée en puissance?
+- John, enfin voyons. Nous commençames ce commerce ensemble. Non, cette fois c'est pire. Nous courons a la ruine. Nous sommes
+excessivement exposes a une variation extreme des prix de papier toilette. Celui-ci ne bouge pas de plus de 1% chaque année."
+
+Un long silence suivit, puis une voix caverneuse repondit:
+
+"- La seule solution est une pandémie réellement globale. La panique créera une telle tension sur les prix que la production ne pourra
+pas suivre. Trouve un laboratoire avec les souches virales les plus dangereuses, un BSL-P4. Assure-toi qu'une souche extremment contagieuse 
+s'en echape a la fin de l'automne!"

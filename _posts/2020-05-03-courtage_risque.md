@@ -24,6 +24,7 @@ pas suivre. Trouve un laboratoire avec les souches virales les plus dangereuses,
 s'en échape à la fin de l'automne!"
 
 Notes:
-[Arkham](https://fr.wikipedia.org/wiki/Arkham)
-[spéculateurs de la faim](https://www.foodwatch.org/uploads/tx_abdownloads/files/foodwatch-report_Les-spculateurs-de-la-faim_oct2011_ger_01.pdf)
-[BSL P4](https://fr.wikipedia.org/wiki/Laboratoire_P4)
+
+* [Arkham](https://fr.wikipedia.org/wiki/Arkham)
+* [spéculateurs de la faim](https://www.foodwatch.org/uploads/tx_abdownloads/files/foodwatch-report_Les-spculateurs-de-la-faim_oct2011_ger_01.pdf)
+* [BSL P4](https://fr.wikipedia.org/wiki/Laboratoire_P4)

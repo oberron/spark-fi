@@ -5,6 +5,8 @@ category: conspiracy
 date: 2020-05-03
 ---
 
+# Risky Trading
+
 December 24th, 2018.. Somewhere near Arkham, New England the phone rings in the middle of the night
 
 \- "John, our internal auditers just realised we are dangerously exposed on the commodity
@@ -19,3 +21,14 @@ A long silence followed, then a cavernous voice answered
 
 \"- A pandemic would fix this, creating high surge demand for toilet roll paper faster than supply could accomodate. Find a 
 Biosafety Lab with the most dangerous diseases, a P4. Make sure something highly contagious escape..."
+
+---
+
+## Twiter short version
+
+December 24th, 2018.. Somewhere near Arkham, New England the phone rings in the middle of the night
+- John, our internal auditers just realised we are dangerously exposed on the commodity market
+- Why do you bother me on Christmas eve, we've done this for years.
+- John, please... This time it is much worse. We bet on high volatility for the wrong type of commodity: toilet rol paper...
+A long silence followed, then a cavernous voice answered
+- A pandemic would fix this. Find a Biosafety Lab with the most dangerous diseases, a P4 and make something highly contagious escape...

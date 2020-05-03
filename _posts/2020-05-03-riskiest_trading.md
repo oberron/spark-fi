@@ -24,12 +24,12 @@ Biosafety Lab with the most dangerous diseases, a P4. Make sure something highly
 
 ---
 
-## Twiter short version
+## Twitter short version
 
-Xmas eve 2018.. Arkham, New England. The phone rings at 11:55PM
+Xmas eve 2018.. Arkham, NE. 11:55PM
 
 \- John, We'll be bankrupt... in 18 months. Excessive bets on high price volatility for toilet roll
 
 A cavernous voice answered:
 
-\- A pandemic would fix this. Find a BSL P4 and make sure something highly contagious escapes...
+\- A pandemic would fix this. Find a BSL P4 and get something highly contagious to escapes

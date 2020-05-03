@@ -27,6 +27,7 @@ Biosafety Lab with the most dangerous diseases, a P4. Make sure something highly
 ## Twiter short version
 
 Xmas eve 2018.. Arkham, New England. The phone rings at 11:55PM
+
 \- John, We'll be bankrupt... in 18 months. Excessive bets on high price volatility for toilet roll
 
 A cavernous voice answered:

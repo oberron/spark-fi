@@ -1,7 +1,8 @@
 ---
-title: third blow
-categories: [myth]
+title: Third show
+categories: [haiku-fi]
 lang: en
+tag: third_show
 ---
 
 When the virus came for a third show,    

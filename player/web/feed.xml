@@ -56,5 +56,31 @@ Our podcast player:
 https://github.com/oberron/spark-fi/podcast-player/
         </description>
     </item>
+    
+    <item>
+      <author>Aubéron</author>
+      <itunes:author>Aubéron Vacher</itunes:author>
+      <title>Le loup le renard et le pot de miel </title>
+      <itunes:title> Le loup le renard et le pot de miel </itunes:title>
+      <itunes:subtitle> JEAN-FRANÇOIS BLADÉ - 10 CONTES DE LOUPS (1873) - Chap 2 </itunes:subtitle>
+      <itunes:summary> JEAN-FRANÇOIS BLADÉ - 10 CONTES DE LOUPS (1873) - Chap 2</itunes:summary>
+      <pubDate>Sat, 10 Oct 2020 19:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/histoire_02.mp3" type="audio/mpeg" length="2805375" />
+      <itunes:duration>02:16</itunes:duration>
+      <guid isPermaLink="false">hist02</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Aubéron Vacher - @oberron
+
+https://twitter.com/oberron
+
+https://github.com/oberron
+
+Our podcast player: 
+
+https://github.com/oberron/spark-fi/podcast-player/
+        </description>
+    </item>
+    
   </channel>
 </rss>

@@ -31,9 +31,9 @@
     <item>
       <author>Aubéron</author>
       <itunes:author>Aubéron Vacher</itunes:author>
-      <title>histoire_1</title>
+      <title>histoire_01</title>
       <pubDate>Sat, 10 Oct 2020 11:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/histoire_1.mp3" type="audio/mpeg" length="34216300" />
+      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/histoire_01.mp3" type="audio/mpeg" length="34216300" />
       <itunes:duration>02:55</itunes:duration>
       <guid isPermaLink="false">hist01</guid>
       <itunes:explicit>no</itunes:explicit>

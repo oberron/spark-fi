@@ -11,6 +11,7 @@
     <itunes:email>one.annum@gmail.com</itunes:email>
     <itunes:category text="histoires du soir" />
     <itunes:subtitle>Seulement pour les enfants sages !</itunes:subtitle>
+    <itunes:summary>Petites histoires a ecouter avant d'aller au lit</itunes:summary>
     <image>
       <url>https://oberron.github.io/spark-fi/static/img/moon.png</url>
       <title>Papa lit et au lit</title>

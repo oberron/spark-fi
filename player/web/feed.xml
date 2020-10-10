@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>papa lit et au lit</title>
+    <googleplay:author>Aubéron</googleplay:author>
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Au clair de la lune</rawvoice:location>
+    <rawvoice:frequency>Weekly</rawvoice:frequency>
+    <author>Aubéron Vacher</author>
+    <itunes:author>Aubéron Vacher</itunes:author>
+    <itunes:email>one.annum@gmail.com</itunes:email>
+    <itunes:category text="Technology" />
+    <image>
+      <url>https://oberron.github.io/spark-fi/static/img/moon.png</url>
+      <title>Papa lit et au lit</title>
+      <link>https://oberron.github.io/spark-fi/</link>
+    </image>
+    <itunes:owner>
+      <itunes:name>Aubéron Vacher</itunes:name>
+      <itunes:email>one.annum@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>comptines, histoires</itunes:keywords>
+    <copyright>Entolusis - 2004 - 2020</copyright>
+    <description>Une petite histoire avant d'aller au lit</description>
+    <googleplay:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />
+    <language>fr-fr</language>
+    <itunes:explicit>no</itunes:explicit>
+    <pubDate>Sat, 10 Oct 2020 11:00:00 GMT</pubDate>
+    <link>https://oberron.github.io/spark-fi/player/web/feed.xml</link>
+    <itunes:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />
+    <item>
+      <author>Aubéron</author>
+      <itunes:author>Aubéron Vacher</itunes:author>
+      <title>histoire_1</title>
+      <pubDate>Sat, 10 Oct 2020 11:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/histoire_1.mp3" type="audio/mpeg" length="34216300" />
+      <itunes:duration>02:55</itunes:duration>
+      <guid isPermaLink="false">hist01</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+Aubéron Vacher - @oberron
+
+https://twitter.com/oberron
+
+https://github.com/oberron
+
+Our podcast player: 
+
+https://github.com/oberron/spark-fi/podcast-player/
+        </description>
+    </item>
+  </channel>
+</rss>

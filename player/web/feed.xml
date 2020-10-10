@@ -9,7 +9,8 @@
     <author>Aubéron Vacher</author>
     <itunes:author>Aubéron Vacher</itunes:author>
     <itunes:email>one.annum@gmail.com</itunes:email>
-    <itunes:category text="Technology" />
+    <itunes:category text="histoires du soir" />
+    <itunes:subtitle>Seulement pour les enfants sages !</itunes:subtitle>
     <image>
       <url>https://oberron.github.io/spark-fi/static/img/moon.png</url>
       <title>Papa lit et au lit</title>

@@ -65,7 +65,7 @@ https://github.com/oberron/spark-fi/podcast-player/
       <itunes:subtitle> JEAN-FRANÇOIS BLADÉ - 10 CONTES DE LOUPS (1873) - Chap 2 </itunes:subtitle>
       <itunes:summary> JEAN-FRANÇOIS BLADÉ - 10 CONTES DE LOUPS (1873) - Chap 2</itunes:summary>
       <pubDate>Sat, 10 Oct 2020 19:00:00 GMT</pubDate>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/honey.png"
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/honey.png"/>
       <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/histoire_02.mp3" type="audio/mpeg" length="2805375" />
       <itunes:duration>02:16</itunes:duration>
       <guid isPermaLink="false">hist02</guid>

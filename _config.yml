@@ -48,10 +48,15 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
-
+#  - jekyll-sitemap
+  - jekyll-feed
+defaults:
+  -
+    values:
+      layout: "post"
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

@@ -3,7 +3,7 @@ title: babel spell
 lang: en
 date: 2019-09-20
 published: True
-category: myths
+categories: [myth]
 ref: babel
 ---
 

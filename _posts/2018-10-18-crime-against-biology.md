@@ -1,7 +1,7 @@
 ---
 title: Crime against biology
 date: 2018-10-18
-category: fictions
+categories: [fiction]
 lang: en
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Golem’s trilogue
 date: 2019-01-31
-category: myths
+categories: [myth]
 ref: golem
 lang: en
 published: false

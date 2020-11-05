@@ -3,7 +3,7 @@ title: Migration
 lang: en
 date: 2019-12-03
 published: True
-category: fictions
+categories: [fiction]
 ref: migration
 --- 
 

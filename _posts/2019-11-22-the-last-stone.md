@@ -3,7 +3,7 @@ title: “The last stones »
 lang: en
 date: 2019-11-26
 published: True
-category: myths
+categories: [myth]
 ref: the_last_stones
 --- 
 

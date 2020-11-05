@@ -3,7 +3,7 @@ title: “Magic Wand”
 lang: en
 date: 2019-11-27
 published: True
-category: fictions
+categories: [fiction]
 ref: magic_wand
 --- 
 

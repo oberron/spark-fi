@@ -2,7 +2,7 @@
 title: La naissance de la mort
 published: yes
 date: 2019-01-21
-category: myths
+categories: [myth]
 ref: death_birth
 lang: en
 ---

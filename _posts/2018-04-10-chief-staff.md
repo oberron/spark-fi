@@ -2,7 +2,7 @@
 title: Chief of Staff - UHNW
 date: 2018-04-10
 published: yes
-category: fictions
+categories: [fiction]
 lang: en
 ---
 

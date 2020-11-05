@@ -3,7 +3,7 @@ title: « Semantic Shift »
 lang: en
 date: 2019-10-23
 published: True
-category: fictions
+categories: [fiction]
 ref: semantic_shift2
 ---   
 

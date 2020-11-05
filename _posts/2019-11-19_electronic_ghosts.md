@@ -3,7 +3,7 @@ title: electronic ghosts
 lang: en
 date: 2019-11-19
 published: True
-category: fictions
+categories: [fiction]
 ref: electronic_ghosts
 ---    
 

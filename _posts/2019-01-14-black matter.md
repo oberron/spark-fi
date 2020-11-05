@@ -1,7 +1,7 @@
 ---
 title: black matter
 date: 2019-01-14
-category: myths
+categories: [myth]
 lang: en
 ref: black_matter
 ---

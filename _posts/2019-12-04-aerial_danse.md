@@ -3,7 +3,7 @@ title: "Aerial danse"
 lang: en
 date: 2019-12-04
 published: True
-category: fictions
+categories: [fiction]
 ref: aerial_danse
 ---    
 

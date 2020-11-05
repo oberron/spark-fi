@@ -2,7 +2,7 @@
 title: AI Society
 published: true
 date: 2019-04-24
-category: fictions
+categories: [fiction]
 ref: ai_society
 lang: en
 ---

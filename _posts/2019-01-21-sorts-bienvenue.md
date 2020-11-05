@@ -2,7 +2,7 @@
 title: Sorts de bienvenue
 published: yes
 date: 2019-01-20
-category: myths
+categories: [myth]
 ref: spells
 lang: fr
 ---

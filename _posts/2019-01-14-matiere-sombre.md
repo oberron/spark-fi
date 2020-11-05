@@ -1,7 +1,7 @@
 ---
 title: matière sombre
 date: 2019-01-14
-category: myths
+categories: [myth]
 lang: fr
 ref: black_matter
 ---

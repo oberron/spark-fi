@@ -3,7 +3,7 @@ title: “Square World”
 lang: en
 date: 2019-11-26
 published: True
-category: fictions
+categories: [fiction]
 ref: square_world
 ---
 

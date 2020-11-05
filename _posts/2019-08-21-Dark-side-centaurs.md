@@ -3,7 +3,7 @@ title: Dark Side of Centaurs
 lang: en
 date: 2019-08-21
 published: True
-category: myths
+categories: [myth]
 ref: dark_side_centaurs
 ---
 

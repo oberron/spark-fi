@@ -2,7 +2,7 @@
 title: Gardners of this world
 date: 2019-05-17
 published: True
-category: myths
+categories: [myth]
 ---
 For millions of years their civilisation had developed.    
 Sometimes barely surviving climate change, plagues or war for resources.    

@@ -1,8 +1,8 @@
 ---
 title: Modern Jack and the bean
-date:2020-05-11
-lang:en
-category: fairy
+date: 2020-05-11
+lang: en
+categories: [fairy]
 ---
 
 Why did the GiAnts never follow Jack on the beans back to Earth ?

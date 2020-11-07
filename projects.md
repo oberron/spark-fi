@@ -25,3 +25,5 @@ Podcasts:
 [1mp3]: https://oberron.github.io/spark-fi/
 
 [roman de renard #1](https://litterature924853235.files.wordpress.com/2018/06/leroy-allais-renard.pdf)
+[roman de renard #2](http://extraits.tea-ebook.com/Hachette/9/63/9782035866639.html)
+[roman de renard #3](https://bibliothequenumerique.tv5monde.com/download/pdf/513)

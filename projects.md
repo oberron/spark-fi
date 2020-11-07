@@ -12,9 +12,10 @@ Podcasts:
 * some ATU with stories: [pittsburg's university](https://www.pitt.edu/~dash/folktexts.html), [european list](http://www.euroconte.org/ACCUEIL/CENTREDEDOCUMENTATION/RecherchesMonographiques/TestsAT/tabid/289/ctl/ArticleView/mid/1231/articleId/11/PageID/6/language/fr-FR/Les-contes-danimaux-T1-a-T299.aspx)
 * [Grimm's fairy tell with ATU numbers](https://libraryguides.missouri.edu/c.php?g=1052498&p=7642279)
 
-| ATU | English title (AT) | Titre français   | txt/mp3             |
-|-----|---------------------|-----------------|---------------------|
-| 1   | The Theft of Fish   | Le Vol de poisson| [txt][1txt], [?][1mp3] |
+| ATU     | English title (AT)      | Titre français   | txt/mp3             |
+|---------|-------------------------|-----------------|---------------------|
+| AT 1    | The Theft of Fish       | Le Vol de poisson| [txt][1txt], [?][1mp3] |
+| AT 2    | The Tail-Fisher         | La Pêche à la queue|   |
 
 [1txt]: https://www.persee.fr/doc/roma_0035-8029_1888_num_17_65_5986
 [1mp3]: https://oberron.github.io/spark-fi/

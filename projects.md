@@ -11,7 +11,7 @@ Podcasts:
 https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podcast_box&itscg=30200, [apple](https://apple.co/36QAkOI)
 <iframe src="https://embed.podcasts.apple.com/us/podcast/papa-lit-et-au-lit/id1535323879?itsct=podcast_box&amp;itscg=30200" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
 * Aarne-Thompson-Uther (ATU) list: [MFTD on webarchive](https://web.archive.org/web/20170625034747/http://mftd.org/index.php?action=atu&act=select&atu=1), [oaks @ nvs](http://oaks.nvg.org/folktale-types.html)
-* some ATU with stories: [pittsburg's university](https://www.pitt.edu/~dash/folktexts.html), [european list](http://www.euroconte.org/ACCUEIL/CENTREDEDOCUMENTATION/RecherchesMonographiques/TestsAT/tabid/289/ctl/ArticleView/mid/1231/articleId/11/PageID/6/language/fr-FR/Les-contes-danimaux-T1-a-T299.aspx)
+* some ATU **with stories**: [pittsburg's university](https://www.pitt.edu/~dash/folktexts.html), [european list](http://www.euroconte.org/ACCUEIL/CENTREDEDOCUMENTATION/RecherchesMonographiques/TestsAT/tabid/289/ctl/ArticleView/mid/1231/articleId/11/PageID/6/language/fr-FR/Les-contes-danimaux-T1-a-T299.aspx)
 * [AT FR](http://dictionnaire.sensagent.leparisien.fr/Classification%20Aarne-Thompson/fr-fr/)
 * [Grimm's fairy tell with ATU numbers](https://libraryguides.missouri.edu/c.php?g=1052498&p=7642279)
 

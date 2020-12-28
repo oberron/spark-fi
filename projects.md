@@ -30,7 +30,7 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 [1mp3]: https://oberron.github.io/spark-fi/
 [txt124]: http://www.coindespetits.com/histoires/hist3cochons/3petitscochons1.html
 [fktxt]:https://www.pitt.edu/~dash/frog.html#taylor
-[txt673]: https://blog.lespetitsmandarins.fr/article/la-legende-du-serpent-blanc
+[txt673]: https://raw.githubusercontent.com/oberron/spark-fi/master/drafts/atu673-fr.md
 
 
 [roman de renard #1](https://litterature924853235.files.wordpress.com/2018/06/leroy-allais-renard.pdf)

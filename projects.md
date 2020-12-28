@@ -23,12 +23,14 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 | AT 30   | The Fox Tricks the Wolf into Falling into a Pit) |  Le loup tombe dans le puits (Le Roman de Renart - 3)  |   |
 | AT 124  | The Three Little Pigs   | Les 3 petits cochons   | [txt][txt124]  |
 | AT 440  | The Frog King |    | [txt][fktxt]  |
+| AT 673  | Madame White Snake | Madame Serpent Blanc | [txt][txt673]  |
 
 
 [1txt]: https://www.persee.fr/doc/roma_0035-8029_1888_num_17_65_5986
 [1mp3]: https://oberron.github.io/spark-fi/
 [txt124]: http://www.coindespetits.com/histoires/hist3cochons/3petitscochons1.html
 [fktxt]:https://www.pitt.edu/~dash/frog.html#taylor
+[txt673]: https://blog.lespetitsmandarins.fr/article/la-legende-du-serpent-blanc
 
 
 [roman de renard #1](https://litterature924853235.files.wordpress.com/2018/06/leroy-allais-renard.pdf)

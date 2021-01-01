@@ -14,24 +14,31 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 * some ATU **with stories**: [pittsburg's university](https://www.pitt.edu/~dash/folktexts.html), [european list](http://www.euroconte.org/ACCUEIL/CENTREDEDOCUMENTATION/RecherchesMonographiques/TestsAT/tabid/289/ctl/ArticleView/mid/1231/articleId/11/PageID/6/language/fr-FR/Les-contes-danimaux-T1-a-T299.aspx)
 * [AT FR](http://dictionnaire.sensagent.leparisien.fr/Classification%20Aarne-Thompson/fr-fr/)
 * [Grimm's fairy tell with ATU numbers](https://libraryguides.missouri.edu/c.php?g=1052498&p=7642279)
+* [ATU list from missouri](https://libraryguides.missouri.edu/c.php?g=1039894&p=7609090)
 
-| ATU     | English title (AT)      | Titre français          | txt/mp3             |
-|---------|-------------------------|-------------------------|---------------------|
-| AT 1    | The Theft of Fish       | Le Vol de poisson       | [txt][1txt], [?][1mp3] |
-| AT 2    | The Tail-Fisher         | La Pêche à la queue     |                     |
-| AT 6    | Animal Captor Persuaded to Talk |  Le volatile s'échappe de la gueule du ravisseur Renart, br. II (R. et Chantecler) |   |
-| AT 30   | The Fox Tricks the Wolf into Falling into a Pit) |  Le loup tombe dans le puits (Le Roman de Renart - 3)  |   |
-| AT 124  | The Three Little Pigs   | Les 3 petits cochons   | [txt][txt124]  |
-| AT 310  | Rapunzel                | Raiponce               |                 |
-| AT 333  | Little red riding hood  | Le petit chaperon rouge|                |
-| AT 440  | The Frog King           | Le Roi Grenouille      | [txt][fktxt]  |
-| AT 673  | Madame White Snake      | Madame Serpent Blanc | [txt][txt673]  |
+| ATU     | English title (AT)      | Titre français          | txt/mp3               |
+|---------|-------------------------|-------------------------|-----------------------|
+| ATU 1   | The Theft of Fish       | Le Vol de poisson       | [txt][1txt], [?][1mp3] |
+| ATU 2   | The Tail-Fisher         | La Pêche à la queue     |                       |
+| ATU 6   | Animal Captor Persuaded to Talk |  Le volatile s'échappe de la gueule du ravisseur Renart, br. II (R. et Chantecler) |   |
+| ATU 30  | The Fox Tricks the Wolf into Falling into a Pit)  |  Le loup tombe dans le puits (Le Roman de Renart - 3)  |   |
+| ATU 57  |                         | Le Corbeau et le Renard (La Fontaine)|          |
+| ATU 111A|                         | Le Loup et l'Agneau (La Fontaine) |             |
+| ATU 112 |                         | Rat des Villes, Rat des Champs (La Fontaine) |  |
+| ATU 124 | The Three Little Pigs   | Les 3 petits cochons    | [txt][txt124]         |
+| ATU 275A|                         | Le lievre et la tortue (La Fontaine) |          |
+| AT 278  | The Ox and the Frog     | La grenouille qui voulait se faire aussi grosse qu'un boeuf (La Fontaine) | |
+| ATU 280A|                         |La cigale et la fourmi (La Fontaine)  |          |
+| ATU 310 | Rapunzel                | Raiponce                |                       |
+| ATU 333 | Little red riding hood  | Le petit chaperon rouge |                       |
+| ATU 440 | The Frog King           | Le Roi Grenouille       | [txt][txt440]          |
+| ATU 673 | Madame White Snake      | Madame Serpent Blanc    | [txt][txt673]         |
 
 
 [1txt]: https://www.persee.fr/doc/roma_0035-8029_1888_num_17_65_5986
 [1mp3]: https://oberron.github.io/spark-fi/
 [txt124]: http://www.coindespetits.com/histoires/hist3cochons/3petitscochons1.html
-[fktxt]:https://www.pitt.edu/~dash/frog.html#taylor
+[txt440]:https://www.pitt.edu/~dash/frog.html
 [txt673]: https://raw.githubusercontent.com/oberron/spark-fi/master/drafts/atu673-fr.md
 
 

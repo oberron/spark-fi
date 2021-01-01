@@ -15,15 +15,17 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 * [AT FR](http://dictionnaire.sensagent.leparisien.fr/Classification%20Aarne-Thompson/fr-fr/)
 * [Grimm's fairy tell with ATU numbers](https://libraryguides.missouri.edu/c.php?g=1052498&p=7642279)
 
-| ATU     | English title (AT)      | Titre français   | txt/mp3             |
-|---------|-------------------------|-----------------|---------------------|
-| AT 1    | The Theft of Fish       | Le Vol de poisson| [txt][1txt], [?][1mp3] |
-| AT 2    | The Tail-Fisher         | La Pêche à la queue|   |
-| AT 6    | Animal Captor Persuaded to Talk         |  Le volatile s'échappe de la gueule du ravisseur Renart, br. II (R. et Chantecler) |   |
+| ATU     | English title (AT)      | Titre français          | txt/mp3             |
+|---------|-------------------------|-------------------------|---------------------|
+| AT 1    | The Theft of Fish       | Le Vol de poisson       | [txt][1txt], [?][1mp3] |
+| AT 2    | The Tail-Fisher         | La Pêche à la queue     |                     |
+| AT 6    | Animal Captor Persuaded to Talk |  Le volatile s'échappe de la gueule du ravisseur Renart, br. II (R. et Chantecler) |   |
 | AT 30   | The Fox Tricks the Wolf into Falling into a Pit) |  Le loup tombe dans le puits (Le Roman de Renart - 3)  |   |
 | AT 124  | The Three Little Pigs   | Les 3 petits cochons   | [txt][txt124]  |
-| AT 440  | The Frog King |    | [txt][fktxt]  |
-| AT 673  | Madame White Snake | Madame Serpent Blanc | [txt][txt673]  |
+| AT 310  | Rapunzel                | Raiponce               |                 |
+| AT 333  | Little red riding hood  | Le petit chaperon rouge|                |
+| AT 440  | The Frog King           | Le Roi Grenouille      | [txt][fktxt]  |
+| AT 673  | Madame White Snake      | Madame Serpent Blanc | [txt][txt673]  |
 
 
 [1txt]: https://www.persee.fr/doc/roma_0035-8029_1888_num_17_65_5986

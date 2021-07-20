@@ -1,0 +1,1 @@
+idea: pentagrams are like public keys to access energy bots same as ssh key login

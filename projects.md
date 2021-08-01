@@ -33,6 +33,7 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 | ATU 333 | Little red riding hood  | Le petit chaperon rouge |                       |
 | ATU 440 | The Frog King           | Le Roi Grenouille       | [txt][txt440]          |
 | ATU 673 | Madame White Snake      | Madame Serpent Blanc    | [txt][txt673]         |
+| ATU 2025| The Fleeing Pancake (Ginger Bread Man) | Le bonhome de pain d'épice    | [txt][txt2025]         |
 
 
 [1txt]: https://www.persee.fr/doc/roma_0035-8029_1888_num_17_65_5986
@@ -40,6 +41,7 @@ https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podc
 [txt124]: http://www.coindespetits.com/histoires/hist3cochons/3petitscochons1.html
 [txt440]:https://www.pitt.edu/~dash/frog.html
 [txt673]: https://raw.githubusercontent.com/oberron/spark-fi/master/drafts/atu673-fr.md
+[txt2025]: https://raw.githubusercontent.com/oberron/spark-fi/master/_posts/2021-08-01-ATU2025_fr.md
 
 
 [roman de renard #1](https://litterature924853235.files.wordpress.com/2018/06/leroy-allais-renard.pdf)

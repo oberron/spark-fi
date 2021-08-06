@@ -83,5 +83,30 @@ https://github.com/oberron/spark-fi/podcast-player/
         </description>
     </item>
     
+    <item>
+      <author>Aubéron</author>
+      <itunes:author>Aubéron Vacher</itunes:author>
+      <title>Le bonhome de pain d'epice (ATU2025)</title>
+      <itunes:title> Le bonhome de pain d'epice (ATU2025)</itunes:title>
+      <itunes:subtitle> Le bonhome de pain d'epice (ATU2025) - version spark-fi</itunes:subtitle>
+      <itunes:summary> Le bonhome de pain d'epice (ATU2025) - version spark-fi</itunes:summary>
+      <pubDate>Fri, 06 Aug 2021 19:21:00 GMT</pubDate>
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/honey.png"/>
+      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/atu2025.mp3" type="audio/mpeg" length="8791736" />
+      <itunes:duration>06:06</itunes:duration>
+      <guid isPermaLink="false">atu2025</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+        Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline.
+        
+        Aubéron Vacher - @oberron
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player: 
+        https://github.com/oberron/spark-fi/podcast-player/
+        </description>
+    </item>
+    
+    
   </channel>
 </rss>

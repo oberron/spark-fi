@@ -107,6 +107,30 @@ https://github.com/oberron/spark-fi/podcast-player/
         </description>
     </item>
     
+    <item>
+      <author>Aubéron</author>
+      <itunes:author>Aubéron Vacher</itunes:author>
+      <title>LE LIÈVRE ET LA TORTUE (ATU275)</title>
+      <itunes:title> LLE LIÈVRE ET LA TORTUE (ATU275) </itunes:title>
+      <itunes:subtitle> LE LIÈVRE ET LA TORTUE (ATU275) - version spark-fi</itunes:subtitle>
+      <itunes:summary> LE LIÈVRE ET LA TORTUE (ATU275) - version spark-fi</itunes:summary>
+      <pubDate>Mon, 13 Sep 2021 17:28:00 GMT</pubDate>
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Le_Lièvre_et_la_Tortue.jpg"/>
+      <enclosure url="https://oberron.github.io/spark-fi/player/web/audio/atu275.mp3" type="audio/mpeg" length="2237069" />
+      <itunes:duration>01:22</itunes:duration>
+      <guid isPermaLink="false">atu275</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+        La course de la tortue et du lievre est une des nombreuses variantes de la courses entre deux animaux (le herisson et le lievre, ...)
+        
+        Aubéron Vacher - @oberron
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player: 
+        https://github.com/oberron/spark-fi/podcast-player/
+        </description>
+    </item>
+    
     
   </channel>
 </rss>

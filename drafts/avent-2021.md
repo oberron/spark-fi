@@ -27,4 +27,8 @@ comme un petit aigle a quatre pattes devant la porte. Mais a peine avait-il jete
 
 ### 2021-11-29
 
+Ce grand garcon n'avait pas encore appercu le petit animal sur son epaule que ces deux soeurs se mirent a hurler : "un dragon, vite court!!!!". Mais a peine averent-elle commencer de hurler qu'il sentit de puissantes griffes se planter dans son epaule et il se mit a hurler lui aussi de douleur. Quand les grands entendirent ce bruit ils regarderent les petits et virent tout a coup un petit animal grand comme un poussin sur l'epaule de leur petit frere mais qui grandissait a vue d'oeil... Ils se ruerent sur leur frere pour le proteger mais ne reussirent qu'a renverser les restes de soupes des assiettes sur la table et par terre.
+Devant le chaos que sa presence avait cree on put entendre dans toute la maison des pleurs raisonner et tous entendirent dans leur tete les meme mots resonner:
+"S'il vous plait n'ayez pas peur de moi, j'ai juste besoin d'un peu de chaleur pour recuperer de mon long voyage"
 
+### 2021-11-30

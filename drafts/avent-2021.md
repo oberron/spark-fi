@@ -45,4 +45,4 @@ Lorsqu'au milieu de l'apres midi la maisonee finit par se reveiller, il decouvri
 ### 2021-12-01
 
 A cette vue effrayante, les petits comme les grands hurlerent de frayeur et leurs hurlement reveillerent la bete, qui de surprise emit un jet de flammes des ses narines.
-Mais a peine avait-il ouvert les yeux qu'il vit la frayeur des sept enfants, et inspirant profondement il avala ces flammes en un instant avant qu'elles n'aient pu vraiment bruler quoi que ce soit. Tout au plus avaient-elle 
+Mais a peine avait-il ouvert les yeux qu'il vit la frayeur des sept enfants, et inspirant profondement il avala ces flammes en un instant avant qu'elles n'aient pu vraiment bruler quoi que ce soit. Tout au plus avaient-elle eu le temps de faire fondre la cire des bougies sur la table.

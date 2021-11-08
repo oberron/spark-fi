@@ -43,3 +43,6 @@ Le feu, alimente par une vis qui lui apportait du bois en permance, gardait le c
 Lorsqu'au milieu de l'apres midi la maisonee finit par se reveiller, il decouvrirent non un petit animal de la taille d'une souris vautree a cote de l'atre de la cheminee mais un animal fantasmagorique de la taille d'un enorme ours polaire. Non seulement il etait enorme, mais il avait developpe une criniere qui semblait resonner avec les flammes du feu de la cheminee, une queue pointue. Lorsqu'il s'avancerent vers la cuisine, il se retourna et il virent dans sa gueule d'enormes dents encore plus pointue que celles de lion et une etrange fumee qui sortait de sa gueule...
 
 ### 2021-12-01
+
+A cette vue effrayante, les petits comme les grands hurlerent de frayeur et leurs hurlement reveillerent la bete, qui de surprise emit un jet de flammes des ses narines.
+Mais a peine avait-il ouvert les yeux qu'il vit la frayeur des sept enfants, et inspirant profondement il avala ces flammes en un instant avant qu'elles n'aient pu vraiment bruler quoi que ce soit. Tout au plus avaient-elle 

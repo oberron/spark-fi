@@ -14,6 +14,13 @@ date: 2021-10-19
 * Semaine 4: 2021-12-20 - 2021-12-24
 > Conclusion
 
+- Car j'ai eu faim et vous m'avez donné à manger; --12.01
+- j'ai eu soif et vous m'avez donné à boire; 
+- j'étais étranger et vous m'avez accueilli chez vous; 
+- j'étais nu et vous m'avez habillé; 
+- j'étais malade et vous avez pris soin de moi; 
+- j'étais en prison et vous êtes venus me voir.” 
+
 
 ## Semaine 1 
 
@@ -44,5 +51,51 @@ Lorsqu'au milieu de l'apres midi la maisonee finit par se reveiller, il decouvri
 
 ### 2021-12-01
 
-A cette vue effrayante, les petits comme les grands hurlerent de frayeur et leurs hurlement reveillerent la bete, qui de surprise emit un jet de flammes des ses narines.
+A cette vue effrayante, les petits comme les grands hurlerent de frayeur ce qui reveilla la bete. Se reveillant en sursot elle emit un jet de flammes des ses narines.
 Mais a peine avait-il ouvert les yeux qu'il vit la frayeur des sept enfants, et inspirant profondement il avala ces flammes en un instant avant qu'elles n'aient pu vraiment bruler quoi que ce soit. Tout au plus avaient-elle eu le temps de faire fondre la cire des bougies sur la table.
+
+Alors que les enfants hurlaient encore, la bete dit d'une enorme voix caverneuse qui fit vibrer les murs et manqua de peu de casser les fenetres.
+
+> - N'ayez pas peur, je ne vous veux pas de mal. Vous m'avez recueilli alors que j'avais froid et faim et m'avait donne le couvert. Je vous en serai a jamais reconnaissant. Maintenant que j'ai pu me recharge de la chaleur de votre feu et de celle de vos coeux je peux repartir pour ma quete. Au revoir belle famille.
+
+Puis sans le moindre vent, il disparu dans un petit nuage de fumee laissant le salon comme il etait a l'avant veille.
+
+### 2021-12-02
+
+Les enfants courrurent voir leurs parents pour leur raconter l'histoire et les reveillerent en hurlant plus forts les uns que les autres pour essayer de raconter ce qui s'etait passer dans le salon.
+Quand les parents furent non seulement reveille mais aussi eurent recupere du choc de se faire reveiller si brusquement, ils finirent par conclure que tout etait bien qui finissait bien et qu'il etait temps de se remettre aux travaux quotidien comme de couper du bois, aller chercher de l'eau au puit et de faire une omelette pour nourrir toute la famille afamee.
+
+### 2021-12-03
+
+Le soir meme, alors que la famille semblait avoir oublie les aventures du reveil, un sommeil de plomb s'abattait sur les yeux de tout le monde. Trop fatigue pour aller au lit et profitant d'un peu de repit dans le froid hivernal tout le monde s'assoupissait dans le salon devant le foyer de la cheminee. Quand tout d'un coup un bruit sourd retentit a nouveau a la porte de la maison. D'abord ignore, ce bruit sourd retentit une deuxieme puis une troisieme fois finissant par reveiller tout le monde. Au meme moment le vent glacial, venant du pole nord, semblait s'etre releve et la temperature baisse dans le salon avec la meme vitesse que le bruit a l'exterieur augmentait a chaque seconde. Interloque tout le monde se regardait quand enfin, la porte fremit non plus une fois mais trois fois d'affile.
+L'aine des enfants dont une des responsabilites etait de s'assurer que chaque soir la porte de la maison etait bien fermee, alla voir.
+
+Tout d'abord il ne vit rien, puis il finit par voir une petite souris, mais qui marchait sur ses deux pattes arriere et se tenait sur un petit bout de bois, comme si une grand-mere pouvait etre de la taille d'une souris.
+
+### 2021-12-04
+
+Abassourdi en sans vraiment reflechir il ouvrit la porte et la petite souris rentra plus vite que son attitude fraile n'aurait pu le laisser penser possible. A peine rentree elle repoussa la porte avant que l'aine des enfants n'ai eu le temps de le faire, verouilla la porte puis dit d'une voix nasillarde.
+
+> - Bien le merci a vous de me laisser rentrer, on dirait que Njörd (le dieux de la mer et des vents dans la mythologie nordique) s'est enrhume et que ses quinte de toux arrive jusqu'a nous.
+> - J'ai senti l'odeur de d'un Imoogi en me promenant dans votre voisinage et donc j'ai prefere passer la nuit ici si cela ne vous ennuie pas trop?
+
+La famille qui se remettait a peine de la surprise d'avoir vu un dragon dans leur salon le matin meme, fut trop surprise de voir une souris parler pour faire le moindre commentaire et hocha de la tete.
+Si ce n'eut ete pour la petite derniere, tout le monde serait aller se coucher sans mot dire.
+
+Mais celle-ci, habituee qu'elle etait a toujours avoir le dernier mot, lui demanda
+
+> - Tu as du avoir bien froid dehors, ton pellage n'est pas tres epais. Voudrais-tu manger un peu de soupe pour te rechauffer.
+
+La souris, se tourna vers cette petite qui ne devait pas etre plus que trois fois plus grand qu'elle et repondit d'une vois soupoudree d'une touche de surprise 
+
+> - C'est tres aimable a toi. Ca serait avec grand plaisir que je me joindrai a votre table.
+
+Une fois que le diner fut finis pour une deuxieme fois, tout le monde alla au lit et le tapis devant la cheminee fut pour une deuxieme nuit d'affillee occupee par une hote impromptu.
+
+### 2021-12-05
+
+Le lendemain matin, alors que le soleil n'etait pas encore leve tout le monde se leva pour voir si la souris c'etait transforme. Mais celle-ci s'etait enroule dans une couverture et semblait dormir d'un sommeil de plomb.
+
+La journee se deroula sans incident, interompu seulement par moment par un enfant ou un autre qui allait voir si la souris c'etait reveille. Mais celle-ci dormait d'un sommeil profond que rien ne semblait pouvoir interrompre.
+
+Le soir venu, tout le monde se reunit autour de la cheminee se demandant si un autre animal fantasmagorique allait frapper a la porte, mais finalement tout le monde alla se coucher sans que rien d'extraordinaire ne se soit passer. La souris qui avait tant parle la veille a table, quant a elle dormait toujours dans sa couverture.

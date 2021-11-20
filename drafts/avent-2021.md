@@ -80,7 +80,7 @@ Abassourdi en sans vraiment reflechir il ouvrit la porte et la petite souris ren
 > - J'ai senti l'odeur de d'un Imoogi en me promenant dans votre voisinage et donc j'ai prefere passer la nuit ici si cela ne vous ennuie pas trop?
 
 La famille qui se remettait a peine de la surprise d'avoir vu un dragon dans leur salon le matin meme, fut trop surprise de voir une souris parler pour faire le moindre commentaire et hocha de la tete.
-Si ce n'eut ete pour la petite derniere, tout le monde serait aller se coucher sans mot dire.
+Si ce n'eut ete pour septima, la petite derniere, tout le monde serait aller se coucher sans mot dire.
 
 Mais celle-ci, habituee qu'elle etait a toujours avoir le dernier mot, lui demanda
 
@@ -92,10 +92,54 @@ La souris, se tourna vers cette petite qui ne devait pas etre plus que trois foi
 
 Une fois que le diner fut finis pour une deuxieme fois, tout le monde alla au lit et le tapis devant la cheminee fut pour une deuxieme nuit d'affillee occupee par une hote impromptu.
 
-### 2021-12-05
+### 2021-12-05 (Dimanche)
 
 Le lendemain matin, alors que le soleil n'etait pas encore leve tout le monde se leva pour voir si la souris c'etait transforme. Mais celle-ci s'etait enroule dans une couverture et semblait dormir d'un sommeil de plomb.
 
 La journee se deroula sans incident, interompu seulement par moment par un enfant ou un autre qui allait voir si la souris c'etait reveille. Mais celle-ci dormait d'un sommeil profond que rien ne semblait pouvoir interrompre.
 
 Le soir venu, tout le monde se reunit autour de la cheminee se demandant si un autre animal fantasmagorique allait frapper a la porte, mais finalement tout le monde alla se coucher sans que rien d'extraordinaire ne se soit passer. La souris qui avait tant parle la veille a table, quant a elle dormait toujours dans sa couverture.
+
+Et la encore la plus petite surpris tout le monde en mettant de cote un peu du lait de son diner et un quignon de pain et alla le placer a cote de la petite souris en disant
+
+> - Elle aura peut-etre faim pendant la nuit...
+
+De fait au petit matin, le bol etait vide et du quignon il ne restait que des miettes sur la table. Mais de la petite souris il n'y avait aucune trace. Les 3 plus petits se mirent a crier que la petite souris etait venue et repartie et devait verifier sous leurs oreillers si une piece avait ete glisse. Mais il n'en etait rien! Decus, ils revirent s'assoir a table pour manger leur petit dejeuner, quand entendant du bruit venant de la cave ils tournerent la tete. En un battement d'oeil le vacarme habituel dans la cuisine s'etait estompe. On aurait pu entendre une mouche voler. Tous endendaient leur coeur battre tant le silence etait intense. Une licorne venait de passer la porte. Apres une dizaine de abttement de coeur sans bouger, ils entendirent tous dans leur tete une voix leur dire.
+
+> Merci a vous charmante petite famille, j'avais faim et froid et vous m'avez accueili, il est temps pour moi de continuer mon voyage mais je vous porterai toujours dans mon coeur.
+
+Au meme moment tous realiserent que la licorne portait le meme pull dans le quel la petite souris s'etait endormie deux nuit au paravant, mais avant qu'ils ne puissent dire un mot la licorne disparraissait dans un hallo lumineux ressemblant a un arc en ciel!
+![](https://stickerdeco.fr/wp-content/uploads/2019/10/sticker-licorne-arc-en-ciel-04.jpg)
+
+##  le pays magique a des problemes
+### 2021-12-06 (lundi)
+
+Le reste du petit dejeuner se passa dans silence relatif. Devant l'abatement des enfants leurs parents deciderent de profiter de l'acalmie de la tempete pour sortir toute la famille et aller se promener dans la foret. Celle-ci semblait completement differente maintenant que la neige avait tout recouvert et que les cristaux de givre creaient des formes totalement differentes. L'arbre prefere des enfants pour grimper, se cacher et se balancer etait completement differents.
+
+Au fur et a mesure que la famille s'enfoncait dans la foret a la recherche des sources chaudes pour un bain d'hiver la foret semblait changer a chaque pas. Apres dix minutes de marche les parents s'arreterent, se regarderent puis dirent a voix en meme temps:
+
+> Je ne reconnais pas la foret, sommes nous perdus?
+
+Mais au meme moment, seximus, le petit garcon dit a voix haute:
+
+> Regardez de la fumee, la-bas nous sommes aux sources chaudes.
+
+Cependant pere, mere, comme Secunda, Tertia et  Quarta savaient bien que les sources chaudes coulaient d'une petite colline avant de former une crique et non un petit geyser au milieu d'un etang. Aussi la presence de fleurs ouvertes et odorantes autour de l'etang etaient intriguante. Primo, l'aine et toujours le plus inquiet passa en arriere garde de la petite troupe et sortit sa hache de sa ceinture.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRDnRBFYp63tlU8UQ6ENpLZxopHGslmxoI0A&usqp=CAU)
+
+### 2021-12-07 (mardi)
+
+Alors qu'ils s'approchaient de l'etang ils commencerent a entendre des bruits de jeux et de franche rigolade. Comment quiconque aurait pu non seulement venir de la ville la plus lointaine en plein hiver mais aussi arriver si tot le matin apres une si terribel tempete?
+
+### 2021-12-08 (mercredi)
+### 2021-12-09 (jeudi)
+### 2021-12-10 (vendredi)
+### 2021-12-11 (samedi)
+### 2021-12-12 (dimanche)
+
+## comment devenir des heros
+###2021-12-13 (lundi)
+
+## les heros resolvent les problemes
+### 2021-12-20 (lundi)

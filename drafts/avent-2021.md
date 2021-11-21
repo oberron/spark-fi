@@ -26,20 +26,24 @@ date: 2021-10-19
 
 ### 2021-11-28
 
-Par un soir d'hiver, alors que les enfants allaient bientot devoir aller se coucher ils entendirent entre les hurlements du vent de la tempete de neige un bruit sourd a la porte de la maison.
-Etait-ce papa qui rentrait du travail? Etait-ce maman qui venait de fermer le poulailler ou bien leur grand frere qui venait de couper du bois pour la cheminee? Non cela ne 
-pouvait l'etre. Tout le monde avait manger a table ce soir et meme si avec le froid dehors le bois brulait vite il restait un enorme tas de bois a cote de l'atre de la cheminee.
-Mais etrangement seul les plus petits semblaient entendre les grattements et les grondements venant de la porte. Prenant son courage a deux mains il alla voir par l'orniere et vit 
-comme un petit aigle a quatre pattes devant la porte. Mais a peine avait-il jete un oeil que cet aigle a quatre pattes disparu pour re-apparaitre sur son epaule.
+![](https://cdn.pixabay.com/photo/2019/02/25/00/54/griffin-4018762__480.png)
+
+Par un soir d'hiver, alors que les enfants allaient bientôt devoir aller se coucher ils entendirent entre les hurlements du vent de la tempête de neige un bruit sourd a la porte de la maison.
+Était-ce papa qui rentrait du travail? Était-ce maman qui venait de fermer le poulailler ou bien leur grand frère qui venait de couper du bois pour la cheminée? Non cela ne 
+pouvait l’être. Tout le monde avait manger a table ce soir et même si avec le froid dehors le bois brûlait vite il restait un énorme tas de bois a cote de l’âtre de la cheminée.
+Mais étrangement seul les plus petits semblaient entendre les grattements et les grondements venant de la porte. Prenant son courage a deux mains il alla voir par l’ornière et vit 
+comme un petit aigle a quatre pattes devant la porte. Mais a peine avait-il jeté un œil que cet aigle a quatre pattes disparu pour réapparaître sur son épaule.
 
 ### 2021-11-29
 
-Ce grand garçon n'avait pas encore appercu le petit animal sur son épaule que ces deux soeurs se mirent a hurler : "un dragon, vite court!!!!". 
-Mais a peine averent-elle commencer de hurler qu'il sentit de puissantes griffes se planter dans son epaule et il se mit a hurler lui aussi de douleur. 
-Quand les grands entendirent ce bruit ils regarderent les petits et virent tout a coup un petit animal grand comme un poussin sur l'epaule de leur petit frere mais qui grandissait a vue d'oeil... 
-Ils se ruèrent sur leur frère pour le proteger mais ne reussirent qu'a renverser les restes de soupes des assiettes sur la table et par terre.
-Devant le chaos que sa presence avait cree on put entendre dans toute la maison des pleurs raisonner et tous entendirent dans leur tete les meme mots resonner:
-"S'il vous plait n'ayez pas peur de moi, j'ai juste besoin d'un peu de chaleur pour recuperer de mon long voyage"
+Seximmus, ce grand garçon n'avait pas encore aperçu le petit animal sur son épaule que ces deux sœurs se mirent a hurler : 
+"un dragon, vite court!!!!". 
+Mais a peine avèrent-elles  commencer de hurler qu'il sentit de puissantes griffes se planter dans son épaule et il se mit a hurler lui aussi de douleur. 
+Quand les grands entendirent ce bruit ils regardèrent les petits et virent tout a coup un petit animal grand comme un poussin sur l’épaule de leur petit frère mais qui grandissait a vue d’œil... 
+Ils se ruèrent sur leur frère pour le protéger mais ne réussirent qu'a renverser les restes de soupes des assiettes sur la table et par terre.
+Devant le chaos que sa présence avait créé on put entendre dans toute la maison des pleurs raisonner et tous entendirent dans leur tête les même mots résonner: 
+
+"S'il vous plaît n'ayez pas peur de moi, j'ai juste besoin d'un peu de chaleur pour récupérer de mon long voyage"
 
 ### 2021-11-30
 

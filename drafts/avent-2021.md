@@ -22,7 +22,7 @@ date: 2021-10-19
 - j'étais en prison et vous êtes venus me voir.” 
 
 
-## Semaine 1 
+## Semaine 1 - de bien etranges visiteurs
 
 ### 2021-11-28 (Dimanche)
 
@@ -106,7 +106,7 @@ Mais il n'en était rien! Déçus, ils revirent s’asseoir a table pour manger 
 
 Au même moment tous réalisèrent que la licorne portait le même pull dans le quel la petite souris s’était endormie deux nuit auparavant, mais avant qu'ils ne puissent dire un mot la licorne disparaissait dans un halo lumineux ressemblant a un arc en ciel!
 
-##  le pays magique a des problemes
+##  2eme semaine - Le Jardin de l'amour
 
 ### 2021-12-06 (lundi)
 
@@ -126,13 +126,49 @@ Cependant pere, mere, comme Secunda, Tertia et  Quarta savaient bien que les sou
 
 ### 2021-12-07 (mardi)
 
-Alors qu'ils s'approchaient de l'etang ils commencerent a entendre des bruits de jeux et de franche rigolade. Comment quiconque aurait pu non seulement venir de la ville la plus lointaine en plein hiver mais aussi arriver si tot le matin apres une si terribel tempete?
+Alors qu'ils s'approchaient de l'etang ils commencerent a entendre des bruits de jeux et de franche rigolade. Comment quiconque aurait pu non seulement venir de la ville la plus lointaine en plein hiver mais aussi arriver si tot le matin apres une si terrible tempete?
+
+Alors qu'ils cheminaient le long d'un chemin qui semblait taille dans la roche, tel un canion les bruit devenaient de plus en plus fort. Puis lorsqu'ils contournerent le dernier rocher ils virent l'etang, les fumees chaudes s'en degageant et un groupe d'enfant jouant ensemble. D'abord interloques a la vue de la famille, ils sortirent de l'eau en courant et disparurent dans les buissons laissant deriere eux un enfant seul et effare: il ne retrouvait plus ses vetements.
+
+Secunda s'approcha de lui, enleva son manteau et lui tendit. Bien que l'air chaud autour de la source les protege tous de l'hiver on put voir sur son visage un grand soulagemetn. Il prit le manteau et sans que l'on comprenne il disparut comme si les rochers avoisonant l'avaient absorbe.
 
 ### 2021-12-08 (mercredi)
+
+Perplexe, la famille ne sut ni que faire ni quoi dire.
+Secunda habituee a donner des ordres a tout le monde, eleva la voix et dit a plein poumons
+> Revenez ici, nous pourrions tous jouer ensemble, l'etang est bien assez grand pour tous et l'hiver bien assez froid quand on s'eloigne de l'etang pour ne pas le partager.
+Mais seul l'echo de ses paroles lui revint aux oreille. 
+
+Apres quelques minutes supplementaires de stupefactions, ils se mirent tous a l'eau et commencerent a jouer ensemble dans cette eau si chaude qu'on en oubliait l'hiver. Ils jouerent ensemble pendant des heures comme ils l'avaient rarement fait depuis que les grands avaient commence a aller en ville pour apprendre ce qu'ils ne pouvaient apprendre a la maison. 
+
 ### 2021-12-09 (jeudi)
+
+Puis vint le moment de sortir la viande sechee des panier pour le repas. La chaleur autour du lac etait telle qu'ils n'eurent pas besoin de se secher pour manger et purent repousser le moment de se rabiller. Mais a peine s'etaient-ils assis qu'ils apercurent a portee de main, la ou le petit enfant avait disparut dans la roche des baies bien mures et en quantite telles qu'ils se demenderent tous comment ils avaient pu ne pas le voir avant.
+
+Le repas copieux qui avaient prevus par les parents pour changer les idees resta en grande partie dans les paniers car la famille fut pratiquement rassasiee rien qu'en mangeant ces murs, ces mirtilles, ces framboises et ces fraises qu'ils n'avaient pas vu quelques heures au paravent.
+
+S'ils s'etaient moins goinfre des ces fruits d'ete, si rare en hiver, ils auraient pu penser que cet enfant qui avait disparu comme par magie semblait les remercier pour leur geste d'amour.
+
 ### 2021-12-10 (vendredi)
+
+Quand leurs petites bedaines n'en pouvaient plus ils commencerent a se rabiller. C'est alors que Quatra entendit un son etrange, et comme a son habitude alla voir ce qu'il en etait curieuse qu'elle etait et bien heureuse d'avoir une excuse pour retarder son aide a ranger les affaires de la famille avant le retour a la maison.
+
+Alors qu'elle s'avancait dans les buissons elle remarqua que la ligne de demarquation de la vegetation verte et de la neige sembalit s'etre raproche du lac mais n'y pretta pas grande attention intriguee et inquiete qu'elle etait d'entendre des bruits qui resemblait de plus en plus a des pleurs. Alors que la neige semblait maintenant a quelques pas d'elle, meme si elle n'en sentait pas encore le froid, elle finit par voir dans un arbre un filet et a l'interieur un jeune enfant qui ressemblait beaucoup a ceux qui avaient disparus a leur arrivee pres du lac.
+
 ### 2021-12-11 (samedi)
+
+Inquiete que cet enfant puisse se blesser si le filet lachait, elle courut prevenir sa famille de sa decouverte. En un instant, ils avaient cesse leurs preparatifs et etaient venu avec elle pour lui preter main forte.
+
+A son retour, il lui fallu quelques temps pour retrouver l'enfant qui entre temps, probablement d'epuisement ou par peur de voire la famille au complet, avait arrete de faire du bruit. Il faut dire qu'en quelques minutes seulement la frontiere entre la neige et la vegetation luxuriante autour du lac avait avance d'une dizine de metre et l'enfant comme son filet etait maintenant recouvert de neige.
+
+En passant la frontiere, ils se mirent tous a grelotter instantanement mais ne reculerent pas en voyant les levres bleues du petit enfant et ses membres qui ne sembaient plus bouger.
+
 ### 2021-12-12 (dimanche)
+
+Quarta n'ecoutant que son courage cette fois s'elanca pour attraper les premieres branches de l'arbre et commenca a grimper a l'arbre pour defaire le noeud qui tenait le filet. L'enfant se reveilla et les voyant si proche et devinant leurs intentions se mit a hurler:
+> "Fuyez avant que l'hiver soit completememnt installe, il m'a attrape et je ne m'en sortirai surement pas mas vous etes encore libre, fuyez vous dis-je!
+
+Son agitation comme son inquietude etait perceptible dans sa voix mais cela ne finit que par renfocer la determination de Quarta. Tertia de son cote, avait commence a couper des petits branchages pour faire un tas sous le filet pour amortir la chute et tous bientot se joignirent a elle alors que Quarta se demenanit pour defaire le noeud de trappeur avec des doigts de plus en plus engourdi.
 
 ## comment devenir des heros
 ###2021-12-13 (lundi)

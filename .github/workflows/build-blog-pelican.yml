@@ -1,0 +1,44 @@
+name: Deploy blog with pelican and notion synch'ed
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '.github/**'
+jobs:
+  build_job:
+    name: Deploy blog w/ wrapper
+    runs-on: ubuntu-latest
+    environment: env  # THIS WAS MISSING
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+      - name: Checkout website source
+        id: checkout-master
+        uses: actions/checkout@v2
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: pelican-4.2.0-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            pelican-4.2.0-
+      - name: Install Pelican
+        run: |
+          pip install -r requirements.txt
+      - name: Run Pelican
+        id: run-pelican
+        env:
+          NOTIONKEY: ${{secrets.NOTIONKEY}}
+          FT_dbid: ${{secrets.FT_dbid}}
+        run: |
+          # wrapper -n pulls notion pages in notion folder then used
+          # by wrapper -g builds for github pages
+          python wrapper.py -g -n
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.2.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: www_folder # The folder the action should deploy from.

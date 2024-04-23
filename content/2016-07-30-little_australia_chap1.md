@@ -1,0 +1,92 @@
+---
+title: unevolved emotions (Little Australia)
+date: 2016-07-30
+category: novel
+---
+
+
+#UNEVOLVED EMOTIONS
+### (Little Australia)
+
+![Uluru - original picture from https://images.trvl-media.com/media/content/shared/images/travelguides/wotif/hotels/Uluru-6052541.jpg](Uluru.jpg)
+
+---
+
+# Foreword
+While the first sentences of `Little Australia` were written back in 2006 it took us until 2016 to realise that our only 
+chance to get our stories in front of our friend and families (and hopefully beyond this inner circle) was to start by 
+finishing our stories with a the style of `short stories`.
+This is the first edition is hence the logical outcome of this enlightenment.
+
+While this is actual fact, as well as theories mentioned in this book, it should be noted that all characters are fictional and any similarities with existing or previous individual would be total fortuity.
+The author, Konemara
+
+
+##Dedication
+This story is dedicated to Dermot, Alannah, Shavaun, Elodie, Camille and Anthony
+
+---
+
+## CHAPTER 1 - Anger /BACK IN FRANCE
+ "Can't believe it! Why did I come back to France ? What a fall! After those fifteen years working for those news papers
+ in London and New-York, I now have to work for "Leurs secrets caches" (1) (Note 1: Their hidden secrets), the only
+ newspa- per ready to give me a chance for a paper in France."
+Massimo had been going through those dark angered feelings when suddenly a voice that seemed to come from nowhere interrupted his train of thoughts :
+"Cheer up Massimo! You've got to stop complaining", Cheerio urged as he gulped the remains of his beer.
+"I do not think you understand", replied Massimo: "I've worked for the best and the biggest! All over the place: the New York Times, the Telegraph, ... And now this!
+Some crack pot mag for crack pots to further their paranoia and suspicion...
+-You're drinking that?"
+Massimo pushed his untouched beer towards his thirsty friend.
+"Ta mate! Listen! Don't beat yourself up it's a means to an end. Write one arti- cle and you'll get another within a month"
+Massimo expression deepened, moving from the face of XXX (opera charac- ter) to YYY (opera character).
+Cheerio, maybe getting a clear insight in his mate's mood, thanks to the alco- hol, came to realise that the issue was deeper than he had first thought
+5
+">OK Massimio, why don't you go over this interview again?"
+"-I've told you everything there was to say about this disgusting slimy pig" "-Maybe but why don't you try again?"
+"-OK [description]
+
+## Chapter 2 - Contempt /Arrival in Rambouillet
+![Arrivee a Rambouillet](http://www.cartes-et-patrimoine.com/images/11/9/photos-carte-rambouillet-yvelines-PH059348-A.jpg)
+
+The first thing Massimo noticed when he walked in the hotel lobby was the sign saying "NO VACANCIES". When the "hotel owner" walked in after 2 good min- utes, Massimo could not believe what he saw. The man, was the impossible son of Elvis Presley and Freddie Mercury. Indeed the hair and the fat face could have been Elvis' while the moustache and the way to walk could have been Freddie when singing on stage "Bohemian Rapsody". What maid it worse was the music coming of the back room, a bad remix of rock music from an amateur band. Mas- simo's well trained hear hurt not only because the instruments were not tuned but the rythm was as irregular as the heart of an "centenaire" prone to fibrillation... Once over the initial shock Massimo asked:
+" Hi, I may have knocked on the wrong door, isn't this the <Zauberflöte of Rambouillet>?
+- It still is for another few weeks. It was my dad's hotel and he was vexed classi- cal music Flute player but I always hated that sloppy music. I'll rename it R&R with a graphical like RollsRoys but actually meaning Rambouillet Rapshody. Do you want to see the logo for the hotel? I was just working on it ..."
+Massimo suddenly felt he had to interrupt this torrent of words before his head would be crushed between the inept attitude from his lodger for the next few days and the music background.
+"-I would love to but I have had a difficult day, do you have booking in the name of Massimo ?
+7
+ -Hum let me look, the books are not kept as well since my dad retired... Where did I put this paper... Do you know that we are full? Ho, but you probably called before I took the last booking... Hmm actually how am I sure that I am full since ..." the words were coming out of his mouth quicker and quicker and were slowly covered by the background noise coming out of his lodge. Massimo's head which had been already hurting after the difficult start of his day was on the edge of im- plosion, when suddenly he heard something soothing
+"Ah, now I remember I put the name with the last keys to be sure, let's have a look, ..., the two keys left are 502 and 503. 503 Cecilia blabla, nop not him, 502 Massimo ‘the italian’. Here we are. Mr Massimo, here is your key.
+<night time>
+<morning time>
+Cecilia blearily surveyed the dinning area. There he is, that's the one, she start- ed to drum her fingers irritably on the table. Oh that's right, she thought, yeah come over here, all the breakfast tables and you choose the one next to mine arah! Her drumming became more agitated as the tall dark looking man, who looked like a mix between a bread of parisian intellectual salons with his scarf wrapped around his neck early in the morning and a foreigner, maybe american, with his entire set displaying a brand logo, took his seat.
+Urgh now he's humming, Cecilia, infuriated couldn't hold back;
+"'Do you mind?!" she snapped, "I'd like a bit of quiet while I eat my breakfast.
+-Well, I have to hum to drown out the noise of your drumming" chuckled Massimo.
+"And what am I supposed to do to drown out the sound of your radio when I'm trying to sleep?" Cecilia was struggling to keep control, she wasn't good with- out sleep at the best of times and after driving all night, only to be woken early the next morning by this selfish man blasting opera from the room next door.
+'Radio? But my room did not even have an alarm clock' answered Massimo with a puzzled look on his face.
+8
+'I know it was you. Your room 502 aren't you? 6am this morning bloody opera, woken up, trying to sleep?
+'Oh that wasn't the radio.' Massimo's confused expression cleared into one of embarrassment.'I'msorryifIwokeyou,butthatwasme. Ioftensinginthe shower. I had no idea it would carry into your room.'
+Cecillia was equally embarrassed by this point but was not about to show it, "yeah well you should have realised how load it was,' then conceded, "but it did sound very good, professional infact."
+Massimo didn't need any more invitation than that. "Do you think so?' He beamed as he jumped up from his seat and pulled out the chair opposite Cecillia. Cecillia groaned inwardly as she heard all the in-depth details of the opera circuit.
+
+## Chapter 3 - Surprise /First steps in Rambouillet
+
+[in this chapter we see Cecilia and Masimo starting their investigations in Ram- bouillet, we give descriptions of the different places in Rambouillet as well as the forest were they go trying to find the kangaroos. they also encounter some "resis- tance" from locals not really happy about the publicity this gives to Rambouillet]
+[here we also get first incidents coming from the television team which puzzle Cecilia]
+
+## Chapter 4 - Excitement /Things get more complex
+[Cecilia and them Massimo meet a strange gardener who is the first one to give them some help about the kids in hospital who called themselves the Macropus and are all now in hospital]
+[more annoyance from television team which denies everything].
+As Massimo made his way in Kevin’s flat in the maze of shelves storing foreign books and manuscripts which looked anything like he had ever seen, he wondered how is brother had ever met or heard of this strange character. Kevin was indeed nothing like his brother, who was like him, a caricature of their latin blood. Kevin on the other hand seemed afraid of human interactions and appeared to have suc- ceeded in his quest to add as many layers of literature between him and the world of the leavings. These thoughts distracted Massimo enough to make him trip on a heap of unannounced, by the look of it Chinese, literature. As he lost his balance, he reached out for the nearest object jetting out from the shelves and cut himself on the rusted rings holding together some rotting paper. As he cursed Kevin, Mas- simo could not help thinking why on earth someone would store any sort of paper older than yesterday’s news. The noise of his near fall, was covered immediately by screams coming right behind the next shelves, which reminded immediately Massimo of the strange character he was about to meet again.
+[...]
+"Well, I have looked at the unknown organic molecules in the blood analysis. It is quite normal as the mass chromatographer they used is an old one with very limited database.
+11
+- Can you use plane language?
+- This is plain language !". Screamed Kevin back, his saliva nearly hitting Mas- simo tie. Massimo remembered the advice he was given about interacting with Kevin and tried a more specific angle:
+"-Could you tell me how this tool with a database is called usually on television and radio ?
+- Well, while highly inaccurate and irrelevant, Patrick-Poivre d’Arvor (Author’s Note: Patrick Poivre d’Arvor or PPDA is a famous french journalist which pre- sented the main 20h00 news for many years) used the following words on April 28th, 1992 "the machine which is the Rosetta’s stone for translating molecules language."
+- So, how could the machine not know the molecules found in the kids blood?" Asked Massimo
+- The machines are programmed with the relevant information and only very expensive machines can analyse all molecules, as this was a machine used for hu- man biology, those were not added to the database to avoid excessive costs.
+- OK, so if this is not supposed to be found in human biology, what are those molecules?
+- It took me a lot of time to go through all possible options. I first had to find a empty time for the X-ray 3D analyser of the university of Paris X. The structure is very similar to the one of the 3 main monoamines neurotransmitters: sero- tonin, dopamine and noradrenaline which the body generates. However it is nei- ther of them. If not totally against any biology text book I would say this is a fourth one.

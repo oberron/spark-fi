@@ -1,0 +1,8 @@
+Notion2Pelican
+python-dotenv
+feedgenerator
+Markdown
+pelican
+pelican-sitemap
+PyYAML
+pelican-more-categories

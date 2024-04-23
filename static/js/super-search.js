@@ -2,7 +2,7 @@
     Author: Kushagra Gour (http://kushagragour.in)
     MIT Licensed
 */
-
+baseurl = ".";
 (function () {
     var isSearchOpen = false,
         searchEl = document.querySelector('#js-search'),
@@ -59,11 +59,14 @@
 
     function getPostsFromXml(xml) {
         var json = xmlToJson(xml);
-        return json.channel.item;
+        //return json.channel.item; works on angusmaknum sitemap
+        //need to update the xpath to <entry>
+        //return json.entry is the xpath for the generated sitemap.xml
+        return json.entry;
     }
 
     var xmlhttp=new XMLHttpRequest();
-    xmlhttp.open("GET","/sitemap.xml");
+    xmlhttp.open("GET",baseurl+"/feed.xml");
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState != 4) return;
         if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
@@ -129,8 +132,10 @@
         if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
             searchResultsEl.classList.remove('is-hidden');
             searchResultsEl.innerHTML = matchingPosts.map(function (post) {
-                d = new Date(post.pubDate);
-                return '<li><a href="' + post.link + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
+                //d = new Date(post.pubDate);
+                //update MCV
+                d = new Date(post.published);
+                return '<li><a href="' + post.link["@attributes"].href + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
             }).join('');
         }
         lastSearchResultHash = currentResultHash;

@@ -1,0 +1,1 @@
+{% if article.categories %}<p>categories: {% for category in article.categories %}<a href="{{ SITEURL }}/{{ category.url }}">{{ category | escape }}</a> {% endfor %}</p>{% endif %}

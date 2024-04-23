@@ -1,1 +1,0 @@
-people buy plastic crows to keep crows away￼￼￼ maybe they buy garden gnomes for the dame reasons

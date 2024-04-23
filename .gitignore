@@ -1,1 +1,7 @@
 _site/
+tmp/
+__pycache__
+venv
+public_local
+www_folder
+.env

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/theme/img/favicon.ico" />
+    <title>oberron</title>
+    <meta name="author" content="oberron" />
+    <meta name="description" content="misc notes for keeping home IT admin smooth" />
+    <meta name="keywords" content="home IT admin, IT, sante, paperasse, web" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <meta content="" property="fb:app_id">
+    <meta content="home IT admin" property="og:site_name">
+    <base href="{{SITEURL}}">
+
+    
+
+    
+      <meta content="home IT admin" property="og:title">
+      <meta content="website" property="og:type">
+    
+
+    
+      <meta content="misc notes for keeping home IT admin smooth" property="og:description">
+    
+
+    
+      <meta content="/" property="og:url">
+    
+
+    
+
+    
+      <meta content="/theme/img/site_logo.png" property="og:image">
+    
+
+    
+
+    
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+
+    
+      <meta name="twitter:title" content="home IT admin">
+    
+
+    
+      <meta name="twitter:url" content="http://localhost:4000/">
+    
+
+    
+      <meta name="twitter:description" content="misc notes for keeping home IT admin smooth">
+
+    <!-- Font awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/syntax.css">
+    <!-- Bootstrap core CSS -->
+    <link href="{{SITEURL}}/theme/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/super-search.css">
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/thickbox.css">
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/projects.css">
+    <link rel="stylesheet" href="{{SITEURL}}/theme/css/main.css">
+
+</head>
+<body>
+    <div class="container">
+      <div class="col-sm-3">
+        <div class="fixed-condition">
+          <a href=""><img class="profile-avatar" src="/theme/img/site_logo.png" height="75px" width="75px" /></a>
+          <h1 class="author-name">home IT admin</h1>
+          
+            <div class="profile-about">
+              because running home IT cannot be a full time job
+            </div>
+          
+          <div class="social">
+            <ul>
+              
+            </ul>
+          </div>
+          <div class="search" id="js-search">
+            <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
+            <ul class="search__results" id="js-search__results"></ul>
+          </div>
+          <hr />
+          <ul class="sidebar-nav">
+            <strong>Navigation</strong>
+            <li><a href="/">Home</a></li>
+            
+              <li><a class="about" href="/about">About Me</a></li>
+            
+              <li><a class="about" href="/feed.xml">XML Feed</a></li>
+            
+          </ul>
+        </div>
+        <!-- end /.fixed-condition -->
+      </div>
+      <div class="col-sm-8 col-offset-1 main-layout">
+
+<div id="home">
+  <h1>{{ SITENAME }}</h1>
+  <hr />
+
+  <ol class="posts">
+    {% for article in articles %}
+      <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> &raquo; <i><span>{{ article.date | strftime('%Y-%m-%d') }}</span></i></li>
+    {% endfor %}
+  </ol>
+  </div><!-- end #home -->
+  
+          <footer>
+          &copy; oberron
+          
+            - <a href="https://github.com/oberron">https://github.com/oberron</a> - Powered by Jekyll.
+          
+          <!-- div class="btn-github" style="float:right;">
+            <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+          </div-->
+        </footer>
+      </div>
+      <!-- end /.col-sm-8 -->
+    </div>
+    <!-- end /.container -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{SITEURL}}/theme/js/bootstrap.min.js"></script>
+    <script src="{{SITEURL}}/theme/js/super-search.js"></script>
+    <script src="{{SITEURL}}/theme/js/thickbox-compressed.js"></script>
+    <script src="{{SITEURL}}/theme/js/projects.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    var TEX = MathJax.InputJax.TeX;
+    var COLS = function (W) {
+      var WW = [];
+      for (var i = 0, m = W.length; i < m; i++)
+        {WW[i] = TEX.Parse.prototype.Em(W[i])}
+      return WW.join(" ");
+    };
+    TEX.Definitions.Add({
+      environment: {
+        psmallmatrix: ['Array',null,'(',')','c',COLS([1/3]),".2em",'S',1],
+      }
+    });
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js">
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block body %}
+  {{ super() }}
+  <h1>{{ article.title }}</h1>
+  {% include 'categorylist.html' %}
+  <hr>
+  {% include 'taglist.html' %}
+  <hr>
+   {{article.content}}
+{% endblock %}  

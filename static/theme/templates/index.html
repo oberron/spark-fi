@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body %}
+  {{ super() }}
+    <section id="content" class="body">
+    <h1>POSTS</h1>
+    <h2> categories </h2>
+    {% set dash = joiner(",") %}{% for cat, articles in categories %} {{dash()}}<a href="{{ SITEURL }}/category/{{cat}}.html">{{cat}}</a> {% endfor %}
+    
+    <h2> Chronological order </h2>
+    <ul class="posts">
+            {% for article in articles %}
+              <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> &raquo; <i><span>{{ article.date | strftime('%Y-%m-%d') }}</span></i>
+              ({% if article.categories %}{% for cat in article.categories %} {{cat}} {% endfor %}{% endif %}{% if article.tags %}-{% for tag in article.tags %} {{tag}} {% endfor %}{% endif %})
+              </li>
+            {% endfor %}
+    </ul>
+    </section>
+{% endblock %}

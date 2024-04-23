@@ -1,15 +1,22 @@
-## My Stack Problems
+# README
 
-> This project forked and has been modified from [agusmakam](https://agusmakmun.github.io) itself forked and modified from  [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-
-### Demo
+Demo at
 * [https://oberron.github.io/spark-fi/](https://oberron.github.io/spark-fi/)
+
+## About
+
+
+
+## SETUP/CONFIG
+
+* Pelican based blogging platform
 
 #### Features
 
 * Sitemap and XML Feed
 * Pagination in homepage
 * Posts under category
+* Category page with descriptoin (relies on a page with the same name as category, see category.html: `page.title == category.name`)
 * Realtime Search Posts _(title & description)_ by query.
 * Related Posts
 * Highlight pre

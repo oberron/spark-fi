@@ -1,7 +1,9 @@
+import argparse
+from dotenv import load_dotenv
 import pkg_resources
 from os.path import abspath, isdir, join, pardir
-from os import walk
-from os import getenv
+from os import mkdir, walk
+from os import getenv, environ
 from pathlib import Path
 import pathlib
 from shutil import copyfile
@@ -9,9 +11,9 @@ from shutil import copytree, rmtree
 import sys
 import subprocess
 import argparse
-
+import yaml
 # pip installs
-import argparse
+
 from dotenv import load_dotenv
 
 from Notion2Pelican.Notion2Pelican import readDatabase, page_tree_ids

@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -55,105 +55,105 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/archives.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron10.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron11.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron12.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron13.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron3.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron4.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron5.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron6.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron7.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron8.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/author/oberron9.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/authors.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -223,175 +223,175 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/categories.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/_drafts.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/atu.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/conspiracies.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/conspiracy.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/conspiracy2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/essay.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/fairy.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/fiction.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/fiction2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/fiction3.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/haiku-fi.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/legend.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/legends.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/magic.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/misc.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/misc2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/misc3.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/myth.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/myth2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/myth3.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/myths.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/novel.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/spark.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/category/tale.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -647,84 +647,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/index10.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index11.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index12.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index13.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index2.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index3.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index4.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index5.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index6.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index7.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index8.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/index9.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -983,28 +983,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/pages/about.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/atu.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/atu_detailed.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/pages/projects.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1130,77 +1130,77 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://localhost:8000/tag/atu-673.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atu15.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atu2025.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atu275.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atu57.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atu76.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/atuch0002.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/chine.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/the-magic-comes-back.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tag/the-magic-goes-away.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://localhost:8000/tags.html</loc>
-<lastmod>2024-04-27T01:14:34-00:00</lastmod>
+<lastmod>2024-04-28T01:21:15-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -298,6 +298,10 @@ if __name__ == "__main__":
         print("BUILDING for GITHUB ACTIONS and gh-pages")
         build_flow = "gh"
         pelican_overloads = "SITEURL=\"https://oberron.github.io/spark-fi/\""
+        # add .nojekyll file in repo
+        fp = abspath(join(__file__, ".nojekyll"))
+        with open(fp, "w") as fo:
+            fo.write("")
     else:
         print("SELECT AN OPTION !!!")
     if args.local or args.git_hub:

@@ -38,7 +38,7 @@ DEFAULT_LANG = 'en'
 MARKUP = ('md', )
 
 FEED_ALL_ATOM = "feed.xml"
-#FEED_ALL_ATOM = None
+# FEED_ALL_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
 # FEED_DOMAIN = ":8000"
 FEED_RSS_URL = True
@@ -60,4 +60,3 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 
 DEFAULT_PAGINATION = 10
-

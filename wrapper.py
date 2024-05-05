@@ -29,6 +29,9 @@ www_folder_staging = abspath(join(__file__, pardir, "public_nas"))
 www_folder = abspath(join(__file__, pardir, "www_folder"))
 pelican_dp = abspath(join(__file__, pardir, "static", "src"))
 pelican_local_fp = abspath(join(pelican_dp, "pelicanconf.py"))
+sys.path.append(pelican_dp)
+from site_spec import PROD_URL # type: ignore
+
 dp_notion = abspath(join(__file__, pardir, "notion"))
 # tmp folder is where local files and Notion files are merged
 dp_tmp = abspath(join(__file__, pardir, "tmp"))
@@ -297,9 +300,9 @@ if __name__ == "__main__":
     elif args.git_hub:
         print("BUILDING for GITHUB ACTIONS and gh-pages")
         build_flow = "gh"
-        pelican_overloads = "SITEURL=\"https://oberron.github.io/spark-fi/\""
+        pelican_overloads = f"SITEURL=\"{PROD_URL}\""
         # add .nojekyll file in repo
-        fp = abspath(join(__file__, ".nojekyll"))
+        fp = abspath(join(__file__, pardir, ".nojekyll"))
         with open(fp, "w") as fo:
             fo.write("")
     else:

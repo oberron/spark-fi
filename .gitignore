@@ -1,7 +1,5 @@
-_site/
-tmp/
 __pycache__
-venv
-public_local
-www_folder
+tmp/
+venv/*
+www_folder/*
 .env

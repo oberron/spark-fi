@@ -25,9 +25,9 @@ from wrapper_podcast import make_podcast
 
 www_folder_dev = abspath(join(__file__,pardir,"public_local"))
 www_folder_staging = abspath(join(__file__,pardir,"public_nas"))
-podcast_rss_fn = "feed_new2.xml"
-# prod gh-pages
 www_folder = abspath(join(__file__,pardir,"www_folder"))
+# prod gh-pages
+podcast_rss_fn = "feed_new2.xml"
 podcast_dir = join(www_folder_dev,"player","web")
 pelican_dp = abspath(join(__file__,pardir,"static","src"))
 pelican_local_fp = abspath(join(pelican_dp, "pelicanconf.py"))
@@ -71,7 +71,7 @@ def check_venv(test_requirements=True):
 
 def pre_pelican(dp_content,theme,dp_www,
                 build_flow,
-                rebuild_tmp=True,
+                rebuild_tmp=False,
                 rebuild_notion=False,
                 dp_not=dp_notion):
     """ pelican wrapper, to be included here :
@@ -83,23 +83,24 @@ def pre_pelican(dp_content,theme,dp_www,
     Path(dp_www).mkdir(parents=True, exist_ok=True)
     # list_drafts(dp_content,theme,dp_www)
 
-    # 1. clean the tmp folder
+    # if rebuild_notion
+    # 1. delete notion folder in tmp
+    # 2. download notion
+    if rebuild_notion:
+        print("updating notion in folder", dp_notion)
+        pull_notion(dp_not=dp_notion, build_flow=build_flow)
+        rmtree(join(dp_tmp, "notion"))
+    else:
+        print("NOTION **NOT** updated")
+
+    # 3. copy the content folder into the tmp folder
     if rebuild_tmp:
         if pathlib.Path(dp_tmp).exists():
             rmtree(dp_tmp)
-    # 1. copy the content folder into the tmp folder
-    
-    dp_src = abspath(join(__file__,pardir,"content"))
-    if rebuild_tmp:
+        dp_src = abspath(join(__file__, pardir, "content"))
         print("updating content in tmp folder", dp_src, dp_tmp)
         copytree(dp_src, dp_tmp)
-
-    # 2. add the notion pages
-    if rebuild_notion or rebuild_tmp:
-        print("updating notion in folder", dp_tmp)
-        pull_notion(dp_not = dp_tmp, build_flow=build_flow)
-    else:
-        print("NOTION **NOT** updated")
+        copytree(dp_notion, join(dp_tmp, "notion"))
 
     return dp_tmp
 
@@ -124,7 +125,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
     run_pelican=True
     fp_pelicanconf = abspath(join(__file__, pardir, "static","src","pelicanconf.py"))
     print(106, dp_content)
-    
+
     if test_requirements:
 
         installed_packages = pkg_resources.working_set
@@ -139,7 +140,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
             if needed not in installed_packages_list:
                 print(f"missing {needed}")
                 run_pelican=False
-        
+
     if run_pelican:
         pel_ags = ["pelican",dp_content,
                    "-t","static/theme","-o",www_folder,
@@ -223,7 +224,6 @@ def pull_notion(dp_not, build_flow):
                     fo.write(md)
 
 
-
 def build_local():
     podcast_dir = join(www_folder_dev,"player","web")
     if not Path(podcast_dir).exists():
@@ -232,10 +232,11 @@ def build_local():
     if check_install():
         r = subprocess.run(["pelican","content","-t","static/theme","-o",www_folder_dev,"-s", pelican_local_fp])
         print(r)
-        
+
         # make_ssh_config(www_folder_dev)
         # make_all_vcards_html(www_folder_dev)
         # make_all_ipynb(www_folder_dev)
+
 
 def build_and_deploy():
     if check_install():
@@ -253,7 +254,7 @@ def build_and_deploy():
         proc = Popen(cmd, stdin=PIPE).wait(timeout=30)
         # proc.stdin.write('Oberron9\n')
         # proc.stdin.flush()
-        
+
         if proc != 0:
             print("/!\ /!\ /!\ /!\ FAILED to SCP")
         else:
@@ -277,6 +278,9 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--podcast",
                         action="store_true",
                         help="wrapper for podcast")
+    parser.add_argument("-t", "--tmp",
+                        action="store_true",
+                        help="rebuild tmp folder")
 
     args = parser.parse_args()
     build_flow = "win"
@@ -299,16 +303,21 @@ if __name__ == "__main__":
     elif args.deploy:
         print("BUILDING for NAS")
         # build_and_deploy()
-    
+
     if args.podcast:
-        dpo = abspath(join(pelican_local_fp,podcast_dir))
+        dpo = abspath(join(pelican_local_fp, podcast_dir))
         fpo = abspath(join(dpo, podcast_rss_fn))
         make_podcast(fpo=fpo, dpo=dpo)
 
+    print("FIX image paths")
+
     dp_content_tmp = pre_pelican(dp_content, theme, dp_www,
-                                 build_flow = build_flow,
+                                 build_flow=build_flow,
+                                 rebuild_tmp=args.tmp,
                                  rebuild_notion=args.notion,
-                                 dp_not = dp_notion)
-    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www, test_requirements=True,
+                                 dp_not=dp_notion)
+    dp_content_tmp = abspath(join(__file__, pardir, "tmp"))
+    pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www,
+                                      test_requirements=True,
                                       pelican_e=pelican_overloads)
     post_pelican(dp_content, theme, dp_www, pelican_results)

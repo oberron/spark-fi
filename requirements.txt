@@ -3,6 +3,7 @@ python-dotenv
 feedgenerator
 Markdown
 pelican
+pelican-more-categories
 pelican-sitemap
 PyYAML
-pelican-more-categories
+

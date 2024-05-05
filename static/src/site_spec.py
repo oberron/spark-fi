@@ -6,3 +6,6 @@ ABOUT = "No spark is too small to fire a dream"
 
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
+# SET RELATIVE URLs to False if not served from TLD
+RELATIVE_URLS = False

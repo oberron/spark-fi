@@ -6,12 +6,12 @@ import sys
 
 sys.path.append(join(__file__, pardir))
 
-from site_spec import AUTHOR, SITENAME, SITEURL, SITE_LOGO, ABOUT, SOCIAL
+from site_spec import AUTHOR, SITENAME, SITEURL, SITE_LOGO, ABOUT, SOCIAL, RELATIVE_URLS
 
 # SITEURL not needed if RELATIVE URL set to True
 # but SITREURL needed for feed domain
 FEED_DOMAIN = SITEURL
-RELATIVE_URLS = True
+
 
 SITEMAP = { "format": "xml"}
 

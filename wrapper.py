@@ -128,7 +128,8 @@ def pelican_wrapper(dp_content, theme, dp_www,
 
     """
     run_pelican = True
-    fp_pelicanconf = abspath(join(__file__, pardir, "static","src","pelicanconf.py"))
+    fp_pelicanconf = abspath(join(__file__, pardir, "static",
+                                  "src", "pelicanconf.py"))
     print(106, dp_content)
 
     if test_requirements:
@@ -148,12 +149,13 @@ def pelican_wrapper(dp_content, theme, dp_www,
 
     if run_pelican:
         pel_ags = ["pelican",dp_content,
-                   "-t","static/theme","-o",www_folder,
+                   "-t","static/theme", "-o", www_folder,
                    "-s", fp_pelicanconf]
         if pelican_e:
             pel_ags.append("-e")
             for pel_e in pelican_e.split(" "):
                 pel_ags.append(pel_e)
+        print(158, pel_ags)
         result = subprocess.run(pel_ags, capture_output=True, text=True)
     return result
 
@@ -164,7 +166,9 @@ def post_pelican(dp_content, theme, dp_www, pelican_results, delete_tmp=False):
     2. TBD
     """
     print("post pelican **************")
+    print("pelican stdout")
     print(pelican_results.stdout)
+    print("pelican stderr")
     print(pelican_results.stderr)
     if delete_tmp:
         if pathlib.Path(dp_tmp).exists():

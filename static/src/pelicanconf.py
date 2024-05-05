@@ -1,30 +1,29 @@
 # These are the setting for the local machine
 # as opposed to publishconf which is for the remote machine
 
-from os.path import abspath,join
-AUTHOR = 'Oberron'
-SITENAME = 'Spark-fi'
+from os.path import join, pardir
+import sys
+
+sys.path.append(join(__file__, pardir))
+
+from site_spec import AUTHOR, SITENAME, SITEURL, SITE_LOGO, ABOUT, SOCIAL
+
 # SITEURL not needed if RELATIVE URL set to True
 # but SITREURL needed for feed domain
-SITEURL = 'http://localhost:8000'
 FEED_DOMAIN = SITEURL
 RELATIVE_URLS = True
-SITE_LOGO = "site_logo.jpg"
-ABOUT = "No spark is too small to fire a dream"
 
 SITEMAP = { "format": "xml"}
 
 DELETE_OUTPUT_DIRECTORY = False
 
-PATH = 'content'
+PATH = ['content', "notion"]
 
 # Static path relative to PATH
 STATIC_PATHS = ["static/img", "static/webvtt"]
 OUTPUT_PATH = 'public'
 PLUGINS = ['sitemap']
 PLUGINS.append('more_categories')
-
-
 
 TIMEZONE = 'Europe/Rome'
 
@@ -36,7 +35,7 @@ DEFAULT_LANG = 'en'
 
 MARKUP = ('md', )
 
-FEED_ALL_ATOM = "feed.xml" 
+FEED_ALL_ATOM = "feed.xml"
 #FEED_ALL_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
 # FEED_DOMAIN = ":8000"
@@ -56,8 +55,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+
 
 DEFAULT_PAGINATION = 10
 

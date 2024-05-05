@@ -2,7 +2,7 @@
     Author: Kushagra Gour (http://kushagragour.in)
     MIT Licensed
 */
-baseurl = "";
+baseurl = ".";
 (function () {
     var isSearchOpen = false,
         searchEl = document.querySelector('#js-search'),

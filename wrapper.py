@@ -23,12 +23,10 @@ from Notion2Pelican.Notion2Pelican import get_notion_headers, pageid_2_md
 from wrapper_podcast import make_podcast
 
 
+# generic pelican wrapper
 www_folder_dev = abspath(join(__file__, pardir, "public_local"))
 www_folder_staging = abspath(join(__file__, pardir, "public_nas"))
 www_folder = abspath(join(__file__, pardir, "www_folder"))
-# prod gh-pages
-podcast_rss_fn = "feed_new2.xml"
-podcast_dir = join(www_folder_dev, "player","web")
 pelican_dp = abspath(join(__file__, pardir, "static", "src"))
 pelican_local_fp = abspath(join(pelican_dp, "pelicanconf.py"))
 dp_notion = abspath(join(__file__, pardir, "notion"))
@@ -38,14 +36,15 @@ dp_tmp = abspath(join(__file__, pardir, "tmp"))
 pathlib.Path(dp_notion).mkdir(parents=True, exist_ok=True)
 pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True)
 pathlib.Path(join(dp_tmp, "notion")).mkdir(parents=True, exist_ok=True)
-
-
-if not Path(www_folder_dev).exists():
-    Path(www_folder_dev).mkdir(parents=True, exist_ok=True)
+pathlib.Path(www_folder).mkdir(parents=True, exist_ok=True)
+pathlib.Path(www_folder_dev).mkdir(parents=True, exist_ok=True)
 
 # add here local folders to be imported for any specific reason
 # gist folder, pelican folder
 # sys.path.insert(1, pelican_dp)
+# prod gh-pages
+podcast_rss_fn = "feed_new2.xml"
+podcast_dir = join(www_folder_dev, "player", "web")
 
 
 def check_venv(test_requirements=True):

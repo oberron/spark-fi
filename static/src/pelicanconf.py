@@ -1,10 +1,12 @@
 # These are the setting for the local machine
 # as opposed to publishconf which is for the remote machine
 
-from os.path import join, pardir
+from os.path import abspath, join, pardir
 import sys
 
-sys.path.append(join(__file__, pardir))
+dp_site_spec = abspath(join(__file__, pardir))
+print("debug sitespec", dp_site_spec)
+sys.path.append(dp_site_spec)
 
 from site_spec import AUTHOR, SITENAME, SITEURL, SITE_LOGO, ABOUT, SOCIAL, RELATIVE_URLS
 

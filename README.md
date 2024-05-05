@@ -10,7 +10,8 @@ No spark is too small to fire a dream
 
 ## SETUP/CONFIG
 
-* Pelican based blogging platform
+* Wrapper around Pelican for deployments and Notion synchronisation
+* Pelican based blogging platform for blog entries in /content
 
 #### Features
 
@@ -20,25 +21,8 @@ No spark is too small to fire a dream
 * Category page with descriptoin (relies on a page with the same name as category, see category.html: `page.title == category.name`)
 * Realtime Search Posts _(title & description)_ by query.
 * Related Posts
-* Highlight pre
 * Next & Previous Post
-* Disqus comment
 * Projects page & Detail Project page
-* Share on social media
-* Whare with Whatsapp including Whatsapp
-* Google analytics
-* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
-
-#### Screenshot
-
-![Screenshot Post Page]()
-
-### Install & Configuration
-
-1. Fork this repository
-2. Edit site settings inside file of `_config.yml`
-3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
-4. Edit about yourself inside file of `about.md`
 
 ### How to Use?
 
@@ -75,6 +59,6 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 # your content post with markdown syntax goes here...
 ```
 
-### Contributing
+### KNOWN Bugs
 
-Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+* baseurl calculation in the different .js does not work in daughter page, compensation for baseurl if not CNAME only works on homepage

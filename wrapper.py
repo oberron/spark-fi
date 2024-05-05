@@ -287,13 +287,15 @@ if __name__ == "__main__":
     pelican_overloads = None
     if args.local:
         print("BUILD DEV LOCALLY")
-        pelican_overloads = "-e FEED_DOMAIN=\"'http://localhost:8000'\""
-        pelican_overloads = "SITEURL=\"'http://localhost:5000'\" FEED_DOMAIN=\"'http://localhost:4000'\""
+        # pelican_overloads = "-e FEED_DOMAIN=\"'http://localhost:8000'\""
+        # pelican_overloads = "SITEURL=\"'http://localhost:5000'\" FEED_DOMAIN=\"'http://localhost:4000'\""
+        pelican_overloads = "SITEURL=\"http://localhost:8000\""
     elif args.staging:
         print("BUILDING for STAGING SERVER")
     elif args.git_hub:
         print("BUILDING for GITHUB ACTIONS and gh-pages")
         build_flow = "gh"
+        pelican_overloads = "SITEURL=\"https://oberron.github.io/spark-fi/\""
     else:
         print("SELECT AN OPTION !!!")
     if args.local or args.git_hub:

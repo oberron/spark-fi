@@ -23,20 +23,22 @@ from Notion2Pelican.Notion2Pelican import get_notion_headers, pageid_2_md
 from wrapper_podcast import make_podcast
 
 
-www_folder_dev = abspath(join(__file__,pardir,"public_local"))
-www_folder_staging = abspath(join(__file__,pardir,"public_nas"))
-www_folder = abspath(join(__file__,pardir,"www_folder"))
+www_folder_dev = abspath(join(__file__, pardir, "public_local"))
+www_folder_staging = abspath(join(__file__, pardir, "public_nas"))
+www_folder = abspath(join(__file__, pardir, "www_folder"))
 # prod gh-pages
 podcast_rss_fn = "feed_new2.xml"
-podcast_dir = join(www_folder_dev,"player","web")
-pelican_dp = abspath(join(__file__,pardir,"static","src"))
+podcast_dir = join(www_folder_dev, "player","web")
+pelican_dp = abspath(join(__file__, pardir, "static", "src"))
 pelican_local_fp = abspath(join(pelican_dp, "pelicanconf.py"))
-dp_notion = abspath(join(__file__,pardir,"notion"))
-#tmp folder is where local files and Notion files are merged
-dp_tmp = abspath(join(__file__,pardir,"tmp"))
+dp_notion = abspath(join(__file__, pardir, "notion"))
+# tmp folder is where local files and Notion files are merged
+dp_tmp = abspath(join(__file__, pardir, "tmp"))
 
 pathlib.Path(dp_notion).mkdir(parents=True, exist_ok=True)
-pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True) 
+pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True)
+pathlib.Path(join(dp_tmp, "notion")).mkdir(parents=True, exist_ok=True)
+
 
 if not Path(www_folder_dev).exists():
     Path(www_folder_dev).mkdir(parents=True, exist_ok=True)
@@ -44,6 +46,7 @@ if not Path(www_folder_dev).exists():
 # add here local folders to be imported for any specific reason
 # gist folder, pelican folder
 # sys.path.insert(1, pelican_dp)
+
 
 def check_venv(test_requirements=True):
     if test_requirements:
@@ -69,7 +72,7 @@ def check_venv(test_requirements=True):
     return run_pelican
 
 
-def pre_pelican(dp_content,theme,dp_www,
+def pre_pelican(dp_content, theme, dp_www,
                 build_flow,
                 rebuild_tmp=False,
                 rebuild_notion=False,
@@ -122,7 +125,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
 
 
     """
-    run_pelican=True
+    run_pelican = True
     fp_pelicanconf = abspath(join(__file__, pardir, "static","src","pelicanconf.py"))
     print(106, dp_content)
 
@@ -153,7 +156,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
     return result
 
 
-def post_pelican(dp_content,theme,dp_www, pelican_results, delete_tmp=False):
+def post_pelican(dp_content, theme, dp_www, pelican_results, delete_tmp=False):
     """ pelican wrapper, to be included here :
     1. hidden page which has logs of last generated static site
     2. TBD

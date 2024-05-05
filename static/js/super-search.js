@@ -2,7 +2,7 @@
     Author: Kushagra Gour (http://kushagragour.in)
     MIT Licensed
 */
-baseurl = window.location.origin;
+baseurl = window.location.origin+window.location.pathname;
 (function () {
     var isSearchOpen = false,
         searchEl = document.querySelector('#js-search'),

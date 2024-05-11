@@ -1,10 +1,10 @@
-name: Update blog with pelican and notion synch'ed
+name: Cron Update blog with pelican and notion synch'ed
 on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
   build_job:
-    name: Deploy blog w/ wrapper
+    name: cron Deploy blog w/ wrapper
     runs-on: ubuntu-latest
     environment: env  # IMPORTAN for SECRETS
     steps:
@@ -33,7 +33,7 @@ jobs:
         run: |
           # wrapper -n pulls notion pages in notion folder then used
           # by wrapper -g builds for github pages
-          python wrapper.py -g -n
+          python wrapper.py -g -n -t
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:

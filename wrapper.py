@@ -33,10 +33,12 @@ sys.path.append(pelican_dp)
 from site_spec import PROD_URL # type: ignore
 
 dp_notion = abspath(join(__file__, pardir, "notion"))
+dp_notion_drafts = abspath(join(dp_notion, "_drafts"))
 # tmp folder is where local files and Notion files are merged
 dp_tmp = abspath(join(__file__, pardir, "tmp"))
 
 pathlib.Path(dp_notion).mkdir(parents=True, exist_ok=True)
+pathlib.Path(dp_notion_drafts).mkdir(parents=True, exist_ok=True)
 pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True)
 pathlib.Path(join(dp_tmp, "notion")).mkdir(parents=True, exist_ok=True)
 pathlib.Path(www_folder).mkdir(parents=True, exist_ok=True)
@@ -70,7 +72,6 @@ def check_venv(test_requirements=True):
         print("all needed packages are installed... now building")
     else:
         print("stopping here")
-    
     return run_pelican
 
 
@@ -202,14 +203,17 @@ def pull_notion(dp_not, build_flow):
     page_folder = ""
     for page in site_tree:
         # print(103, page["title"])
-        if page["title"]=="Published":
+        if page["title"] == "Published":
             dpo = content_folder
             status= "published"
-        elif page["title"]=="Draft":
-            dpo = abspath(join(content_folder, "_drafts"))
+        elif page["title"] == "Drafts":
+            dpo = dp_notion_drafts
             status = "draft"
+        elif page["title"] == "Web":
+            dpo = content_folder
+            status = "published"
         else:
-            print("WARNING folder unknow:", page["title"])
+            print(f"WARNING folder unknow {page['title']} content will not be added to Pelican cache")
             continue
         if page["children"]:
             folder = page["title"]
@@ -217,14 +221,20 @@ def pull_notion(dp_not, build_flow):
                 child_id = child["id"]
                 child_title = child["title"]
                 # print(111, child_title)
-
-                res_t = readDatabase(databaseId=child_id,
-                                     notion_header=headers,
-                                     print_res=False)
+                try:
+                    res_t = readDatabase(databaseId=child_id,
+                                         notion_header=headers,
+                                         print_res=False)
+                except Exception as ex:
+                    log_msg = f"Error:{str(ex)} for title: {child['title']}"
+                    raise Exception(log_msg)
                 front_matter = {"title": child_title,
                                 "page_id": child_id,
                                 "status": status
                                 }
+                if page["title"] == "Web":
+                    front_matter["category"] = "web_archive"
+                    print(front_matter)
                 md = pageid_2_md(front_matter, res_t)
                 fp = abspath(join(dpo, f"{child_id}.md"))
                 # fn = replace_invalid_characters(f"{folder}_{child_id}.md")

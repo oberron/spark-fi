@@ -1,6 +1,17 @@
-podcast_header="""<?xml version="1.0" encoding="UTF-8" ?>
+import sys
+# pathlib.Path.walk introduced in py 3.12
+# https://docs.python.org/3.12/library/pathlib.html#pathlib.Path.walk
+assert sys.version_info >= (3, 12)
+
+from pathlib import Path
+import jinja2
+import datetime
+import ffmpeg as myff
+from shutil import copyfile
+
+"""podcast_header=<?xml version="1.0" encoding="UTF-8" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
      xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
@@ -10,11 +21,13 @@ podcast_header="""<?xml version="1.0" encoding="UTF-8" ?>
     <rawvoice:location>Au clair de la lune</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
     <itunes:author>Aubéron Vacher</itunes:author>
+    <itunes:summary>De petites histoires, a lire ou a ecouter avant d'aller au lit.
+    Des contes merveilleux classiques, ou parfois adaptees librement, occidentaux mais aussi d'autres regions du monde.
+    Pour les curieux, le lien a la classification ATU est presente pour permettre d'explorer toutes le variantes au dela de ce que l'industrie des loisir peut parfois presenter comme une histoire unique.</itunes:summary>
     <itunes:category text="Kids &amp; Family" >
     <itunes:category text="Stories for Kids" />
     </itunes:category>
     <itunes:subtitle>Seulement pour les enfants sages !</itunes:subtitle>
-    <itunes:summary>Petites histoires a ecouter avant d'aller au lit</itunes:summary>
     <image>
       <url>https://oberron.github.io/spark-fi/static/img/moon.png</url>
       <title>Papa lit et au lit</title>
@@ -34,9 +47,7 @@ podcast_header="""<?xml version="1.0" encoding="UTF-8" ?>
     <itunes:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />"""
 
 def make_podcast(fpo,dpo=None):
-    import jinja2
-    import datetime
-    import ffmpeg as myff
+
     temp_dp = "C:/git/spark-fi/static/theme/templates"
     templateLoader = jinja2.FileSystemLoader(searchpath=temp_dp)
     templateEnv = jinja2.Environment(loader=templateLoader)
@@ -46,22 +57,22 @@ def make_podcast(fpo,dpo=None):
     template_item = templateEnv.get_template(TEMPLATE_ITEM_fn)
     title = "Le loup le renard et le pot de miel"
     pubdate = datetime.datetime(2020,10,10,19,0,0).strftime("%a, %d %b %Y %H:%M:%S GMT")
-    
+
     if not dpo is None:
         if not Path(dpo).exists():
             Path(dpo).mkdir(parents=True, exist_ok=True)
 
-    dp = join(__file__, pardir, "player", "web", "audio")
+    dp = Path(__file__).parents[0] / "player"/ "web"/ "audio"
     items = {}
-    for root, fold, files in walk(dp):
+    for root, fold, files in dp.walk():
         for f in files:
-            if f.find(".mp3")<0:
+            if str(f).find(".mp3")<0:
                 continue
-            fp = abspath(join(dp, f))
-            size = getsize(fp)
+            fp = dp/f
+            size = fp.stat().st_size  # getsize(fp)
             guid = Path(fp).stem
             print(72, fp)
-            duration = float(myff.probe(fp)['format']['duration'])
+            duration = float(myff.probe(str(fp))['format']['duration'])
             dur_mn = int(float(duration) // 60)
             print("dur mn", duration, dur_mn)
             dur_sec = int(float(duration) - 60*dur_mn)
@@ -69,7 +80,7 @@ def make_podcast(fpo,dpo=None):
             print(f"files mp3: {guid}", size, duration)
             items[guid.upper()]={"size": size, "duration": duration, "fn":f, "fp": fp}
 
-    dp = "C:\\git\\spark-fi\\content\\posts"
+    dp = Path("C:\\git\\spark-fi\\content")
     atus = {}
     def _get_meta(fc, meta):
         meta+=": "
@@ -80,13 +91,13 @@ def make_podcast(fpo,dpo=None):
         else:
             res = ""
         return res
-    for root, fold, files in walk(dp):
+    for root, fold, files in dp.walk():
         for f in files:
-            print(f)
-            if f.find(".md")<0:
+            fn = str(f)
+            if fn.find(".md")<0:
                 continue
-            fp = abspath(join(dp, f))
-            
+            fp = str(root / f)
+
             try:
                 with open(fp, encoding="utf-8") as fi:
                     fc = fi.read()
@@ -100,6 +111,7 @@ def make_podcast(fpo,dpo=None):
                 summary = _get_meta(fc,"summary")
                 atus[atu.upper()]={"fp": fp, "title": title, "date": date, "summary": summary}
     podcast_items = ""
+
     for guid in items:
         if guid == "HISTOIRE_01":
             continue
@@ -112,26 +124,29 @@ def make_podcast(fpo,dpo=None):
         summary = atus[guid]["summary"]
         summary += """
         Aubéron Vacher - @oberron
-        (C) 2020-2023
+        (C) 2020-2025
         https://twitter.com/oberron
         https://github.com/oberron
-        Our podcast player: 
+        Our podcast player:
         https://github.com/oberron/spark-fi/podcast-player/"""
 
         title = f"{title} - ({guid})"
         pubdate = datetime.datetime.strptime(atus[guid]["date"],"%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S GMT")
 
         conf_item={"AUTHOR":"OBERRON",
-          "ITEM_TITLE": title,
-          "ITEM_SUBTITLE": title,
-          "ITEM_SUMMARY": summary,
-          "ITEM_PUBDATE": pubdate,
-          "ITEM_SIZE": size,
-          "ITEM_FN":fn,
-          "ITEM_DURATION": duration,
-          "ITEM_GUID": guid}
+                   "ITEM_TITLE": title,
+                   "ITEM_SUBTITLE": title,
+                   "ITEM_SUMMARY": summary,
+                   "ITEM_DESCRIPTION": atus[guid]["summary"],
+                   "ITEM_PUBDATE": pubdate,
+                   "ITEM_SIZE": size,
+                   "ITEM_FN":fn,
+                   "ITEM_DURATION": duration,
+                   "ITEM_GUID": guid}
         outputText = template_item.render(conf_item)
-        copyfile(items[guid]["fp"], join(dpo,items[guid]["fn"]))
+        fpo = str(Path(dpo) / items[guid]["fn"])
+        print("fpo", fpo)
+        copyfile(items[guid]["fp"], fpo)
         podcast_items += outputText
 
     conf_channel = {"CHANNEL_TITLE":"Papa lit et au lit",
@@ -141,5 +156,8 @@ def make_podcast(fpo,dpo=None):
                     "CHANNEL_AUTHOR_EMAIL":"one.annum@gmail.com"}
     podcast_channel = template_channel.render(conf_channel)
     podcast = podcast_channel+"\n"+podcast_items+"\n"+"</channel>\n</rss>"
+    fpo = str(Path(dpo) /"papa-lit-et-au-lit.xml")
+
     with open(fpo, "w", encoding="utf-8") as fo:
         fo.write(podcast)
+    print("podcast written at", fpo)

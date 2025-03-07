@@ -1,7 +1,8 @@
 __pycache__
 tmp/
-venv/*
+venv*
 www_folder/*
 .env
 db.json
 .nojekyll
+public_local

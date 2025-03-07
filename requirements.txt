@@ -1,3 +1,4 @@
+ffmpeg-python
 Notion2Pelican
 python-dotenv
 feedgenerator
@@ -6,4 +7,4 @@ pelican
 pelican-more-categories
 pelican-sitemap
 PyYAML
-
+setuptools

@@ -33,7 +33,7 @@ jobs:
         run: |
           # wrapper -n pulls notion pages in notion folder then used
           # by wrapper -g builds for github pages
-          python wrapper.py -g -n -t
+          python wrapper.py -g -n -t -p
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.2.0
         with:

@@ -68,7 +68,9 @@ to update podcast only or validate the podcast.xml generated:
 
 > python wrapper.py -p -l
 
+2. github
 
+> python wrapper.py -g -t -p
 
 ### KNOWN Bugs
 

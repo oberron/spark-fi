@@ -13,7 +13,6 @@ jobs:
         with:
           ffmpeg-version: release
           architecture: ''
-          linking-type: static
       - name: Install Python
         uses: actions/setup-python@v2
         with:

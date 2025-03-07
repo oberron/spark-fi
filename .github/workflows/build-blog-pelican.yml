@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     environment: env  # THIS WAS MISSING
     steps:
+      - name: Install FFMPEG
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: release
+          architecture: ''
+          linking-type: static
       - name: Install Python
         uses: actions/setup-python@v4
         with:

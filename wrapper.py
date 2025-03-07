@@ -330,9 +330,10 @@ if __name__ == "__main__":
         # build_and_deploy()
 
     if args.podcast:
-        dpo = abspath(join(pelican_local_fp, podcast_dir))
+        dpo = www_folder  # abspath(join(pelican_local_fp, podcast_dir))
         fpo = abspath(join(dpo, podcast_rss_fn))
         make_podcast(fpo=fpo, dpo=dpo)
+        print("pocast located at:", dpo)
 
     print("FIX image paths")
 

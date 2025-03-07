@@ -46,9 +46,12 @@ from shutil import copyfile
     <link>https://oberron.github.io/spark-fi/</link>
     <itunes:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />"""
 
-def make_podcast(fpo,dpo=None):
 
-    temp_dp = "C:/git/spark-fi/static/theme/templates"
+def make_podcast(fpo, dpo=None):
+
+    temp_dp = str(Path(__file__).parents[0] / "static" / "theme"/ "templates")
+    dpo_mp3 = str(Path(dpo) / "player" / "audio")
+    http_mp3 = "https://oberron.github.io/spark-fi/player/audio"
     templateLoader = jinja2.FileSystemLoader(searchpath=temp_dp)
     templateEnv = jinja2.Environment(loader=templateLoader)
     TEMPLATE_CHANNEL_fn = "podcast_channel.j2"
@@ -61,6 +64,8 @@ def make_podcast(fpo,dpo=None):
     if not dpo is None:
         if not Path(dpo).exists():
             Path(dpo).mkdir(parents=True, exist_ok=True)
+        if not Path(dpo_mp3).exists():
+            Path(dpo_mp3).mkdir(parents=True, exist_ok=True)
 
     dp = Path(__file__).parents[0] / "player"/ "web"/ "audio"
     items = {}
@@ -80,8 +85,9 @@ def make_podcast(fpo,dpo=None):
             print(f"files mp3: {guid}", size, duration)
             items[guid.upper()]={"size": size, "duration": duration, "fn":f, "fp": fp}
 
-    dp = Path("C:\\git\\spark-fi\\content")
+    dp = Path(__file__).parents[0] / "content"
     atus = {}
+
     def _get_meta(fc, meta):
         meta+=": "
         start = fc.find(meta)
@@ -140,23 +146,24 @@ def make_podcast(fpo,dpo=None):
                    "ITEM_DESCRIPTION": atus[guid]["summary"],
                    "ITEM_PUBDATE": pubdate,
                    "ITEM_SIZE": size,
-                   "ITEM_FN":fn,
+                   "ITEM_FN": fn,
+                   "DP_MP3": http_mp3,
                    "ITEM_DURATION": duration,
                    "ITEM_GUID": guid}
         outputText = template_item.render(conf_item)
-        fpo = str(Path(dpo) / items[guid]["fn"])
+        fpo = str(Path(dpo_mp3) / items[guid]["fn"])
         print("fpo", fpo)
         copyfile(items[guid]["fp"], fpo)
         podcast_items += outputText
 
-    conf_channel = {"CHANNEL_TITLE":"Papa lit et au lit",
-                    "CHANNEL_GUID":"a22393c8-12a8-5ce3-8c61-0beebb73ad7f",
-                    "CHANNEL_URL": "http://51.38.114.108/player/web/feed_new2.xml",
-                    "CHANNEL_AUTHOR_NAME":"Aubéron Vacher",
-                    "CHANNEL_AUTHOR_EMAIL":"one.annum@gmail.com"}
+    conf_channel = {"CHANNEL_TITLE": "Papa lit et au lit",
+                    "CHANNEL_GUID": "a22393c8-12a8-5ce3-8c61-0beebb73ad7f",
+                    "CHANNEL_URL": "http://51.38.114.108/player/web/papa-lit-et-au-lit.xml",
+                    "CHANNEL_AUTHOR_NAME": "Aubéron Vacher",
+                    "CHANNEL_AUTHOR_EMAIL": "one.annum@gmail.com"}
     podcast_channel = template_channel.render(conf_channel)
     podcast = podcast_channel+"\n"+podcast_items+"\n"+"</channel>\n</rss>"
-    fpo = str(Path(dpo) /"papa-lit-et-au-lit.xml")
+    fpo = str(Path(dpo) / "papa-lit-et-au-lit.xml")
 
     with open(fpo, "w", encoding="utf-8") as fo:
         fo.write(podcast)

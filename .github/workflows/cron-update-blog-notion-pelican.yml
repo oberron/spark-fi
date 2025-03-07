@@ -8,6 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     environment: env  # IMPORTAN for SECRETS
     steps:
+      - name: Install FFMPEG
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: release
+          architecture: ''
+          linking-type: static
       - name: Install Python
         uses: actions/setup-python@v2
         with:

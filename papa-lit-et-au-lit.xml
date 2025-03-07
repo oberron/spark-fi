@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom" 
+     xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>Papa lit et au lit</title>
+    <podcast:locked>no</podcast:locked>
+    <podcast:guid>a22393c8-12a8-5ce3-8c61-0beebb73ad7f</podcast:guid>
+    <atom:link href="http://51.38.114.108/player/web/papa-lit-et-au-lit.xml" rel="self" type="application/rss+xml" />
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Papa lit et au lit</rawvoice:location>
+    <rawvoice:frequency>Weekly</rawvoice:frequency>
+    <itunes:author>one.annum@gmail.com</itunes:author>
+    <itunes:category text="Kids &amp; Family" >
+    <itunes:category text="Stories for Kids" />
+    </itunes:category>
+    <itunes:subtitle>Seulement pour les enfants sages !</itunes:subtitle>
+    <itunes:summary>De petites histoires, a lire ou a ecouter avant d'aller au lit.
+    Des contes merveilleux classiques, ou parfois adaptees librement, occidentaux mais aussi d'autres regions du monde.
+    Pour les curieux, le lien a la classification ATU est presente pour permettre d'explorer toutes le variantes au dela
+    de ce que l'industrie des loisir peut parfois presenter comme une histoire unique.</itunes:summary>
+    <description>Une petite histoire avant d'aller au lit
+    Des contes merveilleux classiques, ou parfois adaptees librement, occidentaux mais aussi d'autres regions du monde.
+    Pour les curieux, le lien vers la classification ATU est presente pour permettre d'explorer toutes le variantes au dela
+    de ce que l'industrie des loisir peut parfois presenter comme une histoire unique.</description>
+    <image>
+      <url>https://oberron.github.io/spark-fi/static/img/moon.png</url>
+      <title>Papa lit et au lit</title>
+      <link>https://oberron.github.io/spark-fi/</link>
+    </image>
+    <itunes:owner>
+      <itunes:name></itunes:name>
+      <itunes:email>one.annum@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>comptines, histoires</itunes:keywords>
+    <copyright>Entolusis - 2004 - 2023</copyright>
+    <language>fr-fr</language>
+    <itunes:explicit>no</itunes:explicit>
+    <pubDate>Sat, 10 Oct 2020 11:00:00 GMT</pubDate>
+    <link>https://oberron.github.io/spark-fi/</link>
+    <itunes:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />
+    <item>
+      <itunes:author>OBERRON</itunes:author>
+      <title>Le loup le renard et le pot de miel - (ATU15)</title>
+      <itunes:title> Le loup le renard et le pot de miel - (ATU15) </itunes:title>
+      <itunes:subtitle> Le loup le renard et le pot de miel - (ATU15) </itunes:subtitle>
+      <itunes:summary> Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain
+        Aubéron Vacher - @oberron
+        (C) 2020-2025
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player:
+        https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/audio/ATU15.mp3" type="audio/mpeg" length="2185842" />
+      <itunes:duration>02:16</itunes:duration>
+      <guid isPermaLink="false">ATU15</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description> Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain </description>
+    </item>    <item>
+      <itunes:author>OBERRON</itunes:author>
+      <title>le bonhome de pain d'epice - (ATU2025)</title>
+      <itunes:title> le bonhome de pain d'epice - (ATU2025) </itunes:title>
+      <itunes:subtitle> le bonhome de pain d'epice - (ATU2025) </itunes:subtitle>
+      <itunes:summary> Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline.
+        Aubéron Vacher - @oberron
+        (C) 2020-2025
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player:
+        https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/audio/atu2025.mp3" type="audio/mpeg" length="8791736" />
+      <itunes:duration>06:06</itunes:duration>
+      <guid isPermaLink="false">ATU2025</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description> Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline. </description>
+    </item>    <item>
+      <itunes:author>OBERRON</itunes:author>
+      <title>LE LIÈVRE ET LA TORTUE - (ATU275)</title>
+      <itunes:title> LE LIÈVRE ET LA TORTUE - (ATU275) </itunes:title>
+      <itunes:subtitle> LE LIÈVRE ET LA TORTUE - (ATU275) </itunes:subtitle>
+      <itunes:summary> Une variante de course entre le lievre et un animal plus lent
+        Aubéron Vacher - @oberron
+        (C) 2020-2025
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player:
+        https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/audio/atu275.mp3" type="audio/mpeg" length="2237069" />
+      <itunes:duration>01:33</itunes:duration>
+      <guid isPermaLink="false">ATU275</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <description> Une variante de course entre le lievre et un animal plus lent </description>
+    </item>
+</channel>
+</rss>

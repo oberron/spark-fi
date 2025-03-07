@@ -59,6 +59,16 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 # your content post with markdown syntax goes here...
 ```
 
+### BUILD SITE
+
+1. locally
+
+to update podcast only or validate the podcast.xml generated:
+
+> python wrapper.py -p -l
+
+
+
 ### KNOWN Bugs
 
 * baseurl calculation in the different .js does not work in daughter page, compensation for baseurl if not CNAME only works on homepage

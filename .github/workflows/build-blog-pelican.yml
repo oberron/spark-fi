@@ -12,7 +12,7 @@ jobs:
     environment: env  # THIS WAS MISSING
     steps:
       - name: Install FFMPEG
-        uses: FedericoCarboni/setup-ffmpeg@v3
+        uses: FedericoCarboni/setup-ffmpeg@v3.1
         with:
           ffmpeg-version: release
           architecture: ''

@@ -12,7 +12,7 @@ No spark is too small to fire a dream
 
 * Wrapper around Pelican for deployments and Notion synchronisation
 * Pelican based blogging platform for blog entries in /content
-* Requires ffmpeg installed on system (either via gh-action, or own install)
+* Requires ffmpeg installed on system (either via gh-action setup-ffmpeg@v3.1, or own install)
 * Requires py>=3.12
 
 #### Features

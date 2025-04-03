@@ -48,6 +48,7 @@ from shutil import copyfile
 
 
 def make_podcast(fpo, dpo=None):
+    print(51, "dpo", dpo)
 
     temp_dp = str(Path(__file__).parents[0] / "static" / "theme"/ "templates")
     dpo_mp3 = str(Path(dpo) / "player" / "audio")

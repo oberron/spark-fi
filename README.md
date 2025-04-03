@@ -69,6 +69,10 @@ to update podcast only or validate the podcast.xml generated:
 
 > python wrapper.py -p -l
 
+to update podcast all locally (dev):
+
+> python wrapper.py -p -l -n -t
+
 2. github
 
 > python wrapper.py -g -t -p

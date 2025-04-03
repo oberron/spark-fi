@@ -41,8 +41,7 @@ pathlib.Path(dp_notion).mkdir(parents=True, exist_ok=True)
 pathlib.Path(dp_notion_drafts).mkdir(parents=True, exist_ok=True)
 pathlib.Path(dp_tmp).mkdir(parents=True, exist_ok=True)
 pathlib.Path(join(dp_tmp, "notion")).mkdir(parents=True, exist_ok=True)
-pathlib.Path(www_folder).mkdir(parents=True, exist_ok=True)
-pathlib.Path(www_folder_dev).mkdir(parents=True, exist_ok=True)
+
 
 # add here local folders to be imported for any specific reason
 # gist folder, pelican folder
@@ -150,7 +149,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
 
     if run_pelican:
         pel_ags = ["pelican",dp_content,
-                   "-t","static/theme", "-o", www_folder,
+                   "-t","static/theme", "-o", dp_www,
                    "-s", fp_pelicanconf]
         if pelican_e:
             pel_ags.append("-e")
@@ -242,7 +241,7 @@ def pull_notion(dp_not, build_flow):
                 with open(fp, 'w', encoding="utf-8") as fo:
                     fo.write(md)
 
-
+"""
 def build_local():
     podcast_dir = join(www_folder_dev,"player","web")
     if not Path(podcast_dir).exists():
@@ -255,7 +254,7 @@ def build_local():
         # make_ssh_config(www_folder_dev)
         # make_all_vcards_html(www_folder_dev)
         # make_all_ipynb(www_folder_dev)
-
+"""
 
 def build_and_deploy():
     if check_install():
@@ -328,14 +327,19 @@ if __name__ == "__main__":
     elif args.deploy:
         print("BUILDING for NAS")
         # build_and_deploy()
-
+    print(331, "dp ww", dp_www)
     if args.podcast:
         dpo = www_folder  # abspath(join(pelican_local_fp, podcast_dir))
-        fpo = abspath(join(dpo, podcast_rss_fn))
-        make_podcast(fpo=fpo, dpo=dpo)
-        print("pocast located at:", dpo)
+        fpo = abspath(join(dp_www, podcast_rss_fn))
+        make_podcast(fpo=fpo, dpo=dp_www)
+        print("pocast located at:", dp_www)
 
     print("FIX image paths")
+    
+    # ensure required folders exists:
+    pathlib.Path(dp_www).mkdir(parents=True, exist_ok=True)
+    # pathlib.Path(www_folder_dev).mkdir(parents=True, exist_ok=True)
+    
 
     dp_content_tmp = pre_pelican(dp_content, theme, dp_www,
                                  build_flow=build_flow,

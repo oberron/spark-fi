@@ -324,13 +324,17 @@ if __name__ == "__main__":
         dp_content = "content"
         dp_www = www_folder_dev
         theme = "theme"
+    elif args.git_hub:
+        dp_content = "content"
+        dp_www = www_folder
+        theme = "theme"
     elif args.deploy:
         print("BUILDING for NAS")
         # build_and_deploy()
     print(331, "dp ww", dp_www)
     if args.podcast:
-        dpo = www_folder  # abspath(join(pelican_local_fp, podcast_dir))
-        fpo = abspath(join(dp_www, podcast_rss_fn))
+        dpo = dp_www  # abspath(join(pelican_local_fp, podcast_dir))
+        fpo = abspath(join(dpo, podcast_rss_fn))
         make_podcast(fpo=fpo, dpo=dp_www)
         print("pocast located at:", dp_www)
 

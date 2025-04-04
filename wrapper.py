@@ -320,7 +320,7 @@ if __name__ == "__main__":
             fo.write("")
     else:
         print("SELECT AN OPTION !!!")
-    if args.local or args.git_hub:
+    if args.local:
         dp_content = "content"
         dp_www = www_folder_dev
         theme = "theme"
@@ -338,7 +338,7 @@ if __name__ == "__main__":
         make_podcast(fpo=fpo, dpo=dp_www)
         print("pocast located at:", dp_www)
 
-    print("FIX image paths")
+    print("create if needed dp_www", dp_www)
     
     # ensure required folders exists:
     pathlib.Path(dp_www).mkdir(parents=True, exist_ok=True)

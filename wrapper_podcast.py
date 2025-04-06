@@ -52,7 +52,9 @@ def make_podcast(fpo, dpo=None):
 
     temp_dp = str(Path(__file__).parents[0] / "static" / "theme"/ "templates")
     dpo_mp3 = str(Path(dpo) / "player" / "audio")
-    http_mp3 = "https://oberron.github.io/spark-fi/player/audio"
+    fn_xml = "papa-lit-et-au-lit.xml"
+    http_root = "https://oberron.github.io/spark-fi"
+    http_mp3 = http_root+"/player/audio"
     templateLoader = jinja2.FileSystemLoader(searchpath=temp_dp)
     templateEnv = jinja2.Environment(loader=templateLoader)
     TEMPLATE_CHANNEL_fn = "podcast_channel.j2"
@@ -159,12 +161,12 @@ def make_podcast(fpo, dpo=None):
 
     conf_channel = {"CHANNEL_TITLE": "Papa lit et au lit",
                     "CHANNEL_GUID": "a22393c8-12a8-5ce3-8c61-0beebb73ad7f",
-                    "CHANNEL_URL": "http://51.38.114.108/player/web/papa-lit-et-au-lit.xml",
+                    "CHANNEL_URL": http_root+"/"+fn_xml,
                     "CHANNEL_AUTHOR_NAME": "Aubéron Vacher",
                     "CHANNEL_AUTHOR_EMAIL": "one.annum@gmail.com"}
     podcast_channel = template_channel.render(conf_channel)
     podcast = podcast_channel+"\n"+podcast_items+"\n"+"</channel>\n</rss>"
-    fpo = str(Path(dpo) / "papa-lit-et-au-lit.xml")
+    fpo = str(Path(dpo) / fn_xml)
 
     with open(fpo, "w", encoding="utf-8") as fo:
         fo.write(podcast)

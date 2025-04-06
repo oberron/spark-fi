@@ -7,7 +7,7 @@
     <title>Papa lit et au lit</title>
     <podcast:locked>no</podcast:locked>
     <podcast:guid>a22393c8-12a8-5ce3-8c61-0beebb73ad7f</podcast:guid>
-    <atom:link href="http://51.38.114.108/player/web/papa-lit-et-au-lit.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oberron.github.io/spark-fi/papa-lit-et-au-lit.xml" rel="self" type="application/rss+xml" />
     <rawvoice:rating>TV-G</rawvoice:rating>
     <rawvoice:location>Papa lit et au lit</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>

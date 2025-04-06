@@ -142,11 +142,13 @@ def make_podcast(fpo, dpo=None):
         title = f"{title} - ({guid})"
         pubdate = datetime.datetime.strptime(atus[guid]["date"],"%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S GMT")
 
-        conf_item={"AUTHOR":"OBERRON",
-                   "ITEM_TITLE": title,
+        # https://cyber.harvard.edu/rss/rss.html
+        conf_item={"ITEM_TITLE": title,
+                   "ITEM_LINK": http_root,
                    "ITEM_SUBTITLE": title,
                    "ITEM_SUMMARY": summary,
                    "ITEM_DESCRIPTION": atus[guid]["summary"],
+                   "AUTHOR":"OBERRON",
                    "ITEM_PUBDATE": pubdate,
                    "ITEM_SIZE": size,
                    "ITEM_FN": fn,
@@ -157,7 +159,11 @@ def make_podcast(fpo, dpo=None):
         fpo = str(Path(dpo_mp3) / items[guid]["fn"])
         print("fpo", fpo)
         copyfile(items[guid]["fp"], fpo)
-        podcast_items += outputText
+        if podcast_items:
+            # add an extra CRLF if at least one item has been listed
+            podcast_items += "\n"+outputText
+        else:
+            podcast_items += outputText
 
     conf_channel = {"CHANNEL_TITLE": "Papa lit et au lit",
                     "CHANNEL_GUID": "a22393c8-12a8-5ce3-8c61-0beebb73ad7f",

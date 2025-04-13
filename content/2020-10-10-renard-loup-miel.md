@@ -4,6 +4,7 @@ date: 2020-10-10
 category: ATU
 tags: ATU15
 summary: Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain
+artwork: honey.png
 ---
 
 Un jour, le Renard et le Loup voyageaient de compagnie. Sur leur chemin, ils trouvèrent un pot de miel.

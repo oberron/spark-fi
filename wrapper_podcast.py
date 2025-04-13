@@ -52,6 +52,7 @@ def make_podcast(fpo, dpo=None):
 
     temp_dp = str(Path(__file__).parents[0] / "static" / "theme"/ "templates")
     dpo_mp3 = str(Path(dpo) / "player" / "audio")
+    path_img = Path(__file__).parents[0] / "content" / "static"/ "img"
     fn_xml = "papa-lit-et-au-lit.xml"
     http_root = "https://oberron.github.io/spark-fi"
     http_mp3 = http_root+"/player/audio"
@@ -102,15 +103,6 @@ def make_podcast(fpo, dpo=None):
             return front_matter[meta]
         else:
             return ""
-
-        meta+=": "
-        start = fc.find(meta)
-        end = fc.find("\n", start)
-        if end>-1:
-            res = fc[start+len(meta):end]
-        else:
-            res = ""
-        return res
     for root, fold, files in dp.walk():
         for f in files:
             fn = str(f)
@@ -183,8 +175,14 @@ def make_podcast(fpo, dpo=None):
                    "ITEM_DURATION": duration,
                    "ITEM_GUID": guid}
         if artwork:
-            conf_item["HTTP_ITEM_ARTWORK"] = http_root+f"/static/img/{artwork}"
-            outputText = template_item_w_artwork.render(conf_item)
+            fp = path_img/artwork
+            if fp.exists:
+                print("exists", fp)
+                conf_item["HTTP_ITEM_ARTWORK"] = http_root+f"/static/img/{artwork}"
+                outputText = template_item_w_artwork.render(conf_item)
+            else:
+                print("NOKKKK", fp)
+                outputText = template_item.render(conf_item)
         else:
             outputText = template_item.render(conf_item)
         fpo = str(Path(dpo_mp3) / items[guid]["fn"])

@@ -77,6 +77,14 @@ to update podcast all locally (dev):
 
 > python wrapper.py -g -t -p
 
+## link podcasts
+
+register on pocket casts here:
+https://pocketcasts.com/submit/
+yields the short url:
+https://pca.st/eq9gyz8j
+
+
 ### KNOWN Bugs
 
 * baseurl calculation in the different .js does not work in daughter page, compensation for baseurl if not CNAME only works on homepage

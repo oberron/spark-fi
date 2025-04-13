@@ -7,7 +7,7 @@ permalink: /projects/
 Few of my projects. Currently doing more in backend, focused in Python and Django.
 
 Podcasts:
-* [subscribe link](/spark-fi/papa-lit-et-au-lit.xml), [deezer](https://www.deezer.com/us/show/1868262), [google podcast](https://podcasts.google.com/search/papa%20lit%20et%20au%20lit), [itunes](https://podcasts.apple.com/de/podcast/papa-lit-et-au-lit/id1535323879), [pocket casts](https://pca.st/qyfcukup)
+* [subscribe link](/spark-fi/papa-lit-et-au-lit.xml), [deezer](https://www.deezer.com/us/show/1868262), [google podcast](https://podcasts.google.com/search/papa%20lit%20et%20au%20lit), [itunes](https://podcasts.apple.com/de/podcast/papa-lit-et-au-lit/id1535323879), [pocket casts](https://pca.st/eq9gyz8j)
 https://podcasts.apple.com/fr/podcast/papa-lit-et-au-lit/id1535323879?itsct=podcast_box&itscg=30200, [apple](https://apple.co/36QAkOI)
 
 Play now:

@@ -2,7 +2,7 @@
 title: The curse on computer's birth
 date: 2018-02-14
 published: True
-category: legends
+category: legend
 ---
 
 # The curse on computer's birth

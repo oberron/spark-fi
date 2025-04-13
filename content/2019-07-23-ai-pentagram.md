@@ -2,7 +2,7 @@
 title: Pentagram Adversarial AI
 date: 2019-07-23
 published: True
-category: legends
+category: legend
 ---
 
 Atlandid short before its collapse had leverage self aware artificial intelligence for all tasks. 

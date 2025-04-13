@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: fiction
+category: fiction
 title: Fiction
 permalink: /category/fiction
 ---

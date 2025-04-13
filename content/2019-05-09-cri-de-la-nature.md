@@ -2,7 +2,7 @@
 title: Cri de la nature
 date: 2019-05-09
 published: True
-category: legends
+category: legend
 ref: baby_cry
 lang: fr
 ---

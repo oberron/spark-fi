@@ -1,7 +1,7 @@
 ---
 title: Garden Gnomes
 date: 2019-12-30
-category: myths
+category: myth
 ---
 
 People buy plastic crows to keep crows and birds away from their windows...

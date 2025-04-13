@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: conspiracy
+category: conspiracy
 title: conspiracy
 permalink: /category/conspiracy
 ---

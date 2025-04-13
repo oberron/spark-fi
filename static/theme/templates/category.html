@@ -4,7 +4,8 @@
     <section id="content" class="body">
     <h1>CATEGORY: {{category}}</h1>
     <h2> other categories </h2>
-    {% set dash = joiner(",") %}{% for cat, articles in categories %} {{dash()}}<a href="{{ SITEURL }}/category/{{cat}}.html">{{cat}}</a> {% endfor %}
+
+    {% set dash = joiner(",") %}{% for cat, articles in categories %} {{dash()}}<a href="{{ SITEURL }}/category/{{cat| lower}}.html">{{cat}}</a> {% endfor %}
     <br>
     <hr>
     <br>

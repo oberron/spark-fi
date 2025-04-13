@@ -1,7 +1,7 @@
 ---
 title: Black Time
 date: 2019-09-24
-category: legends
+category: legend
 lang: en
 ---
 

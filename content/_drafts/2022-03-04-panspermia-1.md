@@ -1,7 +1,7 @@
 ---
 date: 2022-03-04
 title: panspermia 1
-category: myths
+category: myth
 lang: en
 ---
 

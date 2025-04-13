@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: essay
+category: essay
 title: essay
 permalink: /category/essay
 ---

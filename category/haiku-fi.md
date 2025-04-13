@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: haiku-fi
+category: haiku-fi
 title: haiku-fi
 permalink: /category/haiku-fi
 ---

@@ -106,6 +106,10 @@ def pre_pelican(dp_content, theme, dp_www,
         print("updating content in tmp folder", dp_src, dp_tmp)
         copytree(dp_src, dp_tmp)
         copytree(dp_notion, join(dp_tmp, "notion"))
+    else:
+        DEFAULT = '\033[0m'
+        RED_DARK = '\033[31m'
+        print(RED_DARK+f"{dp_tmp} not updated, using previous"+DEFAULT)
 
     return dp_tmp
 
@@ -273,8 +277,10 @@ def build_and_deploy():
         # proc.stdin.write('Oberron9\n')
         # proc.stdin.flush()
 
-        if proc != 0:
-            print("/!\ /!\ /!\ /!\ FAILED to SCP")
+        if proc != 0:            
+            DEFAULT = '\033[0m'
+            RED_DARK = '\033[31m'
+            print(RED_DARK+"!!!! FAILED to SCP"+DEFAULT)
         else:
             print("SCP OK!!!")
 

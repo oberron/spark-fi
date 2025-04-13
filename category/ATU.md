@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: ATU
+category: atu
 title: ATU
 permalink: /category/atu
 ---

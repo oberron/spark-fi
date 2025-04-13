@@ -3,7 +3,7 @@ title: Echoes
 date: 2019-09-11
 published: True
 tag: echo
-category: myths
+category: myth
 ---
 
 everyone knows mirror can show alternate worlds or universe

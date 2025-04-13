@@ -1,7 +1,7 @@
 ---
 title: feuille
 date: 2019-12-30
-category: myths
+category: myth
 ---
 
 Lorsque la brise vint, 

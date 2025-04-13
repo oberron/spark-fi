@@ -1,7 +1,7 @@
 ---
 title: Private key pentagram
 date: 2021-07-20
-category: myths
+category: myth
 lang: en
 ---
 

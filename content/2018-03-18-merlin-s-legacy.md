@@ -1,7 +1,7 @@
 ---
 title: Science, Merlin's true legacy
 date: 2018-03-18
-category: legends
+category: legend
 ref: merlin
 lang: en
 published: true

@@ -1,7 +1,7 @@
 ---
 title: The secrete story of mermaids
 date: 2019-01-15
-category: legends
+category: legend
 published: true
 lang: en
 ---

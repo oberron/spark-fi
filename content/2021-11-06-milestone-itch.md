@@ -2,7 +2,7 @@
 title: Milestone itch
 date: 2021-11-06
 published: True
-category: legends
+category: legend
 ---
 
 When the roman retired from England, the Angles and Saxon moved in and attack the visible signs of roman presence. They burned what they could, destroyed the rest and sometimes settled in the old masters palaces.

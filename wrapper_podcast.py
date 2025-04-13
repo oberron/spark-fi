@@ -59,8 +59,11 @@ def make_podcast(fpo, dpo=None):
     templateEnv = jinja2.Environment(loader=templateLoader)
     TEMPLATE_CHANNEL_fn = "podcast_channel.j2"
     TEMPLATE_ITEM_fn = "podcast_item.j2"
+    TEMPLATE_ITEM_artowrk_fn = "podcast_item_w_artwork.j2"
     template_channel = templateEnv.get_template(TEMPLATE_CHANNEL_fn)
     template_item = templateEnv.get_template(TEMPLATE_ITEM_fn)
+    template_item_w_artwork = templateEnv.get_template(TEMPLATE_ITEM_artowrk_fn)
+
     title = "Le loup le renard et le pot de miel"
     pubdate = datetime.datetime(2020,10,10,19,0,0).strftime("%a, %d %b %Y %H:%M:%S GMT")
 
@@ -92,6 +95,14 @@ def make_podcast(fpo, dpo=None):
     atus = {}
 
     def _get_meta(fc, meta):
+        from yaml import safe_load
+        front_matter = safe_load(fc.split("---")[1])
+        
+        if meta in front_matter:
+            return front_matter[meta]
+        else:
+            return ""
+
         meta+=": "
         start = fc.find(meta)
         end = fc.find("\n", start)
@@ -118,15 +129,30 @@ def make_podcast(fpo, dpo=None):
                 title = _get_meta(fc,"title")
                 date = _get_meta(fc,"date")
                 summary = _get_meta(fc,"summary")
-                atus[atu.upper()]={"fp": fp, "title": title, "date": date, "summary": summary}
+                artwork = _get_meta(fc,"artwork")
+                atus[atu.upper()] = {"fp": fp, "title": title, "date": date,
+                                     "summary": summary, "artwork": artwork}
+                print(atus[atu.upper()]["fp"])
+                print(atus[atu.upper()]["title"])
+                print(atus[atu.upper()]["date"])
+                print(atus[atu.upper()]["summary"])
+                try:
+                    print(atus[atu.upper()]["artwork"])
+                except:
+                    raise
+                print("--------")
     podcast_items = ""
 
     for guid in items:
         if guid == "HISTOIRE_01":
             continue
+        print(fn)
+        print(atus[guid])
         size = items[guid]["size"]
         duration = items[guid]["duration"]
         fn = items[guid]["fn"]
+        artwork = atus[guid]["artwork"]
+
         #if guid=="HISTOIRE_02":
         #    guid="ATU15"
         title = atus[guid]["title"]
@@ -140,7 +166,8 @@ def make_podcast(fpo, dpo=None):
         https://github.com/oberron/spark-fi/podcast-player/"""
 
         title = f"{title} - ({guid})"
-        pubdate = datetime.datetime.strptime(atus[guid]["date"],"%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S GMT")
+        # pubdate = datetime.datetime.strptime(atus[guid]["date"],"%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S GMT")
+        pubdate = atus[guid]["date"].strftime("%a, %d %b %Y %H:%M:%S GMT")
 
         # https://cyber.harvard.edu/rss/rss.html
         conf_item={"ITEM_TITLE": title,
@@ -148,14 +175,18 @@ def make_podcast(fpo, dpo=None):
                    "ITEM_SUBTITLE": title,
                    "ITEM_SUMMARY": summary,
                    "ITEM_DESCRIPTION": atus[guid]["summary"],
-                   "AUTHOR":"OBERRON",
+                   "AUTHOR": "OBERRON",
                    "ITEM_PUBDATE": pubdate,
                    "ITEM_SIZE": size,
                    "ITEM_FN": fn,
                    "DP_MP3": http_mp3,
                    "ITEM_DURATION": duration,
                    "ITEM_GUID": guid}
-        outputText = template_item.render(conf_item)
+        if artwork:
+            conf_item["HTTP_ITEM_ARTWORK"] = http_root+f"/static/img/{artwork}"
+            outputText = template_item_w_artwork.render(conf_item)
+        else:
+            outputText = template_item.render(conf_item)
         fpo = str(Path(dpo_mp3) / items[guid]["fn"])
         print("fpo", fpo)
         copyfile(items[guid]["fp"], fpo)

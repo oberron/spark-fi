@@ -8,3 +8,4 @@ pelican-more-categories
 pelican-sitemap
 PyYAML
 setuptools
+pyyaml

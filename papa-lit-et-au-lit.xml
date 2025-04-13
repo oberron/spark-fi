@@ -58,6 +58,7 @@
       <itunes:duration>02:16</itunes:duration>
       <guid isPermaLink="false">ATU15</guid>
       <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/honey.png"/>
       <description> Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain </description>
     </item>
     <item>
@@ -99,6 +100,7 @@
       <itunes:duration>01:33</itunes:duration>
       <guid isPermaLink="false">ATU275</guid>
       <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Le_Lièvre_et_la_Tortue.jpg"/>
       <description> Une variante de course entre le lievre et un animal plus lent </description>
     </item>
 </channel>

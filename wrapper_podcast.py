@@ -54,7 +54,7 @@ def make_podcast(fpo, dpo=None):
     dpo_mp3 = str(Path(dpo) / "player" / "audio")
     path_img = Path(__file__).parents[0] / "content" / "static"/ "img"
     fn_xml = "papa-lit-et-au-lit.xml"
-    http_root = "https://oberron.github.io/spark-fi"
+    http_root = "http://oberron.github.io/spark-fi"
     http_mp3 = http_root+"/player/audio"
     templateLoader = jinja2.FileSystemLoader(searchpath=temp_dp)
     templateEnv = jinja2.Environment(loader=templateLoader)

@@ -3,10 +3,12 @@ date: 2025-04-18
 title: Jacques et le Haricot Magique
 category: ATU
 tags: ATU328
-artwork: Jacques_et_le_Haricot_Magique.jpg
+artwork: Jacques_et_le_Haricot_Magique_artwork.jpg
 ---
 
 # Jacques et le Haricot Magique
+
+![Jacques et le Haricot Magique](/static/img/Jacques_et_le_Haricot_Magique_artwork.jpg)
 
 Il était une fois, en bordure d'un petit village, un garçon pauvre nommé Jacques qui vivait avec sa mère. Ils étaient si pauvres qu’il ne leur restait plus qu’une seule vache, Marguerite, qu’ils aimaient tendrement. Un jour, la vache ne donna plus de lait. La mère de Jacques, désespérée, lui dit de la vendre au marché.
 

@@ -41,6 +41,27 @@
     <link>https://oberron.github.io/spark-fi/</link>
     <itunes:image href="https://oberron.github.io/spark-fi/static/img/moon.png" />
     <item>
+      <title>Jacques et le Haricot Magique - (ATU328)</title>
+      <itunes:title> Jacques et le Haricot Magique - (ATU328) </itunes:title>
+      <link> https://oberron.github.io/spark-fi </link>
+      <itunes:subtitle> Jacques et le Haricot Magique - (ATU328) </itunes:subtitle>
+      <itunes:summary> 
+        Aubéron Vacher - @oberron
+        (C) 2020-2025
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player:
+        https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
+      <itunes:author>OBERRON</itunes:author>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 GMT</pubDate>
+      <enclosure url="https://oberron.github.io/spark-fi/player/audio/ATU328.mp3" type="audio/mpeg" length="1288814" />
+      <itunes:duration>01:20</itunes:duration>
+      <guid isPermaLink="false">ATU328</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Jacques_et_le_Haricot_Magique.jpg"/>
+      <description>  </description>
+    </item>
+    <item>
       <title>Le loup le renard et le pot de miel - (ATU15)</title>
       <itunes:title> Le loup le renard et le pot de miel - (ATU15) </itunes:title>
       <link> https://oberron.github.io/spark-fi </link>

@@ -7,7 +7,7 @@
     <title>Papa lit et au lit</title>
     <podcast:locked>no</podcast:locked>
     <podcast:guid>a22393c8-12a8-5ce3-8c61-0beebb73ad7f</podcast:guid>
-    <atom:link href="https://oberron.github.io/spark-fi/papa-lit-et-au-lit.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://oberron.github.io/spark-fi/papa-lit-et-au-lit.xml" rel="self" type="application/rss+xml" />
     <rawvoice:rating>TV-G</rawvoice:rating>
     <rawvoice:location>Papa lit et au lit</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
@@ -43,7 +43,7 @@
     <item>
       <title>Jacques et le Haricot Magique - (ATU328)</title>
       <itunes:title> Jacques et le Haricot Magique - (ATU328) </itunes:title>
-      <link> https://oberron.github.io/spark-fi </link>
+      <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> Jacques et le Haricot Magique - (ATU328) </itunes:subtitle>
       <itunes:summary> 
         Aubéron Vacher - @oberron
@@ -54,17 +54,17 @@
         https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
       <itunes:author>OBERRON</itunes:author>
       <pubDate>Fri, 18 Apr 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/audio/ATU328.mp3" type="audio/mpeg" length="1288814" />
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/ATU328.mp3" type="audio/mpeg" length="1288814" />
       <itunes:duration>01:20</itunes:duration>
       <guid isPermaLink="false">ATU328</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Jacques_et_le_Haricot_Magique_artwork.jpg"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/Jacques_et_le_Haricot_Magique_artwork.jpg"/>
       <description>  </description>
     </item>
     <item>
       <title>le loup et la cigogne - (ATU76)</title>
       <itunes:title> le loup et la cigogne - (ATU76) </itunes:title>
-      <link> https://oberron.github.io/spark-fi </link>
+      <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> le loup et la cigogne - (ATU76) </itunes:subtitle>
       <itunes:summary> 
         Aubéron Vacher - @oberron
@@ -75,17 +75,17 @@
         https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
       <itunes:author>OBERRON</itunes:author>
       <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/audio/ATU76.mp3" type="audio/mpeg" length="693518" />
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/ATU76.mp3" type="audio/mpeg" length="693518" />
       <itunes:duration>00:43</itunes:duration>
       <guid isPermaLink="false">ATU76</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Le_loup_et_la_cigogne_artwork.jpg"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/Le_loup_et_la_cigogne_artwork.jpg"/>
       <description>  </description>
     </item>
     <item>
       <title>Le loup le renard et le pot de miel - (ATU15)</title>
       <itunes:title> Le loup le renard et le pot de miel - (ATU15) </itunes:title>
-      <link> https://oberron.github.io/spark-fi </link>
+      <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> Le loup le renard et le pot de miel - (ATU15) </itunes:subtitle>
       <itunes:summary> Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain
         Aubéron Vacher - @oberron
@@ -96,17 +96,17 @@
         https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
       <itunes:author>OBERRON</itunes:author>
       <pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/audio/ATU15.mp3" type="audio/mpeg" length="2185842" />
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/ATU15.mp3" type="audio/mpeg" length="2185842" />
       <itunes:duration>02:16</itunes:duration>
       <guid isPermaLink="false">ATU15</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/honey.png"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/honey.png"/>
       <description> Une des nombreuses variantes du vol de nourriture en pretendant etre le parrain </description>
     </item>
     <item>
       <title>le bonhome de pain d'epice - (ATU2025)</title>
       <itunes:title> le bonhome de pain d'epice - (ATU2025) </itunes:title>
-      <link> https://oberron.github.io/spark-fi </link>
+      <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> le bonhome de pain d'epice - (ATU2025) </itunes:subtitle>
       <itunes:summary> Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline.
         Aubéron Vacher - @oberron
@@ -117,17 +117,17 @@
         https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
       <itunes:author>OBERRON</itunes:author>
       <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/audio/atu2025.mp3" type="audio/mpeg" length="8791736" />
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/atu2025.mp3" type="audio/mpeg" length="8791736" />
       <itunes:duration>06:06</itunes:duration>
       <guid isPermaLink="false">ATU2025</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/le_bonhome_de_pain_epice.jpg"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/le_bonhome_de_pain_epice.jpg"/>
       <description> Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline. </description>
     </item>
     <item>
       <title>LE LIÈVRE ET LA TORTUE - (ATU275)</title>
       <itunes:title> LE LIÈVRE ET LA TORTUE - (ATU275) </itunes:title>
-      <link> https://oberron.github.io/spark-fi </link>
+      <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> LE LIÈVRE ET LA TORTUE - (ATU275) </itunes:subtitle>
       <itunes:summary> Une variante de course entre le lievre et un animal plus lent
         Aubéron Vacher - @oberron
@@ -138,11 +138,11 @@
         https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
       <itunes:author>OBERRON</itunes:author>
       <pubDate>Wed, 18 Aug 2021 00:00:00 GMT</pubDate>
-      <enclosure url="https://oberron.github.io/spark-fi/player/audio/atu275.mp3" type="audio/mpeg" length="2237069" />
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/atu275.mp3" type="audio/mpeg" length="2237069" />
       <itunes:duration>01:33</itunes:duration>
       <guid isPermaLink="false">ATU275</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="https://oberron.github.io/spark-fi/static/img/Le_Lièvre_et_la_Tortue.jpg"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/Le_Lièvre_et_la_Tortue.jpg"/>
       <description> Une variante de course entre le lievre et un animal plus lent </description>
     </item>
 </channel>

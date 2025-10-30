@@ -3,7 +3,7 @@ date: 2025-10-29
 title: les 3 petits cochons
 category: ATU
 tags: ATU124
-artwork: Les_3_petits_cochons.jpg
+artwork: Les_3_petits_cochons.png
 ---
 
 Il était une fois, dans une clairière ensoleillée à la lisière d’un grand bois, une maman cochon qui vivait avec ses trois petits cochons. Ils grandissaient vite, et un matin, la maman leur dit d’une voix douce mais ferme :

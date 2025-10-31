@@ -122,6 +122,7 @@ def make_podcast(fpo, dpo=None):
                 date = _get_meta(fc,"date")
                 summary = _get_meta(fc,"summary")
                 artwork = _get_meta(fc,"artwork")
+                print("@@@@@@@@@@@@@@@@@@ NEED to check artwork really exists")
                 atus[atu.upper()] = {"fp": fp, "title": title, "date": date,
                                      "summary": summary, "artwork": artwork}
                 print(atus[atu.upper()]["fp"])

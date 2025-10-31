@@ -64,6 +64,16 @@ image: Broadcast_Mail.png             # (custom) image only for meta `property="
 
 **c. add new podcast
 
+the trickiest is to remember that the artwork should be added as 1400x1400 in the yaml header and in the content/src/img
+
+---
+date: 2025-04-18
+title: Jacques et le Haricot Magique
+category: ATU
+tags: ATU328
+artwork: Jacques_et_le_Haricot_Magique_artwork.jpg
+---
+
 
 
 ### BUILD SITE

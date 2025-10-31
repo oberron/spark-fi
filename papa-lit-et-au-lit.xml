@@ -146,10 +146,10 @@
       <description> Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline. </description>
     </item>
     <item>
-      <title>les 3 petits cochons - (ATU124)</title>
-      <itunes:title> les 3 petits cochons - (ATU124) </itunes:title>
+      <title>les trois petits cochons - (ATU124)</title>
+      <itunes:title> les trois petits cochons - (ATU124) </itunes:title>
       <link> http://oberron.github.io/spark-fi </link>
-      <itunes:subtitle> les 3 petits cochons - (ATU124) </itunes:subtitle>
+      <itunes:subtitle> les trois petits cochons - (ATU124) </itunes:subtitle>
       <itunes:summary> 
         Aubéron Vacher - @oberron
         (C) 2020-2025
@@ -163,7 +163,7 @@
       <itunes:duration>05:46</itunes:duration>
       <guid isPermaLink="false">ATU124</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:image href="http://oberron.github.io/spark-fi/static/img/Les_3_petits_cochons.png"/>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/trois_petits_cochons.png"/>
       <description>  </description>
     </item>
 </channel>

@@ -150,7 +150,7 @@
       <itunes:title> les trois petits cochons - (ATU124) </itunes:title>
       <link> http://oberron.github.io/spark-fi </link>
       <itunes:subtitle> les trois petits cochons - (ATU124) </itunes:subtitle>
-      <itunes:summary> 
+      <itunes:summary> Une variante d'histoire ou l'on souffle sur la maison
         Aubéron Vacher - @oberron
         (C) 2020-2025
         https://twitter.com/oberron
@@ -164,7 +164,7 @@
       <guid isPermaLink="false">ATU124</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:image href="http://oberron.github.io/spark-fi/static/img/trois_petits_cochons_artwork.jpg"/>
-      <description>  </description>
+      <description> Une variante d'histoire ou l'on souffle sur la maison </description>
     </item>
 </channel>
 </rss>

@@ -3,6 +3,7 @@ date: 2025-10-31
 title: les trois petits cochons
 category: ATU
 tags: ATU124
+summary: Une variante d'histoire ou l'on souffle sur la maison
 artwork: trois_petits_cochons_artwork.jpg
 ---
 

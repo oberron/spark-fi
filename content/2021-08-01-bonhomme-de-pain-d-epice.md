@@ -4,7 +4,7 @@ date: 2021-08-01
 tags: ATU2025
 category: ATU
 summary: Le bonhome de pain d'epice est une variante d'une histoire plus ancienne d'une crepe qui roule ves le bas de la colline.
-artwork: le_bonhome_de_pain_epice.jpg
+artwork: bonhome_de_pain_epice_artwork.jpg
 ---
 
 # Le bonhomme de Pain d'épice

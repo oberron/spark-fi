@@ -83,6 +83,27 @@
       <description> Une variante de course entre le lievre et un animal plus lent </description>
     </item>
     <item>
+      <title>Cendrillon - (ATU510)</title>
+      <itunes:title> Cendrillon - (ATU510) </itunes:title>
+      <link> http://oberron.github.io/spark-fi </link>
+      <itunes:subtitle> Cendrillon - (ATU510) </itunes:subtitle>
+      <itunes:summary> Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur
+        Aubéron Vacher - @oberron
+        (C) 2020-2025
+        https://twitter.com/oberron
+        https://github.com/oberron
+        Our podcast player:
+        https://github.com/oberron/spark-fi/podcast-player/</itunes:summary>
+      <itunes:author>OBERRON</itunes:author>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+      <enclosure url="http://oberron.github.io/spark-fi/player/audio/ATU510.mp3" type="audio/mpeg" length="6462734" />
+      <itunes:duration>06:41</itunes:duration>
+      <guid isPermaLink="false">ATU510</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="http://oberron.github.io/spark-fi/static/img/cendrillon_artwork.jpg"/>
+      <description> Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur </description>
+    </item>
+    <item>
       <title>Jacques et le Haricot Magique - (ATU328)</title>
       <itunes:title> Jacques et le Haricot Magique - (ATU328) </itunes:title>
       <link> http://oberron.github.io/spark-fi </link>

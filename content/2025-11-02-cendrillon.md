@@ -2,7 +2,7 @@
 title: Cendrillon
 date: 2025-11-02
 category: ATU
-tags: ATU 510A
+tags: ATU510
 summary: Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur
 artwork: cendrillon_artwork.jpg
 ---
@@ -45,7 +45,7 @@ Un jour, un héraut parcourut les routes du royaume :
 
 - Le roi invite toutes les jeunes dames à un grand bal, en l’honneur du prince Alaric, revenu de ses voyages au Nord !
 
-Les sœurs de CendCendrillonreline s’agitèrent comme deux pies autour d’un trésor.
+Les sœurs de Cendrillon s’agitèrent comme deux pies autour d’un trésor.
 Elles passèrent des heures à choisir leurs tissus, à se quereller pour des rubans, à se regarder dans le miroir.
 Cendrillon les aidait, silencieuse, cousant leurs robes, tressant leurs cheveux. Mais dans son cœur, un léger regret la pinçait : non pas de ne pas être belle, mais de ne pouvoir voir le monde au-delà de ces murs.
 
@@ -95,7 +95,7 @@ Elle sourit, un peu troublée.
 - Et pourtant, les yeux du cœur voient plus clair que ceux du visage.
 
 Ils dansèrent.
-Leur pas était lent, fluide, presque silencieux. Le prince lui parla doucement de ses voyages, des terres froides du Nord, des batailles et des nuits sans étoiles.
+Leur pas était lent, fluide, presque silencieux. Le prince lui parla doucement de ses voyages, des terres froides du Nord, des jours sans soleils et des nuits illuminees par les aurores boreales.
 Cendrillon lui raconta, à mots couverts, la vie simple qu’elle menait, la beauté des choses humbles, la force qu’il faut pour rester doux dans un monde dur.
 
 Ils s’écoutait comme on écoute un chant oublié.

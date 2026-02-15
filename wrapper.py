@@ -1,6 +1,5 @@
 import argparse
 from dotenv import load_dotenv
-import pkg_resources
 from os.path import abspath, isdir, join, pardir
 from os import mkdir, walk
 from os import getenv, environ
@@ -51,7 +50,12 @@ podcast_rss_fn = "feed_new2.xml"
 podcast_dir = join(www_folder_dev, "player", "web")
 
 
-def check_venv(test_requirements=True):
+def __check_venv(test_requirements=True):
+    """
+    Deprecated as of 2026-02-08 with deprecation of pkg_resources
+    
+    """
+    import pkg_resources
     if test_requirements:
         installed_packages = pkg_resources.working_set
         installed_versionned_packages_list = sorted(["%s==%s" % (i.key, i.version)
@@ -84,7 +88,7 @@ def pre_pelican(dp_content, theme, dp_www,
     2. generate index page for all draft pages
     2. TBD
     """
-    check_venv()
+    # check_venv()
     Path(dp_www).mkdir(parents=True, exist_ok=True)
     # list_drafts(dp_content,theme,dp_www)
 
@@ -138,7 +142,7 @@ def pelican_wrapper(dp_content, theme, dp_www,
 
     if test_requirements:
 
-        installed_packages = pkg_resources.working_set
+        installed_packages = None #pkg_resources.working_set
         installed_versionned_packages_list = sorted(["%s==%s" % (i.key, i.version)
            for i in installed_packages])
         installed_packages_list = sorted([i.key for i in installed_packages])
@@ -358,6 +362,6 @@ if __name__ == "__main__":
                                  dp_not=dp_notion)
     dp_content_tmp = abspath(join(__file__, pardir, "tmp"))
     pelican_results = pelican_wrapper(dp_content_tmp, theme, dp_www,
-                                      test_requirements=True,
+                                      test_requirements=False,
                                       pelican_e=pelican_overloads)
     post_pelican(dp_content, theme, dp_www, pelican_results)

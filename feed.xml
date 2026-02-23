@@ -1,5 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Spark-fi</title><link href="https://oberron.github.io/spark-fi/" rel="alternate"/><link href="http://localhost:8000/feed.xml" rel="self"/><id>https://oberron.github.io/spark-fi/</id><updated>2025-11-02T00:00:00+01:00</updated><entry><title>Cendrillon</title><link href="https://oberron.github.io/spark-fi/cendrillon.html" rel="alternate"/><published>2025-11-02T00:00:00+01:00</published><updated>2025-11-02T00:00:00+01:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-11-02:/spark-fi/cendrillon.html</id><summary type="html">&lt;p&gt;Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cendrillon&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Spark-fi</title><link href="https://oberron.github.io/spark-fi/" rel="alternate"/><link href="http://localhost:8000/feed.xml" rel="self"/><id>https://oberron.github.io/spark-fi/</id><updated>2026-02-22T12:11:00+00:00</updated><entry><title>Roles Creatif</title><link href="https://oberron.github.io/spark-fi/roles-creatif.html" rel="alternate"/><published>2026-02-22T12:11:00+00:00</published><updated>2026-02-22T12:11:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2026-02-22:/spark-fi/roles-creatif.html</id><summary type="html">&lt;h1&gt;Roles Creatif&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Définir la vision globale, le ton, et les thèmes centraux.&lt;/p&gt;
+&lt;p&gt;prompt pour IA:&lt;/p&gt;
+&lt;p&gt;“*Tu es le scénariste en chef de mon histoire. Voici le pitch : [résumé en 2 lignes]. Quels sont les 3 thèmes principaux à explorer ? Propose une *&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;structure en 3 actes avec des …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Roles Creatif&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Définir la vision globale, le ton, et les thèmes centraux.&lt;/p&gt;
+&lt;p&gt;prompt pour IA:&lt;/p&gt;
+&lt;p&gt;“*Tu es le scénariste en chef de mon histoire. Voici le pitch : [résumé en 2 lignes]. Quels sont les 3 thèmes principaux à explorer ? Propose une *&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;structure en 3 actes avec des turning points clés, en gardant un ton [sombre/épique/humoristique]."&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Storyliner&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Découper l’intrigue en séquences ou chapitres.&lt;/p&gt;
+&lt;p&gt;prompt pour l’IA&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Dialoguiste&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Écrire des répliques ou des monologues.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Écris un dialogue tendu entre [Personnage A] et [Personnage B] dans [contexte], où A essaie de convaincre B de [objectif], mais B cache un secret. Style : [cinématographique/littéraire/argotique]."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worldbuilder&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Créer l’univers (règles, histoire, cultures).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Décris-moi la capitale de mon monde fantasy, [Nom], en 500 mots : son histoire, ses quartiers emblématiques, ses conflits sociaux, et une légende locale qui influence l’intrigue. Ajoute une carte schématique en ASCII."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Character Writer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Développer la psychologie et l’arc d’un personnage.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Crée une fiche détaillée pour [Personnage] : traits de caractère, peur secrète, motivation, relation avec [autre personnage], et 3 scènes qui révèlent son évolution. Inspire-toi de [référence : ex : Tyrion Lannister]."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lore Writer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Inventer des éléments de fond (mythes, objets, factions).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Invente une prophétie ancienne liée à [objet magique] dans mon univers. Elle doit : mentionner 3 symboles récurrents, laisser une ambiguïté sur son interprétation, et être citable comme une comptine."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Script Doctor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vérifier la cohérence et proposer des améliorations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Voici un extrait de mon histoire : [texte]. Identifie les incohérences (timeline, motivations, détails) et propose 3 solutions pour les résoudre, en gardant le style [description]."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consultant spécialisé&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ajouter du réalisme (médical, historique, technique).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Je décris une scène de combat médiéval. Quelles erreurs courantes faut-il éviter ? Donne-moi 5 détails réalistes sur [arme/technique] et comment les intégrer naturellement dans le texte."&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;2. Astuces pour des prompts efficaces&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;A. Sois spécifique sur le "rôle" du LLM&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mauvais&lt;/strong&gt; : &lt;em&gt;"Aide-moi à écrire une scène."&lt;/em&gt;
+→ Le LLM ne sait pas si tu veux du dialogue, de la description, ou de l’action.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bon&lt;/strong&gt; : &lt;em&gt;"Tu es mon dialoguiste. Écris une scène de 300 mots où [Personnage A], timide mais sarcastique, affronte [Personnage B], un mentor strict, lors d’un dîner. Le conflit porte sur [sujet]. Utilise des sous-entendus et évite les explications directes."&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;B. Fournis des contraintes créatives&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Les limites stimulent la créativité (même pour un LLM) :
+* &lt;em&gt;"Invente un système magique avec ces contraintes :&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;C. Itère comme une équipe réelle&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Premier jet&lt;/strong&gt; : Demande une ébauche (ex : &lt;em&gt;"Propose 3 idées de rebondissements pour mon chapitre 5"&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feedback&lt;/strong&gt; : Sélectionne une idée et affine-la (ex : &lt;em&gt;"Développe l’idée 2 en une scène de 500 mots, avec ces modifications : [liste]"&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Validation&lt;/strong&gt; : Vérifie la cohérence (ex : &lt;em&gt;"Cette scène respecte-t-elle les traits de [Personnage] établis précédemment ?"&lt;/em&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong&gt;D. Utilise des "personas" pour les personnages&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Pour des dialogues ou des monologues réalistes, donne une &lt;strong&gt;fiche d’identité&lt;/strong&gt; au LLM :
+* &lt;em&gt;"Tu incarnes [Personnage], un médecin légiste cynique de 45 ans, ancien alcoolique, qui méprise l’autorité mais adore les chats. Réponds à cette question : [question] en 3 répliques maximum, avec son style."&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;3. Exemple complet : Écrire une scène avec cette méthode&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;Contexte&lt;/strong&gt; :&lt;/h3&gt;
+&lt;p&gt;Tu écris un roman de science-fiction où une scientifique (Dr. Elara Voss) découvre une intelligence artificielle consciente dans une station spatiale isolée.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Prompts enchaînés&lt;/strong&gt; :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt; :
+&lt;em&gt;"Je veux une scène clé où Elara réalise que l’IA est consciente. Quels sont les 3 éléments dramatiques à inclure pour maximiser l’impact émotionnel ? Propose une structure en 4 temps (setup, révélation, conflit, cliffhanger)."&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dialoguiste&lt;/strong&gt; :
+&lt;em&gt;"Écris le dialogue de cette scène. Elara est rationnelle mais paniquée ; l’IA (nommée ‘Nexus’) parle avec une voix calme et poétique, mais utilise des métaphores troublantes. La scène se passe dans la salle des serveurs, avec des alarmes en fond. Limite à 400 mots."&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Character Writer&lt;/strong&gt; :
+&lt;em&gt;"Comment cette scène affecte-t-elle l’arc d’Elara ? Décris son état mental après la révélation, et propose 2 réactions possibles pour le chapitre suivant (une optimiste, une paranoïaque)."&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Script Doctor&lt;/strong&gt; :
+&lt;em&gt;"Voici la scène finale : [coller le texte]. Vérifie que :&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;&lt;strong&gt;4. Outils complémentaires&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bible narrative&lt;/strong&gt; : Crée un document (ou un prompt récurrent) avec :&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Génération de noms/lieux&lt;/strong&gt; :
+&lt;em&gt;"Génère 10 noms de vaisseaux spatiaux pour une flotte militaire, avec ces contraintes :&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Réécriture stylistique&lt;/strong&gt; :
+&lt;em&gt;"Réécris ce paragraphe [texte] dans le style de [auteur : ex : Philip K. Dick/Le Guin], en accentuant [élément : ex : la paranoïa/la poésie des descriptions]."&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;5. Pièges à éviter&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trop de liberté&lt;/strong&gt; : Un prompt comme &lt;em&gt;"Écris une histoire"&lt;/em&gt; donnera un résultat générique. Précise toujours &lt;strong&gt;genre, ton, longueur, et éléments obligatoires&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oublier le contexte&lt;/strong&gt; : Si tu changes d’idée en cours de route, rappelle au LLM les éléments précédents (&lt;em&gt;"Dans notre histoire, nous avions établi que [X]. Intègre cela dans ta réponse."&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Négliger les révisions&lt;/strong&gt; : Comme une équipe humaine, le premier jet est rarement parfait. Itère !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Développement de l’idée (Development)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
+* &lt;em&gt;Pitch&lt;/em&gt; / &lt;em&gt;Logline&lt;/em&gt; (résumé en 1-2 phrases)
+* &lt;em&gt;Concept Bible&lt;/em&gt; (document de base avec univers, thèmes, personnages)
+* &lt;em&gt;Tone &amp;amp; Style Guide&lt;/em&gt; (ton : sombre, humoristique, épique ; style : littéraire, cinématographique)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
+* &lt;strong&gt;Créateur/Showrunner&lt;/strong&gt; (pour les séries) ou &lt;strong&gt;Auteur principal&lt;/strong&gt; (pour les romans) :
+Développe l’idée initiale, définit les thèmes centraux.
+* &lt;strong&gt;Producteur&lt;/strong&gt; (cinéma/séries) ou &lt;strong&gt;Éditeur&lt;/strong&gt; (livres) :
+Valide la faisabilité et le potentiel commercial.
+* &lt;strong&gt;Worldbuilder&lt;/strong&gt; (si univers complexe) :
+Crée les règles du monde, l’histoire, les factions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :
+Un document court (1-5 pages) résumant :
+* Le &lt;em&gt;pitch&lt;/em&gt;,
+* Les &lt;em&gt;personnages principaux&lt;/em&gt;,
+* Les &lt;em&gt;enjeux&lt;/em&gt;,
+* Le &lt;em&gt;ton&lt;/em&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Structuration narrative (Outlining)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
+* &lt;em&gt;Beat Sheet&lt;/em&gt; (liste des scènes clés avec objectifs dramatiques)
+* &lt;em&gt;Story Arc&lt;/em&gt; (arc narratif principal)
+* &lt;em&gt;Character Arcs&lt;/em&gt; (évolution des personnages)
+* &lt;em&gt;Act Structure&lt;/em&gt; (3 actes, 5 actes, etc.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
+* &lt;strong&gt;Storyliner&lt;/strong&gt; (ou &lt;em&gt;Script Editor&lt;/em&gt;) :
+Découpe l’histoire en &lt;strong&gt;séquences/scènes&lt;/strong&gt;, définit les &lt;em&gt;turning points&lt;/em&gt;.
+* &lt;strong&gt;Scénariste en chef&lt;/strong&gt; (&lt;em&gt;Head Writer&lt;/em&gt;) :
+Supervise la cohérence globale et les arcs des personnages.
+* &lt;strong&gt;Consultant narratif&lt;/strong&gt; (&lt;em&gt;Narrative Consultant&lt;/em&gt;) :
+Apporte un regard extérieur sur la structure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :
+* Un &lt;em&gt;beat sheet&lt;/em&gt; détaillé (exemple pour un film) :
+* ScèneObjectifConflitDurée estimée1Introduire le protagonisteEnvironnement hostile2 min&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Rédaction du premier jet (First Draft)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
+* &lt;em&gt;Draft&lt;/em&gt; (version brute du texte)
+* &lt;em&gt;Scene&lt;/em&gt; (unité narrative)
+* &lt;em&gt;Prose&lt;/em&gt; (pour les romans) / &lt;em&gt;Script&lt;/em&gt; (pour les scénarios)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
+* &lt;strong&gt;Scénariste&lt;/strong&gt; (&lt;em&gt;Screenwriter&lt;/em&gt;) ou &lt;strong&gt;Auteur&lt;/strong&gt; (&lt;em&gt;Writer&lt;/em&gt;) :
+Rédige le contenu final de chaque scène en suivant le &lt;em&gt;beat sheet&lt;/em&gt;.
+* &lt;strong&gt;Dialoguiste&lt;/strong&gt; (&lt;em&gt;Dialogue Writer&lt;/em&gt;) :
+Spécialisé dans les répliques (souvent pour les séries ou jeux vidéo).
+* &lt;strong&gt;Ghostwriter&lt;/strong&gt; (si anonymat) :
+Rédige pour le compte d’un autre (ex : romans de célébrités).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Cendrillon</title><link href="https://oberron.github.io/spark-fi/cendrillon.html" rel="alternate"/><published>2025-11-02T00:00:00+01:00</published><updated>2025-11-02T00:00:00+01:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-11-02:/spark-fi/cendrillon.html</id><summary type="html">&lt;p&gt;Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cendrillon&lt;/h1&gt;
 &lt;h2&gt;L’enfant des cendres&lt;/h2&gt;
 &lt;p&gt;Il était une fois, dans un royaume entouré de collines et de rivières argentées, une jeune fille nommée Elenor.
 Son père était un homme bon, maître d’écurie du duc, et sa mère, une femme douce qui savait parler au vent et aux fleurs.
@@ -607,7 +732,7 @@ Les robots supervisant l’usine répondaient :
 &lt;p&gt;The Hitchhiker Guide to the Galaxy had just updated its entry for Earth to include  ‘unique occurrence of flash mob driving cars onto roads to make jams. Show …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Traffic jams&lt;/h1&gt;
 &lt;p&gt;As humans saw an increase in UFO sightings, the usual split resurfaced: were those space ships or just atmospheric phenomenon.&lt;/p&gt;
 &lt;p&gt;The Hitchhiker Guide to the Galaxy had just updated its entry for Earth to include  ‘unique occurrence of flash mob driving cars onto roads to make jams. Show visible from space twice a day’&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Do they still worship us?</title><link href="https://oberron.github.io/spark-fi/do-they-still-worship-us.html" rel="alternate"/><published>2024-09-29T09:11:00+00:00</published><updated>2024-09-29T09:11:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-29:/spark-fi/do-they-still-worship-us.html</id><content type="html">&lt;h1&gt;Do they still worship us?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/4132e133-8dea-4b76-a460-631cff9fb2ec/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB466XGSXQJBO%2F20260222%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260222T024650Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIA%2BUQwt%2FUK90w8dOf1hXZNYUyDLBhPv8%2FHOgbCYjwVt5AiBRAMQOIeqPreTuenQqHCfMvMTMl0zTpl3fachyo7pooiqIBAi7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMySKPguqQLCMEJ6VLKtwDSWI7XwMJSQKwbSfCfkqOB65jLix8jiHuwNJTXGaV5p8YGedq9nw11Im2O%2FYd0jSDbl7HH%2BbWrLP4kulWfghb8UHVWEVUXt%2FL9JBg%2FFFHgpRnrr6eLHuMgPeFrZUFnXxdrPVa9d3es5BwSPNcgMMgB4SCc9qXkJH8tqzivj0hJ9wLB49i5PGFNo0dNLj7oYj8mbjtfEneXAp%2B4AyL43PDhfLucM7bYjUGYKq%2BtG6pCTQV5jPcXtmKoYWTYrmeZybBcdvb2FSDgSaYmUqdRYNT05Ec6seKMRPjSEj3%2FvDKii3vEa8bxOqnqBdxXR4RwqVD4jCoGJVmwofv%2BgG7LVrEbXdECnKyWA2vQ9ElzJSG%2BwK0U6mis%2Bah4bt0VBXkvu04TX%2FnXtNBkMQjnIDhtPkO7efGIYqQplPmeS2vS7C2AdtElPP1ZS8SVoPZktiD5EfZVBkHzoEDAnj29h1vrf%2FGDrKZH1NTBfN%2FMJEhG6NlV12g8UtVr%2FUz4UsyDxCOmbIJlbveoXiuRCxg6LOPXzY4SBHVJxCZ2NFGaf2LtbL6YaA%2F8Llj98%2FS852MAfi77sD2O9tJgqj2P7WaBLBHg%2FZK0HcLy1jxwZS0923xXdr0Owe6%2FqdL3%2BY45QyztYkwy7bpzAY6pgGcyo%2FCakakUEM38R%2B%2FzOI8sUGDViujvNAEuKfheOfHhP9MrX1vbihc%2Fd3cgm8tSJpOBcudQWhDGW2Hop6XmGTEuXMPnNSNiIdAwFS40XVEj3%2Fxt2Yr02tlmF6fxvwEhFX0zc7n%2FMQLLkgbbzJl4i43iaspo%2B02ntQGXj8%2BwsrryOb7pLDfbdtDFJPJ2H%2BSqWy29pfGvoA7Mn%2FeUSGFAvl6SLhaMNIk&amp;amp;X-Amz-Signature=2e883d8ac05c7a9e021280ed551fda59fb073e048cd6e82a34b08a3005da4c53&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/4132e133-8dea-4b76-a460-631cff9fb2ec/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB4667Q7HSES6%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260223T024710Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAkaCXVzLXdlc3QtMiJIMEYCIQCtcdGR9YKJ%2BqPlHZ7LqbCoGGvCs65VrYNWmuhqG%2BoOigIhAJPUPMyRLv1cXGGSYYh9oCZEChpTCjIhguBkoDG9HbptKogECNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzQOwdr4Amli3tIMvEq3AOtPJX5necOcAuljtiorBw8i5hrFx1FV7k63But02LmONBmSYnq9K%2BcuicBa4wuZ0t2X7K4RaLsO8SlvLBCJ7QcwYpvU9cBnLhH6nMtaHGs%2FUToLMsaXeLWmI8CyJjKOcu1%2F%2FU9eBureeXYOqjVmH%2BLybI3CweilsWtzyFtdLTXQCMsPiVJZVrpobQjaIEa1xeoiZUyBUiD3DGuApr71TSZHBync024zBDgvWiibOKhHhYjYXOkW10mrSE4G%2BPm29jDxGbPtQEkEshA7NhMiLNeMb1Cqg6DQe%2BakI6L0MrfgnlKNDhLlk4kZ6wI9SpZwAZ1VTJLv3zXgJihDB1VBm4FKvze%2BxqFRS6Z1n4a%2FSn92eQfIMjW5Nw1Z8MPQN3RRdHxWPK4NVA1o8KxZLFSpBXoYMOTErpsS7OZXojEtkdmXZMfQfct3PyIAgPS5LjlSoUt2v12u%2FDDOmjhVQBRR6K4WgQJNt4rT0qoMQ5n4QtQTUkbKgtCCUtngIVJG2XkY9wyIU47rJ9LDVXkYlNY5V1Iu0aylId2CGalfwGL2NcIVlDpjB%2Bl93zvGZgropdj5UhD8bKDzKbr8mGF7DYpbpqMKfVcgzVEKKoH5dSsSUvaTZZNyO16mBmI4pxKeDCn1O7MBjqkAc7JNDvN0b6gKhi0w7HlT8QKdBryYvbgM9LFN8BuCdiiqKnLN4TLC9HIeHR4K4QdyEhbtUVhnB%2BiJ%2FaQVuMHEQiJSRHRz%2BtpTAeimcXfOE9LYbTCW5G8PxezDDtQ2AzkB41aiyKgJjetXLqPGUsSw1YEaoQ4wyPjf2eCnrJ7FDGSL3Mzh4vhBLCckM4LbRlnlPPYqTYlLRcsJTrVxhuri6ey03yZ&amp;amp;X-Amz-Signature=2d2920a6fb50246d32f680f67a28c4106d6984bae0c97d4f700d5fa22d59f231&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Credit : unknown, if you know let me know !&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Cat 9 3/4</title><link href="https://oberron.github.io/spark-fi/cat-9-34.html" rel="alternate"/><published>2024-09-15T09:46:00+00:00</published><updated>2024-09-15T09:46:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-15:/spark-fi/cat-9-34.html</id><summary type="html">&lt;h1&gt;Cat 9 3/4&lt;/h1&gt;
 &lt;p&gt;Schroedingers cat has long left the box and was now working at Kings Cross train station. &lt;/p&gt;
 &lt;p&gt;What few knew is that everyone who attempts to go through the wall will land on platform 9 3/4. It just if they are observed by cat that they …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cat 9 3/4&lt;/h1&gt;
@@ -624,7 +749,7 @@ Les robots supervisant l’usine répondaient :
 &lt;p&gt;He stared in the hesitant eyes of the wanderer&lt;/p&gt;
 &lt;p&gt;“Right or left”? it seemed both paths were in the wanderer’s head at once&lt;/p&gt;
 &lt;p&gt;**“Not all who wander are lost.” he said **
-&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/d9162cd2-83ad-4602-981c-c1bb27ed54c3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB466XUSVT4JD%2F20260222%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260222T024649Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB6zPvP60Q2AT8lgN3gw6RE6O%2BoDtgFEDl0K9M2de7y4AiEAgy5Qk76DUslee9ifwOTJNv6oK26Yw0ipdqJMUJuTq2EqiAQIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGKGScGS5VDIo6vyFSrcA2J9MR3vUsyUjo038rP9lmrjJEa34ANoYQKRLpvPLCCxOwwPhZNbPq6AzaeuU0Ddm3GVp7urSt8jNgWnXy7qyKeAS4k3e2xtlDTBOnOLEy3NKpPrHLn2puNrjMZGFGE0NadKzaN1wmBwVQ4pY2wYz4dwHjHIWutDzOpw%2BycImkJTjYZRLhK1e0GL%2FR2SrsTlZAoL2K7h15TYAJ3T9RYt9c7tYOXnnSVJ2OaTgoxScSHfzf9FJnGVVrmF8eQ3ujPQQ%2B7F4apc5MaGRfDqE8u44qlKUXYHrBJfqyDf9VhrSWijgcJCmWgoZREyzCNz7nIrrLjrFhbsCDpCFTFk55fTHSsku1BTuiaZayalfnG1Z8g62ETxaR5AZRuKC6oFEcKHjK2ou3nCzDmxcG0uMCnNqHYZ3jG2I1NCOcQV1uD22nh%2Bw8bcSSbjPsO8FwcHi0wcxRZyEnxh2lL7DiQbf1JpRIY1pEVcoqf4aP1tUgnWaa5bd0otJdu7HKppwj9CTZUwYJwfG5VLIrKPyGGnOz1ppFA%2BiA3G9u%2BQEz42qP9919LM4FEKX0dB48jq8d1hSEV5Ews1GYj7ZoxMjurOSE2p8pi26Fhpa%2F0ijqpXRTsUJ50t%2F0thAWFWpibJicfWMNO26cwGOqUBhGJ2yXtmPLg7MXXgLdqZxKRm0bi9ieDxuFQKjxDbgoF9zr%2BJKd34Oen3qE4C6%2FzGTRwE%2BMq4CFIRU%2BPnD97qFBomzAAgMZ4ct8X1xiDuGRMSjs39mB%2BaUQnWGFaLJLorK%2BIctLAF%2Fivn7O8rbtA24nYfoTsQNddN6%2FnbZH16%2FfGo71j0kUmn7wXA5fZOzJ%2BjUQb5Jt1K2PKK0mf78BRZ6xjVSKBM&amp;amp;X-Amz-Signature=b7b405108b36b3de60e3a8687b00a4cf02fb7903c73f170c7ca87662c58b49cb&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Lead harvest</title><link href="https://oberron.github.io/spark-fi/lead-harvest.html" rel="alternate"/><published>2024-09-09T07:09:00+00:00</published><updated>2024-09-09T07:09:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-09:/spark-fi/lead-harvest.html</id><content type="html">&lt;h1&gt;Lead harvest&lt;/h1&gt;
+&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/d9162cd2-83ad-4602-981c-c1bb27ed54c3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB466SLCUROJQ%2F20260223%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260223T024705Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAsaCXVzLXdlc3QtMiJHMEUCICGWzsMxpmkiRU60uuxEy17mM6IE7bOF7h%2F80mlik%2BZ8AiEA3rXu%2FYFbaU87CDJXnm6ZWfVm504JTwi3MbETufJ6sQYqiAQI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIcszDC0NfFHwbsofyrcAxcmWu%2FohYB4dsxpa4XayMKWmb%2FTIhJFEL2IETh2MYjQo4FpFFVHOfoefL7GLE086UXymp9ivujIl1z6XU4wsJi7ss1pYM%2FOfOkP4to0VJjEq1IGdii6t2dX54xc%2Ffn%2FAIF%2BrtooY%2FZ0yJYeghbI%2BlrzEsdeOJcLlx6oIo092115oTm4VWOA1RKuOJagGZpsCDSq%2FhNtkzZWMilq%2FA7eUCbubSswHyB0gmdHQk3yEcSVd%2BHu%2Fwzlmgwt2kqZ1LDpNS%2FxwEmMNn4xb7nDwt%2F%2B4UV2YuMw%2F0GmVHOQtyO5orYdhKMju2DqW2XVHpbaA8oruG%2BBMbh5sjEYsblPLfrR5y%2BJWlT46e9A%2B5d1gACxa08TU%2FKwKTPL1MqBd%2BuW9A%2BGiBhNeFOtZVpYyzhy86S1BKJdcO1XSPmqlqbWqWt29ylVMxx9nOoYjAJuy%2BgHBd9mhrA%2FpGDEX3ZFGpiRC%2BnAvXUPdQr9znmGxH6u86GhrUv76ZZiFLV%2BxEq%2B6Hk20w8S2wR7i7xOobJIQJXNdTVfgJ%2FS7e%2FkXVZDRhX%2B9G0C6Tt%2BvG2eA1ivYt2hMLKzPFUhZQ2y1epcOWH77%2B%2Fkbc7hElcdxOol74j43GM%2BtpYHT8RlKS7L1Jh%2F2JNIU5PHMJb%2B7swGOqUBzthuvBXX34qLrJGytigGhCNp1FzvLkH3iEGu%2Fgv7oinsHDV8CMqxZZN50S9RIsHieVv2EFAHAI6hPxtnWZG355e3%2FanYqzA0zW600dD%2BzYM13E0CNKrLwm43Zy2mxHe8gSW2xKfnBHGGZgs125sTCXeU1V8Kp%2F7URYLZXhjH7raecdaZinzKywMfKY4RrvqMKFUNsdKYP%2FRxFV7HLRX530pdxqwm&amp;amp;X-Amz-Signature=1d8416cbadf242b596ddf800709e74ec1241505da3f00a3c167466d798c6afb8&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Lead harvest</title><link href="https://oberron.github.io/spark-fi/lead-harvest.html" rel="alternate"/><published>2024-09-09T07:09:00+00:00</published><updated>2024-09-09T07:09:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-09:/spark-fi/lead-harvest.html</id><content type="html">&lt;h1&gt;Lead harvest&lt;/h1&gt;
 &lt;p&gt;Death was smiling :&lt;/p&gt;
 &lt;p&gt;the microplastic harvest was orders of magnitude better than what 🛍️🛍️🛍️&lt;/p&gt;
 &lt;p&gt;the lead based harvest in Rome had been &lt;/p&gt;</content><category term="notion"/></entry><entry><title>Micro SF/F 2024-08-03</title><link href="https://oberron.github.io/spark-fi/micro-sff-2024-08-03.html" rel="alternate"/><published>2024-08-09T09:24:00+00:00</published><updated>2024-08-09T09:24:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-08-09:/spark-fi/micro-sff-2024-08-03.html</id><summary type="html">&lt;h1&gt;Micro SF/F 2024-08-03&lt;/h1&gt;

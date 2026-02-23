@@ -1,0 +1,3 @@
+### Pitch opérationnel
+
+Massimo Estrella, grand reporter en demi-disgrâce, est envoyé couvrir un fait divers régional : sept enfants en coma inexpliqué à Rambouillet. Valentine Ferrant, France 3 régional, est déjà sur place. Deux pistes s’affrontent : une intoxication collective, ou un contact prolongé avec la population de kangourous échappés qui vit depuis des années dans la forêt de Rambouillet. L’enquête est aussi une histoire de ce qu’on ne nomme pas.

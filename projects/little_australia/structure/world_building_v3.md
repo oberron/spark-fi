@@ -1,5 +1,7 @@
 # WORLDBUILDING — OPÉRATION RAMBOUILLET
 
+Titre: La petite Australie
+Sous-Titre: L'émotion atavique
 
 # 1. CADRE GÉOGRAPHIQUE ET SOCIAL
 

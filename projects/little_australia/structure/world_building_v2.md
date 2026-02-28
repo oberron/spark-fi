@@ -1,5 +1,6 @@
-STRUCTURE FINALE DU MONDE
-I. Le phénomène : ancien… ou pas ?
+# STRUCTURE DU MONDE
+
+##  Le phénomène : ancien… ou pas ?
 
 Les comas :
 
@@ -22,7 +23,7 @@ version hard science → cycles de contamination environnementale
 
 version alternative → cycles d’émergence d’une espèce consciente
 
-II. Les enfants
+## Les enfants
 Ce qu’ils vivent
 
 Coma non traumatique.
@@ -53,7 +54,7 @@ Important :
 Le délire n’est jamais spectaculaire.
 Il est sobre. Presque administratif.
 
-III. Les adultes
+## Les adultes
 
 Ils ressentent parfois :
 
@@ -75,7 +76,7 @@ mais elle n’atteint pas le seuil critique.
 Les adultes sont déjà stabilisés cognitivement.
 Leur architecture émotionnelle est verrouillée.
 
-IV. Les wallabies
+## Les wallabies
 
 Ils redeviennent normaux.
 
@@ -118,7 +119,7 @@ Il est plus visible.
 
 Ou plus amplifié.
 
-VI. La double explication finale
+## La double explication finale
 Version hard science consolidée
 
 Adolescents revenus d’Australie.
@@ -155,7 +156,7 @@ Les cycles correspondent à des tentatives d’émergence.
 
 Puis retrait.
 
-VII. L’émotion non évoluée — version stabilisée
+## L’émotion non évoluée — version stabilisée
 
 Nom narratif possible :
 
@@ -193,7 +194,7 @@ ou un seuil de reconnaissance inter-espèce
 
 Et le roman ne tranche pas.
 
-VIII. Impact sur les personnages
+## Impact sur les personnages
 Massimo
 
 Plus lent à redescendre de la dimension mystique.
@@ -232,7 +233,7 @@ Mais elle comprend quelque chose d’autre :
 Sa fille et Massimo sont attirés par quelque chose
 qu’elle ne peut pas contrôler.
 
-IX. Le monde après le roman
+## Le monde après le roman
 
 Les wallabies restent.
 Silencieux.
@@ -251,34 +252,3 @@ les cycles reviendront.
 
 Et le lecteur ne sait pas.
 
-🔥 Ce monde tient.
-
-Nous avons maintenant :
-
-cohérence écologique
-
-cohérence neurologique
-
-cohérence politique
-
-cohérence symbolique
-
-ambiguïté irréductible
-
-cyclicité inquiétante
-
-tension intime et sociétale
-
-À ce stade, je n’ai plus besoin de détails structurels.
-
-La prochaine étape possible serait :
-
-Construire la chronologie secrète complète (1950–2026).
-
-Définir précisément la progression dramatique en 3 actes.
-
-Définir le moment exact où Massimo commence à basculer intérieurement.
-
-Écrire la “scène pivot forêt” qui cristallise tout.
-
-Tu choisis l’axe.

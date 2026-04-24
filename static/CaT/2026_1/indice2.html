@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- Indice 2 
+la position de l'indice 2 est donnee par pin_lat et pin_lon
+la distance minimale pour afficher le pin est definie par show_pin_within_m 
+
+quelques points de references: la pierre tombale a cote de clemensweg:
+    const PIN_LAT = 48.391530;
+    const PIN_LON = 11.757289;
+le jardin de jeu de kantstrasse:
+    48.388509, 11.755207
+pour trouver de nouvelles coordonnees GPS:
+https://www.openstreetmap.org/
+clique droit "montrer adresse"
+    -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direction Finder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #0a0a0a; --paper: #f0ebe0; --accent: #c0392b; --dim: #888; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; font-family: 'Share Tech Mono', monospace; }
+    #map { position: absolute; inset: 0; }
+
+    #hud {
+      position: absolute; top: 12px; left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: var(--ink); color: var(--paper);
+      padding: 10px 20px;
+      display: flex; align-items: center; gap: 18px;
+      border: 1px solid #333;
+      pointer-events: none; white-space: nowrap;
+    }
+    #hud .label { font-size: 11px; color: var(--dim); letter-spacing: .12em; text-transform: uppercase; }
+    #hud .value { font-size: 18px; letter-spacing: .08em; }
+    #hud .sep   { color: #333; }
+    #bearing-text, #cardinal-text { color: var(--accent); }
+
+    .arrow-wrap { width: 0; height: 0; position: relative; }
+    .arrow-svg  { position: absolute; top: 50%; left: 50%; transform-origin: center center; }
+
+    .user-dot {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: #3b82f6; border: 3px solid #fff;
+      box-shadow: 0 0 0 2px #3b82f6aa;
+    }
+
+    #status {
+      position: absolute; bottom: 30px; left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: var(--ink); color: var(--dim);
+      font-size: 12px; padding: 6px 16px; letter-spacing: .1em;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="hud">
+  <div>
+    <div class="label">bearing</div>
+    <div class="value" id="bearing-text">—</div>
+  </div>
+  <div class="sep">|</div>
+  <div>
+    <div class="label">distance</div>
+    <div class="value" id="dist-text">—</div>
+  </div>
+  <div class="sep">|</div>
+  <div>
+    <div class="label">direction</div>
+    <div class="value" id="cardinal-text">—</div>
+  </div>
+</div>
+
+<div id="status">acquiring location…</div>
+
+<script>
+  // ── Target pin ─────────────────────────────────────────────────────────────
+    const PIN_LAT = 48.391530;
+    const PIN_LON = 11.757289;
+  const SHOW_PIN_WITHIN_M = 20;
+  // ──────────────────────────────────────────────────────────────────────────
+
+  const map = L.map('map').setView([PIN_LAT, PIN_LON], 5);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // ── Haversine distance (metres) ───────────────────────────────────────────
+  function distanceM(lat1, lon1, lat2, lon2) {
+    const R = 6_371_000;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2)**2 +
+              Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
+
+  // ── Bearing user → pin (degrees, 0=N clockwise) ───────────────────────────
+  function bearingDeg(lat1, lon1, lat2, lon2) {
+    const φ1 = lat1 * Math.PI/180, φ2 = lat2 * Math.PI/180;
+    const Δλ = (lon2 - lon1) * Math.PI/180;
+    const y = Math.sin(Δλ) * Math.cos(φ2);
+    const x = Math.cos(φ1)*Math.sin(φ2) - Math.sin(φ1)*Math.cos(φ2)*Math.cos(Δλ);
+    return (Math.atan2(y, x) * 180/Math.PI + 360) % 360;
+  }
+
+  // ── Snap to dominant cardinal axis ────────────────────────────────────────
+  // Project bearing onto N-S and E-W axes; largest absolute component wins.
+  //   N-S component = cos(bearing_rad)   (+= N, -= S)
+  //   E-W component = sin(bearing_rad)   (+= E, -= W)
+  function snapCardinal(deg) {
+    const rad = deg * Math.PI / 180;
+    const ns  = Math.cos(rad);   // N-S magnitude
+    const ew  = Math.sin(rad);   // E-W magnitude
+    if (Math.abs(ns) >= Math.abs(ew)) {
+      return ns >= 0 ? { label: 'N', snap: 0   }
+                     : { label: 'S', snap: 180 };
+    } else {
+      return ew >= 0 ? { label: 'E', snap: 90  }
+                     : { label: 'W', snap: 270 };
+    }
+  }
+
+  // ── Icons ─────────────────────────────────────────────────────────────────
+  function makeArrowIcon(snapDeg) {
+    const svg = `
+      <svg class="arrow-svg" width="60" height="60"
+           style="transform:translate(-50%,-50%) rotate(${snapDeg}deg);"
+           viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <line x1="30" y1="48" x2="30" y2="16" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+        <polygon points="30,4 20,20 40,20" fill="#c0392b"/>
+      </svg>`;
+    return L.divIcon({ html: `<div class="arrow-wrap">${svg}</div>`,
+                       iconSize: [0,0], iconAnchor: [0,0], className: '' });
+  }
+
+  const pinIcon = L.divIcon({
+    html: `<svg width="24" height="36" viewBox="0 0 24 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M12 0C5.37 0 0 5.37 0 12c0 9 12 24 12 24s12-15 12-24C24 5.37 18.63 0 12 0z" fill="#c0392b"/>
+             <circle cx="12" cy="12" r="5" fill="white"/>
+           </svg>`,
+    iconSize: [24,36], iconAnchor: [12,36], className: ''
+  });
+
+  const userIcon = L.divIcon({
+    html: '<div class="user-dot"></div>',
+    iconSize: [14,14], iconAnchor: [7,7], className: ''
+  });
+
+  let userMarker  = null;
+  let arrowMarker = null;
+  let pinMarker   = null;
+
+  function update(userLat, userLon) {
+    const distM  = distanceM(userLat, userLon, PIN_LAT, PIN_LON);
+    const deg    = bearingDeg(userLat, userLon, PIN_LAT, PIN_LON);
+    const card   = snapCardinal(deg);
+    const distKm = distM / 1000;
+
+    // HUD
+    document.getElementById('bearing-text').textContent  = deg.toFixed(1) + '°';
+    document.getElementById('dist-text').textContent     =
+      distM < 1000 ? Math.round(distM) + ' m' : distKm.toFixed(1) + ' km';
+    document.getElementById('cardinal-text').textContent = card.label;
+    document.getElementById('status').textContent        = '';
+
+    // User dot
+    if (!userMarker) userMarker = L.marker([userLat, userLon], { icon: userIcon, zIndexOffset: 10 }).addTo(map);
+    else             userMarker.setLatLng([userLat, userLon]);
+
+    // Arrow at midpoint
+    const midLat = (userLat + PIN_LAT) / 2;
+    const midLon = (userLon + PIN_LON) / 2;
+    if (!arrowMarker) arrowMarker = L.marker([midLat, midLon], { icon: makeArrowIcon(card.snap), zIndexOffset: 20 }).addTo(map);
+    else { arrowMarker.setLatLng([midLat, midLon]); arrowMarker.setIcon(makeArrowIcon(card.snap)); }
+
+    // Pin — only within threshold
+    if (distM <= SHOW_PIN_WITHIN_M) {
+      if (!pinMarker) pinMarker = L.marker([PIN_LAT, PIN_LON], { icon: pinIcon }).addTo(map);
+    } else {
+      if (pinMarker) { pinMarker.remove(); pinMarker = null; }
+    }
+
+    map.fitBounds([[userLat, userLon], [PIN_LAT, PIN_LON]], { padding: [60, 60] });
+  }
+
+  if (!('geolocation' in navigator)) {
+    document.getElementById('status').textContent = 'geolocation not supported';
+  } else {
+    navigator.geolocation.getCurrentPosition(
+      pos => update(pos.coords.latitude, pos.coords.longitude),
+      err => {
+        document.getElementById('status').textContent =
+          ['', 'permission denied', 'position unavailable', 'timeout'][err.code];
+      },
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+    );
+  }
+</script>
+</body>
+</html>

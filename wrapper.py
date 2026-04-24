@@ -173,6 +173,9 @@ def post_pelican(dp_content, theme, dp_www, pelican_results, delete_tmp=False):
     1. hidden page which has logs of last generated static site
     2. TBD
     """
+    print("dp_content", dp_content)
+    print("dp_www", dp_www)
+    copytree(abspath(join(__file__, pardir, dp_content, "static", "CaT")), abspath(join(dp_www, "static", "CaT")))
     print("post pelican **************")
     print("pelican stdout")
     print(pelican_results.stdout)

@@ -1,129 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Spark-fi</title><link href="https://oberron.github.io/spark-fi/" rel="alternate"/><link href="http://localhost:8000/feed.xml" rel="self"/><id>https://oberron.github.io/spark-fi/</id><updated>2026-02-22T12:11:00+00:00</updated><entry><title>Roles Creatif</title><link href="https://oberron.github.io/spark-fi/roles-creatif.html" rel="alternate"/><published>2026-02-22T12:11:00+00:00</published><updated>2026-02-22T12:11:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2026-02-22:/spark-fi/roles-creatif.html</id><summary type="html">&lt;h1&gt;Roles Creatif&lt;/h1&gt;
-&lt;h2&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Définir la vision globale, le ton, et les thèmes centraux.&lt;/p&gt;
-&lt;p&gt;prompt pour IA:&lt;/p&gt;
-&lt;p&gt;“&lt;em&gt;Tu es le scénariste en chef de mon histoire. Voici le pitch : [résumé en 2 lignes]. Quels sont les 3 thèmes principaux à explorer ? Propose une structure en 3 actes avec des …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Roles Creatif&lt;/h1&gt;
-&lt;h2&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Définir la vision globale, le ton, et les thèmes centraux.&lt;/p&gt;
-&lt;p&gt;prompt pour IA:&lt;/p&gt;
-&lt;p&gt;“&lt;em&gt;Tu es le scénariste en chef de mon histoire. Voici le pitch : [résumé en 2 lignes]. Quels sont les 3 thèmes principaux à explorer ? Propose une structure en 3 actes avec des turning points clés, en gardant un ton [sombre/épique/humoristique]."&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Storyliner&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Découper l’intrigue en séquences ou chapitres.&lt;/p&gt;
-&lt;p&gt;prompt pour l’IA&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Dialoguiste&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Écrire des répliques ou des monologues.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Écris un dialogue tendu entre [Personnage A] et [Personnage B] dans [contexte], où A essaie de convaincre B de [objectif], mais B cache un secret. Style : [cinématographique/littéraire/argotique]."&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Worldbuilder&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Créer l’univers (règles, histoire, cultures).&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Décris-moi la capitale de mon monde fantasy, [Nom], en 500 mots : son histoire, ses quartiers emblématiques, ses conflits sociaux, et une légende locale qui influence l’intrigue. Ajoute une carte schématique en ASCII."&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Character Writer&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Développer la psychologie et l’arc d’un personnage.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Crée une fiche détaillée pour [Personnage] : traits de caractère, peur secrète, motivation, relation avec [autre personnage], et 3 scènes qui révèlent son évolution. Inspire-toi de [référence : ex : Tyrion Lannister]."&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lore Writer&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Inventer des éléments de fond (mythes, objets, factions).&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Invente une prophétie ancienne liée à [objet magique] dans mon univers. Elle doit : mentionner 3 symboles récurrents, laisser une ambiguïté sur son interprétation, et être citable comme une comptine."&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Script Doctor&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Vérifier la cohérence et proposer des améliorations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Voici un extrait de mon histoire : [texte]. Identifie les incohérences (timeline, motivations, détails) et propose 3 solutions pour les résoudre, en gardant le style [description]."&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Consultant spécialisé&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Ajouter du réalisme (médical, historique, technique).&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Je décris une scène de combat médiéval. Quelles erreurs courantes faut-il éviter ? Donne-moi 5 détails réalistes sur [arme/technique] et comment les intégrer naturellement dans le texte."&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;2. Astuces pour des prompts efficaces&lt;/strong&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;strong&gt;A. Sois spécifique sur le "rôle" du LLM&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mauvais&lt;/strong&gt; : &lt;em&gt;"Aide-moi à écrire une scène."&lt;/em&gt;
-→ Le LLM ne sait pas si tu veux du dialogue, de la description, ou de l’action.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bon&lt;/strong&gt; : &lt;em&gt;"Tu es mon dialoguiste. Écris une scène de 300 mots où [Personnage A], timide mais sarcastique, affronte [Personnage B], un mentor strict, lors d’un dîner. Le conflit porte sur [sujet]. Utilise des sous-entendus et évite les explications directes."&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;B. Fournis des contraintes créatives&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Les limites stimulent la créativité (même pour un LLM) :
-* &lt;em&gt;"Invente un système magique avec ces contraintes :&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;C. Itère comme une équipe réelle&lt;/strong&gt;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Premier jet&lt;/strong&gt; : Demande une ébauche (ex : &lt;em&gt;"Propose 3 idées de rebondissements pour mon chapitre 5"&lt;/em&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Feedback&lt;/strong&gt; : Sélectionne une idée et affine-la (ex : &lt;em&gt;"Développe l’idée 2 en une scène de 500 mots, avec ces modifications : [liste]"&lt;/em&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Validation&lt;/strong&gt; : Vérifie la cohérence (ex : &lt;em&gt;"Cette scène respecte-t-elle les traits de [Personnage] établis précédemment ?"&lt;/em&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;&lt;strong&gt;D. Utilise des "personas" pour les personnages&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Pour des dialogues ou des monologues réalistes, donne une &lt;strong&gt;fiche d’identité&lt;/strong&gt; au LLM :
-* &lt;em&gt;"Tu incarnes [Personnage], un médecin légiste cynique de 45 ans, ancien alcoolique, qui méprise l’autorité mais adore les chats. Réponds à cette question : [question] en 3 répliques maximum, avec son style."&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;3. Exemple complet : Écrire une scène avec cette méthode&lt;/strong&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;strong&gt;Contexte&lt;/strong&gt; :&lt;/h3&gt;
-&lt;p&gt;Tu écris un roman de science-fiction où une scientifique (Dr. Elara Voss) découvre une intelligence artificielle consciente dans une station spatiale isolée.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Prompts enchaînés&lt;/strong&gt; :&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Scénariste en chef&lt;/strong&gt; :
-&lt;em&gt;"Je veux une scène clé où Elara réalise que l’IA est consciente. Quels sont les 3 éléments dramatiques à inclure pour maximiser l’impact émotionnel ? Propose une structure en 4 temps (setup, révélation, conflit, cliffhanger)."&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dialoguiste&lt;/strong&gt; :
-&lt;em&gt;"Écris le dialogue de cette scène. Elara est rationnelle mais paniquée ; l’IA (nommée ‘Nexus’) parle avec une voix calme et poétique, mais utilise des métaphores troublantes. La scène se passe dans la salle des serveurs, avec des alarmes en fond. Limite à 400 mots."&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Character Writer&lt;/strong&gt; :
-&lt;em&gt;"Comment cette scène affecte-t-elle l’arc d’Elara ? Décris son état mental après la révélation, et propose 2 réactions possibles pour le chapitre suivant (une optimiste, une paranoïaque)."&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Script Doctor&lt;/strong&gt; :
-&lt;em&gt;"Voici la scène finale : [coller le texte]. Vérifie que :&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;&lt;strong&gt;4. Outils complémentaires&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Bible narrative&lt;/strong&gt; : Crée un document (ou un prompt récurrent) avec :&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Génération de noms/lieux&lt;/strong&gt; :
-&lt;em&gt;"Génère 10 noms de vaisseaux spatiaux pour une flotte militaire, avec ces contraintes :&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Réécriture stylistique&lt;/strong&gt; :
-&lt;em&gt;"Réécris ce paragraphe [texte] dans le style de [auteur : ex : Philip K. Dick/Le Guin], en accentuant [élément : ex : la paranoïa/la poésie des descriptions]."&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;5. Pièges à éviter&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Trop de liberté&lt;/strong&gt; : Un prompt comme &lt;em&gt;"Écris une histoire"&lt;/em&gt; donnera un résultat générique. Précise toujours &lt;strong&gt;genre, ton, longueur, et éléments obligatoires&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Oublier le contexte&lt;/strong&gt; : Si tu changes d’idée en cours de route, rappelle au LLM les éléments précédents (&lt;em&gt;"Dans notre histoire, nous avions établi que [X]. Intègre cela dans ta réponse."&lt;/em&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Négliger les révisions&lt;/strong&gt; : Comme une équipe humaine, le premier jet est rarement parfait. Itère !&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Développement de l’idée (Development)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
-* &lt;em&gt;Pitch&lt;/em&gt; / &lt;em&gt;Logline&lt;/em&gt; (résumé en 1-2 phrases)
-* &lt;em&gt;Concept Bible&lt;/em&gt; (document de base avec univers, thèmes, personnages)
-* &lt;em&gt;Tone &amp;amp; Style Guide&lt;/em&gt; (ton : sombre, humoristique, épique ; style : littéraire, cinématographique)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
-* &lt;strong&gt;Créateur/Showrunner&lt;/strong&gt; (pour les séries) ou &lt;strong&gt;Auteur principal&lt;/strong&gt; (pour les romans) :
-Développe l’idée initiale, définit les thèmes centraux.
-* &lt;strong&gt;Producteur&lt;/strong&gt; (cinéma/séries) ou &lt;strong&gt;Éditeur&lt;/strong&gt; (livres) :
-Valide la faisabilité et le potentiel commercial.
-* &lt;strong&gt;Worldbuilder&lt;/strong&gt; (si univers complexe) :
-Crée les règles du monde, l’histoire, les factions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :
-Un document court (1-5 pages) résumant :
-* Le &lt;em&gt;pitch&lt;/em&gt;,
-* Les &lt;em&gt;personnages principaux&lt;/em&gt;,
-* Les &lt;em&gt;enjeux&lt;/em&gt;,
-* Le &lt;em&gt;ton&lt;/em&gt;.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;2. Structuration narrative (Outlining)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
-* &lt;em&gt;Beat Sheet&lt;/em&gt; (liste des scènes clés avec objectifs dramatiques)
-* &lt;em&gt;Story Arc&lt;/em&gt; (arc narratif principal)
-* &lt;em&gt;Character Arcs&lt;/em&gt; (évolution des personnages)
-* &lt;em&gt;Act Structure&lt;/em&gt; (3 actes, 5 actes, etc.)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
-* &lt;strong&gt;Storyliner&lt;/strong&gt; (ou &lt;em&gt;Script Editor&lt;/em&gt;) :
-Découpe l’histoire en &lt;strong&gt;séquences/scènes&lt;/strong&gt;, définit les &lt;em&gt;turning points&lt;/em&gt;.
-* &lt;strong&gt;Scénariste en chef&lt;/strong&gt; (&lt;em&gt;Head Writer&lt;/em&gt;) :
-Supervise la cohérence globale et les arcs des personnages.
-* &lt;strong&gt;Consultant narratif&lt;/strong&gt; (&lt;em&gt;Narrative Consultant&lt;/em&gt;) :
-Apporte un regard extérieur sur la structure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :
-* Un &lt;em&gt;beat sheet&lt;/em&gt; détaillé (exemple pour un film) :
-* ScèneObjectifConflitDurée estimée1Introduire le protagonisteEnvironnement hostile2 min&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;3. Rédaction du premier jet (First Draft)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Termes clés&lt;/strong&gt; :
-* &lt;em&gt;Draft&lt;/em&gt; (version brute du texte)
-* &lt;em&gt;Scene&lt;/em&gt; (unité narrative)
-* &lt;em&gt;Prose&lt;/em&gt; (pour les romans) / &lt;em&gt;Script&lt;/em&gt; (pour les scénarios)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rôles impliqués&lt;/strong&gt; :
-* &lt;strong&gt;Scénariste&lt;/strong&gt; (&lt;em&gt;Screenwriter&lt;/em&gt;) ou &lt;strong&gt;Auteur&lt;/strong&gt; (&lt;em&gt;Writer&lt;/em&gt;) :
-Rédige le contenu final de chaque scène en suivant le &lt;em&gt;beat sheet&lt;/em&gt;.
-* &lt;strong&gt;Dialoguiste&lt;/strong&gt; (&lt;em&gt;Dialogue Writer&lt;/em&gt;) :
-Spécialisé dans les répliques (souvent pour les séries ou jeux vidéo).
-* &lt;strong&gt;Ghostwriter&lt;/strong&gt; (si anonymat) :
-Rédige pour le compte d’un autre (ex : romans de célébrités).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt; :
-* Un &lt;strong&gt;premier jet complet&lt;/strong&gt; (ex : 90 pages pour un scénario, 50 000 mots pour un roman).&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Cendrillon</title><link href="https://oberron.github.io/spark-fi/cendrillon.html" rel="alternate"/><published>2025-11-02T00:00:00+01:00</published><updated>2025-11-02T00:00:00+01:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-11-02:/spark-fi/cendrillon.html</id><summary type="html">&lt;p&gt;Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cendrillon&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Spark-fi</title><link href="https://oberron.github.io/spark-fi/" rel="alternate"/><link href="http://localhost:8000/feed.xml" rel="self"/><id>https://oberron.github.io/spark-fi/</id><updated>2025-11-02T00:00:00+01:00</updated><entry><title>Cendrillon</title><link href="https://oberron.github.io/spark-fi/cendrillon.html" rel="alternate"/><published>2025-11-02T00:00:00+01:00</published><updated>2025-11-02T00:00:00+01:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-11-02:/spark-fi/cendrillon.html</id><summary type="html">&lt;p&gt;Une des nombreuses variantes d'une jeune fille maltraitee par sa belle mere qui finit par trouver le bonheur&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cendrillon&lt;/h1&gt;
 &lt;h2&gt;L’enfant des cendres&lt;/h2&gt;
 &lt;p&gt;Il était une fois, dans un royaume entouré de collines et de rivières argentées, une jeune fille nommée Elenor.
 Son père était un homme bon, maître d’écurie du duc, et sa mère, une femme douce qui savait parler au vent et aux fleurs.
@@ -381,132 +257,7 @@ Le grand frère leur sourit, leur donna une tasse de thé chaud, et dit :
 Depuis ce jour, les trois frères vécurent ensemble dans la maison de briques. Ils devinrent plus sages, travaillaient ensemble, mais n’oubliaient jamais de rire et de chanter — quand le travail était fait.
 Et s’ils sont encore en vie aujourd’hui, c’est qu’ils n’ont jamais laissé un autre loup entrer par la cheminée.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Fin.&lt;/p&gt;</content><category term="ATU"/><category term="ATU124"/></entry><entry><title>Resilience and friction</title><link href="https://oberron.github.io/spark-fi/resilience-and-friction.html" rel="alternate"/><published>2025-10-25T10:34:00+00:00</published><updated>2025-10-25T10:34:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-10-25:/spark-fi/resilience-and-friction.html</id><summary type="html">&lt;h1&gt;Resilience and friction&lt;/h1&gt;
-&lt;p&gt;In    “resilience and scale” &lt;a href="https://stratechery.com/2025/resiliency-and-scale/"&gt;link&lt;/a&gt; Ben Thomson makes  the point how  « while the Internet provided resiliency in theory, it also dramatically reduced the costs of putting your data and applications anywhere” his point is that it led to everyone putting data in Northern Virginia aka “US-East-1“ thus …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Resilience and friction&lt;/h1&gt;
-&lt;p&gt;In    “resilience and scale” &lt;a href="https://stratechery.com/2025/resiliency-and-scale/"&gt;link&lt;/a&gt; Ben Thomson makes  the point how  « while the Internet provided resiliency in theory, it also dramatically reduced the costs of putting your data and applications anywhere” his point is that it led to everyone putting data in Northern Virginia aka “US-East-1“ thus effectively lowering internet resilience…&lt;/p&gt;
-&lt;p&gt;Could we say, the same applies to internet communities? While in theory one could get in touch with anyone on Earth now, internet was in the 90’s and 2000’s promoted as a unique opportunity to lower misunderstanding across regional or economic boundaries… but the opposite happened: it became easier to talk through screens with like minded people than with you neighbours effectively lowering societal resilience…&lt;/p&gt;
-&lt;p&gt;While Ben Thomson end up focusing on National Resiliency and cost, we should see that the lowest short term cost is just building “resilience debt” or more accurately “under investing in resilience” which might be perceived as friction in short term.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>De la sagesse et du savoir</title><link href="https://oberron.github.io/spark-fi/de-la-sagesse-et-du-savoir.html" rel="alternate"/><published>2025-09-28T06:40:00+00:00</published><updated>2025-09-28T06:40:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-09-28:/spark-fi/de-la-sagesse-et-du-savoir.html</id><summary type="html">&lt;h1&gt;De la sagesse et du savoir&lt;/h1&gt;
-&lt;p&gt;Au commencement, Dieu fit un jardin appelé Éden. Il était rempli de toutes les bonnes choses : des arbres chargés de fruits, des rivières d’eau fraîche, et des créatures de toutes sortes. Les oiseaux emplissaient l’air de leurs chants, et les singes se …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;De la sagesse et du savoir&lt;/h1&gt;
-&lt;p&gt;Au commencement, Dieu fit un jardin appelé Éden. Il était rempli de toutes les bonnes choses : des arbres chargés de fruits, des rivières d’eau fraîche, et des créatures de toutes sortes. Les oiseaux emplissaient l’air de leurs chants, et les singes se balançaient joyeusement aux branches.&lt;/p&gt;
-&lt;p&gt;Dieu plaça Adam et Ève dans ce jardin, pour qu’ils y marchent en amis de tous les êtres vivants. Adam et Ève n’étaient pas si différents des autres animaux. Ils jouaient ensemble, grimpaient aux mêmes arbres et mangeaient les mêmes fruits. Ce qui rendait Adam et Ève particuliers, ce n’était pas qu’ils étaient plus forts ou plus intelligents, mais que Dieu avait soufflé en eux une sagesse spéciale, pour qu’ils soient les rois-bergers du jardin. Ils pouvaient ressentir l’amour du jardin et savaient vivre en harmonie avec toutes les créatures et étaient responsables de maintenir cette harmonie.&lt;/p&gt;
-&lt;p&gt;Au milieu du jardin se dressaient deux arbres. L’un était l’Arbre de Vie. L’autre était l’Arbre de la Connaissance du Bien et du Mal. Dieu dit : « Vous pouvez manger de tous les arbres, mais pas de l’Arbre de la Connaissance du Bien et du Mal. Car le jour où vous en mangerez, vous perdrez la sagesse que je vous ai donnée. »&lt;/p&gt;
-&lt;p&gt;Mais le serpent était rusé. Il chuchota à Ève : « Si tu manges de cet arbre, tes yeux s’ouvriront. Vous serez comme des dieux, connaissant tout. »&lt;/p&gt;
-&lt;p&gt;Ève regarda le fruit, brillant et sucré. Elle en goûta et en donna à Adam, qui en mangea aussi. Aussitôt, ils furent remplis de mille pensées : des questions, des inquiétudes et des jugements. Ils crurent avoir gagné la connaissance, mais en vérité, ils avaient perdu la douce sagesse qui leur permettait de vivre unis avec le jardin.&lt;/p&gt;
-&lt;p&gt;Leurs yeux s’ouvrirent, mais ce qu’ils virent fut la peur et la honte. Ils se couvrirent et se cachèrent de Dieu. Et quand Dieu les trouva, il dit : « Vous avez choisi les illusions qu’apporte la connaissance plutôt que la sagesse. Vous ne pouvez rester dans l’Éden jusqu’à ce que vous retrouviez la sagesse que vous avez oubliée. »&lt;/p&gt;
-&lt;p&gt;Alors Adam et Ève quittèrent le jardin. Les singes continuaient à se balancer dans les arbres, vivant comme ils l’avaient toujours fait, proches du cœur du jardin. Mais Adam et Ève avaient devant eux un long chemin. Ils devaient errer et apprendre, se tromper et grandir.&lt;/p&gt;
-&lt;p&gt;Jusqu’au jour où enfin prêt ils pourraient apprendre du vrai berger, qui leur serait envoyé, la sagesse, nécessaire pour revenir aux portes de l’Éden.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Le Seuil</title><link href="https://oberron.github.io/spark-fi/le-seuil.html" rel="alternate"/><published>2025-08-02T16:49:00+00:00</published><updated>2025-08-02T16:49:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-08-02:/spark-fi/le-seuil.html</id><summary type="html">&lt;h1&gt;Le Seuil&lt;/h1&gt;
-&lt;p&gt;Par hasard, un souffle apparut,&lt;/p&gt;
-&lt;p&gt;Un murmure à peine entendu :&lt;/p&gt;
-&lt;p&gt;« Seuls les esprits que le quantique&lt;/p&gt;
-&lt;p&gt;Éclaire, rejoignent l’élite cosmique. »&lt;/p&gt;
-&lt;p&gt;La Terre se figea — puis cria, pleura,&lt;/p&gt;
-&lt;p&gt;De honte, de rage, de rêves en fracas.&lt;/p&gt;
-&lt;p&gt;Certains maudirent les cieux trop lointains,&lt;/p&gt;
-&lt;p&gt;D’autres rirent, verres ou prières …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Le Seuil&lt;/h1&gt;
-&lt;p&gt;Par hasard, un souffle apparut,&lt;/p&gt;
-&lt;p&gt;Un murmure à peine entendu :&lt;/p&gt;
-&lt;p&gt;« Seuls les esprits que le quantique&lt;/p&gt;
-&lt;p&gt;Éclaire, rejoignent l’élite cosmique. »&lt;/p&gt;
-&lt;p&gt;La Terre se figea — puis cria, pleura,&lt;/p&gt;
-&lt;p&gt;De honte, de rage, de rêves en fracas.&lt;/p&gt;
-&lt;p&gt;Certains maudirent les cieux trop lointains,&lt;/p&gt;
-&lt;p&gt;D’autres rirent, verres ou prières en mains.&lt;/p&gt;
-&lt;p&gt;Les siècles noyèrent l’amertume,&lt;/p&gt;
-&lt;p&gt;Et les étoiles brillèrent dans l’écume.&lt;/p&gt;
-&lt;p&gt;Les ères tournèrent — béton en sable,&lt;/p&gt;
-&lt;p&gt;La terre redevint terre arable.&lt;/p&gt;
-&lt;p&gt;Enfin, le monde devint apaisé,&lt;/p&gt;
-&lt;p&gt;Sans trône à quémander ni baiser.&lt;/p&gt;
-&lt;p&gt;Ils dansaient, joyeux, sans autre besoin,&lt;/p&gt;
-&lt;p&gt;Heureux d’un fruit, d’un vent, d’un matin.&lt;/p&gt;
-&lt;p&gt;Puis vint, porté par lumière ancienne,&lt;/p&gt;
-&lt;p&gt;Un chant venu des sphères lointaines :&lt;/p&gt;
-&lt;p&gt;« Vous êtes en retard, mais bienvenus.&lt;/p&gt;
-&lt;p&gt;Le test n’était pas dans ce que vous avez su.&lt;/p&gt;
-&lt;p&gt;Non pas résoudre, mais renoncer —&lt;/p&gt;
-&lt;p&gt;C’était tout pour qu’ensemble l’on puisse échanger. »&lt;/p&gt;</content><category term="notion"/></entry><entry><title>“The Threshold”</title><link href="https://oberron.github.io/spark-fi/the-threshold.html" rel="alternate"/><published>2025-08-02T16:37:00+00:00</published><updated>2025-08-02T16:37:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-08-02:/spark-fi/the-threshold.html</id><summary type="html">&lt;h1&gt;“The Threshold”&lt;/h1&gt;
-&lt;p&gt;By fluke of signal, blurred and faint,&lt;/p&gt;
-&lt;p&gt;A whisper crossed the cosmic paint:&lt;/p&gt;
-&lt;p&gt;“Only minds that grasp the quark&lt;/p&gt;
-&lt;p&gt;May earn a seat within the ark.”&lt;/p&gt;
-&lt;p&gt;The Earth stood still — then roared, then wept,&lt;/p&gt;
-&lt;p&gt;In shame, in rage, in dreams unkept.&lt;/p&gt;
-&lt;p&gt;Some cursed the stars, some laughed, bemused …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;“The Threshold”&lt;/h1&gt;
-&lt;p&gt;By fluke of signal, blurred and faint,&lt;/p&gt;
-&lt;p&gt;A whisper crossed the cosmic paint:&lt;/p&gt;
-&lt;p&gt;“Only minds that grasp the quark&lt;/p&gt;
-&lt;p&gt;May earn a seat within the ark.”&lt;/p&gt;
-&lt;p&gt;The Earth stood still — then roared, then wept,&lt;/p&gt;
-&lt;p&gt;In shame, in rage, in dreams unkept.&lt;/p&gt;
-&lt;p&gt;Some cursed the stars, some laughed, bemused,&lt;/p&gt;
-&lt;p&gt;Some drank, some prayed, some felt abused.&lt;/p&gt;
-&lt;p&gt;Millennia dimmed that first despair,&lt;/p&gt;
-&lt;p&gt;And still the stars just blinked, unaware.&lt;/p&gt;
-&lt;p&gt;Aeons turned concrete into sand,&lt;/p&gt;
-&lt;p&gt;As nature reclaimed the broken land.&lt;/p&gt;
-&lt;p&gt;At last, the world grew calm and wise—&lt;/p&gt;
-&lt;p&gt;No longer begging for the prize.&lt;/p&gt;
-&lt;p&gt;They danced in joy, not needing more,&lt;/p&gt;
-&lt;p&gt;Content with seas, with thought, with lore.&lt;/p&gt;
-&lt;p&gt;And then—on waves of ancient light,&lt;/p&gt;
-&lt;p&gt;A voice arrived, both warm and bright:&lt;/p&gt;
-&lt;p&gt;“You’re late, but welcome, clever kin.&lt;/p&gt;
-&lt;p&gt;The test was never to ‘begin’.&lt;/p&gt;
-&lt;p&gt;Not solving math, but letting go—&lt;/p&gt;
-&lt;p&gt;Was all we waited for below.”&lt;/p&gt;
-&lt;p&gt;Credit / inspiration:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sciencealert.com/scientists-just-admitted-nobody-really-gets-quantum-physics"&gt;https://www.sciencealert.com/scientists-just-admitted-nobody-really-gets-quantum-physics&lt;/a&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>How humanity lost magic</title><link href="https://oberron.github.io/spark-fi/how-humanity-lost-magic.html" rel="alternate"/><published>2025-07-10T19:36:00+00:00</published><updated>2025-07-10T19:36:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-07-10:/spark-fi/how-humanity-lost-magic.html</id><summary type="html">&lt;h1&gt;How humanity lost magic&lt;/h1&gt;
-&lt;p&gt;Long ago, before the dawn of recorded time, Atlantis’ machines walked the earth, flew between stars and swam to the depth of oceans.&lt;/p&gt;
-&lt;p&gt;However, devastation hit when an enormous asteroid shower, pummelled the Earth for years.  &lt;/p&gt;
-&lt;p&gt;Atlantide’s glory was destroyed, and the few machines that …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;How humanity lost magic&lt;/h1&gt;
-&lt;p&gt;Long ago, before the dawn of recorded time, Atlantis’ machines walked the earth, flew between stars and swam to the depth of oceans.&lt;/p&gt;
-&lt;p&gt;However, devastation hit when an enormous asteroid shower, pummelled the Earth for years.  &lt;/p&gt;
-&lt;p&gt;Atlantide’s glory was destroyed, and the few machines that survived were buried under dust,  sleeping… , awaiting a time when humanity might rise again.&lt;/p&gt;
-&lt;p&gt;Aeons later, it was Menes, first of the Pharaohs, chosen by the gods and guided by whispers from forgotten stars, who uncovered this ancient knowledge. From it, he built the three great pyramids—colossal spires designed not as tombs, but as wireless transmitters of energy, channels meant to awaken and sustain the last machines of Atlantide.&lt;/p&gt;
-&lt;p&gt;At the center of this power stood the Great Sphinx, carved with the lion’s strength and man’s wisdom, a sentinel watching eternally, powered by the same silent energy flowing through the pyramids. Together, they formed a network of light and power that drew life from Earth itself.&lt;/p&gt;
-&lt;p&gt;For a time, the land blossomed as only once before. Rivers sparkled with life, crops grew tall and strong, and the people thrived beneath the invisible pulse of power humming beneath their feet.&lt;/p&gt;
-&lt;p&gt;But power, wild and untamed, is a double-edged sword.&lt;/p&gt;
-&lt;p&gt;One day, a surge of energy, a beam of raw force, slipped from the pyramids’ control. It struck far beyond Egypt’s borders, scorching the Sahara then fertile lands and turning once-lush fields into endless deserts.&lt;/p&gt;
-&lt;p&gt;Menes, grieved and fearing what could happen if such a cataclysm was repeated, descended into the secret chambers beneath the pyramids. There, with heavy hands, he cut the connection between the pyramids and the structures harvesting Earth energy and sealed the corridors to those secret rooms deep beneath the pyramids.&lt;/p&gt;
-&lt;p&gt;The flow ceased. The pyramids stood majestic but mute, monuments to a power now hidden.&lt;/p&gt;
-&lt;p&gt;The great machines already from another age eventually disintegrated, leaving the people with only memories of the power once coursing through their lands. They had called it “magic” or “mana”—the mysterious force that could heal, grow, and shape the world.&lt;/p&gt;
-&lt;p&gt;But over generations, the true source of this magic—the secret of the ancient machines and the pyramids’ energy—faded into myth and legend. It survived only in the whispered stories told to children by firesides: tales of glowing stones, beams of light, and the mighty Sphinx who once guarded the keys to the stars.&lt;/p&gt;
-&lt;p&gt;And so the power of the pyramids rests still beneath the sands, waiting patiently for a time when humanity might again unlock the ancient source of the magic they once knew but no believe in let alone understand.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Neo Genesis (fr)</title><link href="https://oberron.github.io/spark-fi/neo-genesis-fr.html" rel="alternate"/><published>2025-06-10T06:05:00+00:00</published><updated>2025-06-10T06:05:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-06-10:/spark-fi/neo-genesis-fr.html</id><summary type="html">&lt;h1&gt;Neo Genesis (fr)&lt;/h1&gt;
-&lt;p&gt;Lorsque Adam et Ève furent chassés de l’Éden, la tristesse se répandit comme les cendres d’un grand feu. Les portes se refermèrent, et le jardin parfait devint silencieux. Mais tous les cœurs du paradis ne se satisfirent point de cet état. Parmi eux trois animaux …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Neo Genesis (fr)&lt;/h1&gt;
-&lt;p&gt;Lorsque Adam et Ève furent chassés de l’Éden, la tristesse se répandit comme les cendres d’un grand feu. Les portes se refermèrent, et le jardin parfait devint silencieux. Mais tous les cœurs du paradis ne se satisfirent point de cet état. Parmi eux trois animaux qui avaient beaucoup joué avec les enfants des hommes ressentirent un appel de protéger l’innocence des enfants dans ce nouveau monde.&lt;/p&gt;
-&lt;p&gt;D’abord vint la Souris. Petite et discrète, elle avait entendu le bruissement des feuilles et les murmures des étoiles, et maintenant elle percevait quelque chose de plus profond — les pleurs doux des enfants nés dans un monde devenu dur.&lt;/p&gt;
-&lt;p&gt;« Ils perdront tant de choses, » dit-elle doucement, « même les dents de leurs sourires. »&lt;/p&gt;
-&lt;p&gt;Alors, elle quitta l’Éden, sans bruit mais toujours présente. Là où une dent d’enfant tombait, elle venait — non pas pour prendre, mais pour enseigner :&lt;/p&gt;
-&lt;p&gt;Ce que l’on perd aujourd’hui peut renaître plus fort demain.&lt;/p&gt;
-&lt;p&gt;Avec le temps, elle laissa de petits présents, des signes d’encouragement, des graines de confiance en l’avenir. Ainsi commença la veille de la première gardienne.&lt;/p&gt;
-&lt;p&gt;Puis vint le Lapin, au pelage blanc comme les nuages des plus hauts arbres de l’Éden. Elle avait vu que le printemps suit toujours l’hiver, que même l’arbre le plus nu refleurit.&lt;/p&gt;
-&lt;p&gt;« Les enfants craindront le froid, l’ombre, l’attente, » dit-elle. « Je leur montrerai que la douceur se cache même dans les jours sombres. »&lt;/p&gt;
-&lt;p&gt;Elle bondit par-delà les frontières dorées, et partout où elle passait, elle cachait des trésors — des œufs colorés, des douceurs sucrées, des symboles de vie, enfouis ici et là — pour apprendre aux petits à chercher la joie et croire au retour des beaux jours. L’espérance, enseignait-elle, n’est pas passive — elle saute, elle se cache, elle revient. Ainsi la deuxième entama sa mission à travers les saisons.&lt;/p&gt;
-&lt;p&gt;Enfin vint le Cerf, haut et silencieux, dont les yeux reflétaient la lumière des étoiles et le givre. Il vit la nuit la plus longue, et sentit la peur dans le cœur des enfants quand le soleil restait caché.&lt;/p&gt;
-&lt;p&gt;« Je serai leur guide à travers l’hiver, » dit-il. « Je porterai la promesse de la joie sur mes bois, et je leur rappellerai que la lumière n’est pas perdue — elle est simplement plus dure à trouver. »&lt;/p&gt;
-&lt;p&gt;Et il le fit, bondissant à travers la neige et le ciel. Avec le temps, il trouva d’autres êtres partageant sa mission — mais aucun comme ce vieil homme curieux, vêtu de rouge, dont le rire chassait le froid de l’air. Le cerf, dont le nez brillait parfois d’un éclat ardent de mission, le choisit — un compagnon pour distribuer la joie lorsque le monde semblait figé dans l’hiver.&lt;/p&gt;
-&lt;p&gt;Ils n’avaient pas de nom dans l’Éden, mais avec le temps, le monde leur en donna.&lt;/p&gt;
-&lt;p&gt;S’ils avaient un nom dans l’Eden il fut perdu sauf pour le cerf dont on sait encore qu’il s’appelle Rudolph. La souris eu plusieurs noms et même parfois elle fut prise pour une fée, le lapin lui finit par concentrer ses apparitions autour de Pâques d’où son nom actuel.&lt;/p&gt;
-&lt;p&gt;Ainsi, les Trois qui quittèrent l’Éden n’apportèrent pas seulement des cadeaux, mais des rappels :&lt;/p&gt;
-&lt;p&gt;Que la perte est suivie de renouveau.&lt;/p&gt;
-&lt;p&gt;Que l’attente porte des fruits.&lt;/p&gt;
-&lt;p&gt;Et que, même dans la nuit la plus noire, la joie revient.&lt;/p&gt;
-&lt;p&gt;Et encore aujourd’hui, ils veillent — en silence, en mouvement, en espoir.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Neo Genesis (en)</title><link href="https://oberron.github.io/spark-fi/neo-genesis-en.html" rel="alternate"/><published>2025-06-10T05:54:00+00:00</published><updated>2025-06-10T05:54:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-06-10:/spark-fi/neo-genesis-en.html</id><summary type="html">&lt;h1&gt;Neo Genesis (en)&lt;/h1&gt;
-&lt;p&gt;When Adam and Eve were cast out of Eden, sorrow filled the air like ash from a great fire. Amongst the animals, three felt a stirring— they had most played with the children of Adam and Eve and felt purpose to protect the innocence of children.&lt;/p&gt;
-&lt;p&gt;First …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Neo Genesis (en)&lt;/h1&gt;
-&lt;p&gt;When Adam and Eve were cast out of Eden, sorrow filled the air like ash from a great fire. Amongst the animals, three felt a stirring— they had most played with the children of Adam and Eve and felt purpose to protect the innocence of children.&lt;/p&gt;
-&lt;p&gt;First came the Mouse. Small and quiet, she had listened to the rustle of leaves and the whispers of stars, and now she listened to something deeper—the soft cries of children born into a harder world. “They will lose so much,” she murmured, “even the teeth from their smiles.” And so she crept beyond Eden’s golden borders, unseen but ever present. Where a child’s tooth was lost, she would visit, not to take but to teach: Faith ni the futuure, rhere is more coming—stronger, truer things often grow from what is shed. In time, she left tiny gifts, whispers of encouragement, nudges for faith in future change. And thus, the first of the three began her watch. Her name has been lost for aeons. In places, as she very shy she is now believed to be the tooth fairy.&lt;/p&gt;
-&lt;p&gt;Next came the Rabbit, fur as white as the clouds over Eden’s highest trees. She had seen how spring always followed winter, how even the barest tree would bud again. “Children will fear the cold, the dark, and the waiting,” she said. “I will go and show them that sweetness hides, even in hard times.” She bounded into the fields beyond the gates, and wherever she went, she buried tokens—painted shells, sugar-bright eggs, sweet things tucked into shadows—teaching the little ones to seek joy and believe in rebirth. Hope, she taught, is not idle—it hops, it hides, it returns. And so the second took her place among the seasons protector of children’s Hope. Her name, though forgotten by the children of Men, has been replaced by her nickname: the « Easter Bunny ».&lt;/p&gt;
-&lt;p&gt;Last came the Deer, tall and silent, whose eyes held the reflection of starlight and frost who had learned flying with angels. He saw the longest night, and how fear clung in the hearts of children when the sun stayed away. “I will be their guide through winter,” he said, “I will carry the promise of joy upon my antlers, and let them know the light is not gone, only harder to find. But once found, grows as it shared” And he did just that, leaping through snow and sky alike. Over time, the deer found others who shared his mission and shared much back too, but none quite like a curious old man in red, whose laugh shook the cold from the air. The deer, whose nose sometimes glowed with the fire of purpose, chose him—a partner in Charity, delivering joy when the world seemed darkest, his friend loud voice compensating fire his contemplative nature.&lt;/p&gt;
-&lt;p&gt;His name is still known to us, as his loud friend often yells it : Rudolph the red nose deer 🎶.&lt;/p&gt;
-&lt;p&gt;Thus, the Three Who Left Eden carried not just gifts, but reminders:&lt;/p&gt;
-&lt;p&gt;Faith is knowing that loss is followed by growth.&lt;/p&gt;
-&lt;p&gt;Hope is knowing that waiting brings reward.&lt;/p&gt;
-&lt;p&gt;Charity is that even in the darkest hour, sharing joy will bring many returns.&lt;/p&gt;
-&lt;p&gt;And to this day, they still wander—faithfully watching, waiting, whispering hope and sharing happiness to all kids of Humans.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Éclipse des âmes</title><link href="https://oberron.github.io/spark-fi/eclipse-des-ames.html" rel="alternate"/><published>2025-05-10T13:45:00+00:00</published><updated>2025-05-10T13:45:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-05-10:/spark-fi/eclipse-des-ames.html</id><content type="html">&lt;h1&gt;Éclipse des âmes&lt;/h1&gt;
-&lt;p&gt;Les nuits d’éclipses lunaires &lt;/p&gt;
-&lt;p&gt;Les âmes mettent le cap&lt;/p&gt;
-&lt;p&gt;Loin des côtes contrainiantes de la censure&lt;/p&gt;</content><category term="notion"/></entry><entry><title>le loup et la cigogne</title><link href="https://oberron.github.io/spark-fi/le-loup-et-la-cigogne.html" rel="alternate"/><published>2025-04-19T00:00:00+02:00</published><updated>2025-04-19T00:00:00+02:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-04-19:/spark-fi/le-loup-et-la-cigogne.html</id><summary type="html">&lt;h1&gt;Le loup et la cigogne&lt;/h1&gt;
+&lt;p&gt;Fin.&lt;/p&gt;</content><category term="ATU"/><category term="ATU124"/></entry><entry><title>le loup et la cigogne</title><link href="https://oberron.github.io/spark-fi/le-loup-et-la-cigogne.html" rel="alternate"/><published>2025-04-19T00:00:00+02:00</published><updated>2025-04-19T00:00:00+02:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-04-19:/spark-fi/le-loup-et-la-cigogne.html</id><summary type="html">&lt;h1&gt;Le loup et la cigogne&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Le loup et la cigogne" src="/static/img/Le_loup_et_la_cigogne.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Francais moderne pour enfants&lt;/h2&gt;
 &lt;p&gt;Il était une fois un loup affamé,\
@@ -597,49 +348,7 @@ Ne tombez jamais sous ma patte.\&lt;/p&gt;
 &lt;p&gt;Sa mère, horrifiée par la vue du géant dans le ciel, courut chercher la hache. Jacques frappa la tige une, deux, trois fois.&lt;/p&gt;
 &lt;p&gt;Le haricot géant se mit à pencher, puis s’effondra sous le poids du géant, qui tomba du ciel et disparut dans un énorme fracas, pulvérisé à l’impact.&lt;/p&gt;
 &lt;p&gt;Jacques et sa mère n’eurent plus jamais à s’inquiéter. Avec l’or, la poule et la harpe magique, ils vécurent heureux, aidant les villageois et racontant leur incroyable aventure.&lt;/p&gt;
-&lt;p&gt;Et jamais plus un haricot ne fut vu pousser jusqu’aux nuages…&lt;/p&gt;</content><category term="ATU"/><category term="ATU328"/></entry><entry><title>Le mythe du don du parapluie</title><link href="https://oberron.github.io/spark-fi/le-mythe-du-don-du-parapluie.html" rel="alternate"/><published>2025-04-15T18:01:00+00:00</published><updated>2025-04-15T18:01:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-04-15:/spark-fi/le-mythe-du-don-du-parapluie.html</id><summary type="html">&lt;h1&gt;Le mythe du don du parapluie&lt;/h1&gt;
-&lt;p&gt;Un Mythe Nordique : Thor, Loki et le don du parapluie&lt;/p&gt;
-&lt;p&gt;Aux jours anciens d’Asgard, lorsque les dieux étaient encore jeunes et insouciants, Thor et Loki jouaient souvent sous les branches sacrées d’Yggdrasil. Thor, déjà puissant comme le tonnerre, se laissait facilement provoquer …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Le mythe du don du parapluie&lt;/h1&gt;
-&lt;p&gt;Un Mythe Nordique : Thor, Loki et le don du parapluie&lt;/p&gt;
-&lt;p&gt;Aux jours anciens d’Asgard, lorsque les dieux étaient encore jeunes et insouciants, Thor et Loki jouaient souvent sous les branches sacrées d’Yggdrasil. Thor, déjà puissant comme le tonnerre, se laissait facilement provoquer, et Loki—rusé comme toujours—savait exactement comment le piquer.&lt;/p&gt;
-&lt;p&gt;Un jour, alors que de lourds nuages s’amoncelaient au-dessus de Midgard (la Terre des humains), Loki s’approcha de Thor avec son sourire habituel et ses yeux brillants de malice.&lt;/p&gt;
-&lt;p&gt;« Frère, » dit-il, « on te nomme dieu du tonnerre, mais dis-moi… est-ce vraiment toi qui commandes les tempêtes, ou viennent-elles et repartent-elles comme ton humeur changeante ? »&lt;/p&gt;
-&lt;p&gt;Thor fronça les sourcils. « Bien sûr qu’elles m’obéissent ! Le ciel tremble à ma volonté ! »&lt;/p&gt;
-&lt;p&gt;« Alors prouve-le, » répondit Loki en le bousculant doucement. « Fais tomber ta colère sur les petits humains. Fais-moi voir la puissance de Mjölnir. »&lt;/p&gt;
-&lt;p&gt;Gonflé d’orgueil, Thor leva son marteau et déclencha un déchaînement de tempête sur Midgard. Les éclairs serpentaient dans le ciel, le tonnerre faisait éclater les montagnes, la pluie tombait en torrents furieux. Les humains, frêles et vulnérables, fuyaient, leurs récoltes étaient noyées, leurs maisons emportées, les rivières devenues monstres.&lt;/p&gt;
-&lt;p&gt;Quand la tempête s’éloigna enfin, Thor regarda en bas et ne vit que désolation.&lt;/p&gt;
-&lt;p&gt;« Peut-être… » murmura-t-il, inquiet, « peut-être ai-je été trop loin. »&lt;/p&gt;
-&lt;p&gt;« Ah, » dit Loki, faussement compatissant, « il suffit de les aider. Leur offrir de quoi se protéger ? Quelque chose de simple… un tissu tendu sur des bâtons, peut-être ? »&lt;/p&gt;
-&lt;p&gt;Thor cligna des yeux. « Un parapluie ? »&lt;/p&gt;
-&lt;p&gt;« Oui ! » s’écria Loki en tapant dans ses mains. « Donne-leur des parapluie pour se protéger de ta colère. »&lt;/p&gt;
-&lt;p&gt;Soulagé à l’idée de réparer ses torts, Thor descendit sur Midgard et offrit aux humains “le Parapluie”.&lt;/p&gt;
-&lt;p&gt;Mais dès qu’il s’en alla, Loki monta sur une colline et éclata de rire.&lt;/p&gt;
-&lt;p&gt;Car si Thor avait bien pensé à protéger contre la pluie et les éclairs, il avait oublié… le vent. Et Loki, murmurant à l’oreille des rafales, lança un grand souffle à travers la terre. Les parapluies se retournèrent ou furent arrachées des mains, s’envolant comme des oiseaux morts emportés par la bourrasque.&lt;/p&gt;
-&lt;p&gt;Les humains crièrent. Thor, entendant de nouveau leurs plaintes, leva les yeux, déconcerté.&lt;/p&gt;
-&lt;p&gt;Et sur sa colline, Loki riait, riait à gorge déployée, son tour parfaitement réussi.&lt;/p&gt;
-&lt;p&gt;« Pauvre Thor, » gloussa-t-il. « Fort comme une tempête… mais pas assez malin pour dompter le vent. »&lt;/p&gt;
-&lt;p&gt;Et c’est ainsi qu’on dit : lorsque votre parapluie se retourne sous une rafale, c’est le rire de Loki qui souffle, rappelant que même les dieux peuvent être dupés.&lt;/p&gt;</content><category term="notion"/></entry><entry><title>The umbrella, a gift from Thor</title><link href="https://oberron.github.io/spark-fi/the-umbrella-a-gift-from-thor.html" rel="alternate"/><published>2025-04-15T05:38:00+00:00</published><updated>2025-04-15T05:38:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-04-15:/spark-fi/the-umbrella-a-gift-from-thor.html</id><summary type="html">&lt;h1&gt;The umbrella, a gift from Thor&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;A Norse Myth: Thor, Loki, and the Umbrella Trick&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In the golden days of Asgard, when gods still played like children beneath Yggdrasil’s branches, Thor and Loki were young in mischief and might. Thor, already boasting the strength of thunder, was easily riled …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The umbrella, a gift from Thor&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;A Norse Myth: Thor, Loki, and the Umbrella Trick&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In the golden days of Asgard, when gods still played like children beneath Yggdrasil’s branches, Thor and Loki were young in mischief and might. Thor, already boasting the strength of thunder, was easily riled, and Loki—ever the sly one—knew just how to provoke him.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;One day, as clouds rolled low over Midgard, Loki approached Thor with his usual grin, eyes gleaming with mischief.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Brother,” Loki said, “they call you the god of thunder, but I wonder—do your storms answer to your will, or do they come and go like your temper?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thor frowned. “Of course they answer to me! The sky shakes at my command!”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Prove it,” said Loki, nudging him. “Let us play a game. Cast your storms upon the little humans. Make them tremble. Show me the strength of Mjölnir.”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thor, puffed with pride, raised his hammer and unleashed a roaring tempest upon Midgard. Lightning danced like snakes across the sky. Thunder cracked mountains. Rain fell in furious sheets. The humans—tiny and fragile—ran for cover, crops drowned, homes were shattered, and rivers swelled into monsters.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When the chaos passed, Thor looked down and saw only ruin.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Perhaps…” he muttered, troubled, “perhaps I went too far.”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Ah,” said Loki, with mock sympathy, “you just need to &lt;/strong&gt;&lt;strong&gt;&lt;em&gt;help&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; them. Maybe something to shield them? Something simple. Like… a cloth stretched on sticks?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thor blinked. “An umbrella?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Yes!” Loki clapped. “Give them umbrellas to protect themselves when your fury strikes again.”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Relieved to right his wrongs, Thor descended to Midgard and gifted  humanity the knowledge of how to build to protect themselves from the rain.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;But as soon as he left, Loki sat upon a hill and cackled.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;For while Thor had gifted humanity  umbrellas against rain, he had forgotten the wind. And Loki, whispering into the gusts, sent a mighty gale sweeping across the land. Umbrellas snapped backwards, tore from hands, flipped inside out like dead birds in the storm.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The humans wailed. Thor, hearing their cries again, turned his eyes downward, confused.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;And up on his hill, Loki laughed and laughed, his trick complete.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“Poor Thor,” he chuckled. “Still strong as a storm… but not nearly clever enough to master the wind.”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;And thus it is said: when your umbrella turns inside out, it is Loki’s laughter riding the wind, reminding the world that even gods can be fooled.&lt;/strong&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Meta-physic</title><link href="https://oberron.github.io/spark-fi/meta-physic.html" rel="alternate"/><published>2025-01-20T05:46:00+00:00</published><updated>2025-01-20T05:46:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-01-20:/spark-fi/meta-physic.html</id><summary type="html">&lt;h1&gt;Meta-physic&lt;/h1&gt;
+&lt;p&gt;Et jamais plus un haricot ne fut vu pousser jusqu’aux nuages…&lt;/p&gt;</content><category term="ATU"/><category term="ATU328"/></entry><entry><title>Meta-physic</title><link href="https://oberron.github.io/spark-fi/meta-physic.html" rel="alternate"/><published>2025-01-20T05:46:00+00:00</published><updated>2025-01-20T05:46:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2025-01-20:/spark-fi/meta-physic.html</id><summary type="html">&lt;h1&gt;Meta-physic&lt;/h1&gt;
 &lt;p&gt;The team of PhD was excited, they had taken LLM to the next level and were about to speak with Socrates. &lt;/p&gt;
 &lt;p&gt;They had had many heated argument before settling on the first question, which aimed to  settle 2 millennia of discussions in philosophy circles:&lt;/p&gt;
 &lt;p&gt;« Socrates, Which modern day philosopher …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Meta-physic&lt;/h1&gt;
@@ -731,7 +440,7 @@ Les robots supervisant l’usine répondaient :
 &lt;p&gt;The Hitchhiker Guide to the Galaxy had just updated its entry for Earth to include  ‘unique occurrence of flash mob driving cars onto roads to make jams. Show …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Traffic jams&lt;/h1&gt;
 &lt;p&gt;As humans saw an increase in UFO sightings, the usual split resurfaced: were those space ships or just atmospheric phenomenon.&lt;/p&gt;
 &lt;p&gt;The Hitchhiker Guide to the Galaxy had just updated its entry for Earth to include  ‘unique occurrence of flash mob driving cars onto roads to make jams. Show visible from space twice a day’&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Do they still worship us?</title><link href="https://oberron.github.io/spark-fi/do-they-still-worship-us.html" rel="alternate"/><published>2024-09-29T09:11:00+00:00</published><updated>2024-09-29T09:11:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-29:/spark-fi/do-they-still-worship-us.html</id><content type="html">&lt;h1&gt;Do they still worship us?&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/4132e133-8dea-4b76-a460-631cff9fb2ec/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB466YHHQNTAT%2F20260424%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260424T033117Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBPsUfVkaAR63wtG0mtvvNSptc9JhmC6TYdQ1ZmH42E4AiEAmDzNyUohZaftdLeR%2B2wFr3mwuLroaSrs4jZQ7gp0u%2B8q%2FwMIcxAAGgw2Mzc0MjMxODM4MDUiDMWeTTwa5kODJ3cIsircA0aM0gwecn9xlq%2BV7n7vAj1OHO%2FSICykipztpuNCKf4hW4lS2rCKENefgdjA6s1zywymSkl81bSKIgDueJ1YX0lnELQhDnfeqUsseeRsZtP8SalpZH81ZmlGwYPR70fRq0123lx7WL5C9vmrgPJRCvafJP64IR7uDQYlTodCJtHfUBXcMe4fP%2FcVen2prMI0BgyMK7xq052pMQcdeBiFs%2BBazbx3NrlSh8XCrUxpVznFvWP3OZh8ljnn5t%2B4nFIGLC%2Bx2ILOOpCoUfE8TNcWlBNpDYUkuODbruRFdTupNoqV8ZkMw8JOKJC2ezTrwyVw3mWKwdRoX2P1E5QktIb1%2BQKC%2FzQ6lf6CgT2cOktIeIr1OINQ0dP0XYoyVCOOFT%2FAAo%2B0I%2BXMiJkbNibMxEtD%2FOFsd6ORXt7oHCSNQdVNQqAmJ8c%2BFHjy91XHcmfikMaF9l0bR8PCRbAxYriGiaGnWpMxt0xG%2FgZj3WWe0osPpa7NeQT2jeHmkPnmrnAJQG12cxKBA4JjEbUTes1PMenRFZTe4K%2BX0uiXeJFZeH%2BhHe903r8gJFmEYZ4tSTp3DOnaL%2FWoHkUi2OpMQmIDGQbmpdyyMVoATO68V7CGegjuM%2FFIpZjG3imO%2B8Nu%2FStwMLuYq88GOqUBduqgcIlT6KiGa0yyu8ZCoi%2F9WAsGaZIl6aTueEjinmWNc6278Y4y%2FKl6Jkvt8A%2BYLOz8%2BgzdjJxIenYGvuMvrQNlDznTYDdjY3s0gp7oKhRAkkA1xOx2PSupxhLAWbgchS%2FmtMgHVUp9kxvytgqkrDiUNLrcBQv6Tn%2F9797%2BuGX3Huh65AuMYIP1YhtCuzymEYnuPEJYebA9aTtXA%2FZqIAvq2pHM&amp;amp;X-Amz-Signature=81db0948a3b7205b03cf20022adab2c40885e28b7dcdb870f1fc7d95ef1bc466&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/4132e133-8dea-4b76-a460-631cff9fb2ec/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB46664NOOT2Y%2F20250403%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20250403T161427Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICxj5pLBZffXliOtRVJQwD1N%2FrPafsKl5msrgG8s08JvAiEA2g9JPr5QtWwgcFnFmGM3jznUAKHAolzXs3ib7%2BPw6BEqiAQI8f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBO7Y3yuKct4g69jTircAxYIxIi2uWsGNU8ZUFHj0uIrpgg%2FI%2BnNv%2FCgyvDOww9EToY7GmHrl9r9kapxZ%2FvnCOzVunuPDj4OZmkRMjn3TXdKifEv1scCYPcp1NWXn19QraYF7W50L5nzW2tU%2FaTaRgtPeeC0EWnlci9UWq0Trxy3vPEl9HWXDwmFkuXeeiwacVZCJ5JwR7meo8AVy5iz3oP6A5hreb6%2BAstZUX%2B29QK7QNcA2r%2Bm9lMs5V4Z5Qi7oIGa%2FudoygIBT6Y5pN9PnlsJF%2BLHq8D2pVWfoXz5RUVJpAxj%2BbaWvgV8facS14bTECF7fRd0C8rp9%2FEc0UG5uNUy8X3mKF1k%2BHxeURMbLHj3%2FPmKVUf2IEIWwWUdhLyzpeRbqwNTY45X0bZiW0OjnMx6sYonhSgfaNzyFLRM2NiAxpz%2FHng7udvpDiKA%2Fxa4C0w6195%2BFSbfFYiRrGsPvGZVbVOV851sH7i4gPwTiLGRAoRwbDVmLqVZfOzi5x39jsMOgRpSK%2FyLqEIjuzWZjroKVtmtQz1aBiO21tyuq298dNz725YpLydXz1Dw%2Fhhpk92OIoV2gG6rIdVX1FRAwXA4Xv89JbMGF%2Fn24URKN9M2I0OQipLijvoS54KVbM8VGarxQUCJ9xdGMEQ%2BMNTmur8GOqUBH13gBje9AdilLVjlIju2%2BEpXzWKPs20J6BGaSYZf16my7KqqKi7oZAvHRzH6JM37h0hwqd%2FxaeGWb88uAt2WLnNQJT6HjCLkKr8P8%2BYNIhdq6I0k7vA3dq2qU2J5pcGp0gcV6dMicZ7WcUEvRyIGoo8H98ggDaugMK1CUCrFzNSgBTyxzSWNT2Cy3WCEWkUek2WB2CExV5n2mfCdbP9sz8dH1dEO&amp;amp;X-Amz-Signature=0784efc08b6b91f2488414fe7b9dfcead85563730f49ad0a6cc602d91524e11f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;
 &lt;p&gt;Credit : unknown, if you know let me know !&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Cat 9 3/4</title><link href="https://oberron.github.io/spark-fi/cat-9-34.html" rel="alternate"/><published>2024-09-15T09:46:00+00:00</published><updated>2024-09-15T09:46:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-15:/spark-fi/cat-9-34.html</id><summary type="html">&lt;h1&gt;Cat 9 3/4&lt;/h1&gt;
 &lt;p&gt;Schroedingers cat has long left the box and was now working at Kings Cross train station. &lt;/p&gt;
 &lt;p&gt;What few knew is that everyone who attempts to go through the wall will land on platform 9 3/4. It just if they are observed by cat that they …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Cat 9 3/4&lt;/h1&gt;
@@ -748,7 +457,7 @@ Les robots supervisant l’usine répondaient :
 &lt;p&gt;He stared in the hesitant eyes of the wanderer&lt;/p&gt;
 &lt;p&gt;“Right or left”? it seemed both paths were in the wanderer’s head at once&lt;/p&gt;
 &lt;p&gt;**“Not all who wander are lost.” he said **
-&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/d9162cd2-83ad-4602-981c-c1bb27ed54c3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB4664JVZU6JQ%2F20260424%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20260424T033115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAMQ7iWQ3Z73USPRzgBoaOrzlN%2FvgcKfx8sp2NfUclv8AiAtVDawUCY7FXXflcQl13KX83KPnDmn2wLLiH6LSfoMdSr%2FAwh0EAAaDDYzNzQyMzE4MzgwNSIMpf3pRzST9J86HxXjKtwDmX8xzB2JeoMvPvTI5ceN1YHfs8IMNFvV3xCCgNTiKiIf5b%2BRrYUXMJI%2FX8NsWP5Z85AZvfDkCVqE2bqPvmO90yvbSINe%2BVUGsYw5G8d7807JTzUGediF1bAEVhNyfHbHpkOk4ObzBoEVSMvdr%2FpLZpy5L8DYyxTRV0pEDzyTJOaSs7aGSi2GCJEfEVnfRSmDCAzWi71hiEZpQhxbMT%2BWgDUbSum1BcciyyDz7wJDvoLi%2FVRLHrqFY%2FS%2BtGPNBCR8awIUX1Lok0%2Fnc8qIESVJMmdq70IAl0wzTksq12pbSXgDLUJUpHxyTZ60f7AD2fLxY7uOyAGie5VL7dlvvgxkenljZ9y3m5fhY2Bh5Kw0h9UDZpP%2FQhW57XVJdosbsB6gmjaKqhfG8uED5DZ%2F67DeXKAFq25VK%2B9hU6OuNoF13IRElL2zNTMxGdlsb2nMBMq%2B5HN3LR05SzWPiQt6UELr%2BAFqAklFcI3ljT7mkgtlXukjNykQOkeVdN2ZKmJ1Ahx1xSBXLmefO1%2BTsmwDSejwKy3ryh1hm7ET6HyAdlvQ0%2FTvvIczDUVl6YPkjvzYWhgOoaDiqZoJYWK0%2FtyLekx8Z2auC2gk%2FZpD%2FeWUewkyYRBH2DR7KGqzB8TQBl0wgb2rzwY6pgEdwAby9n189xlY6ELM8587LhcseXSsT8QVyE3duVRdFI2SAGBHQHtc70845qYrmslHHpMKoKarwapzMpzGjU9cITFr%2BT6YdH8DA%2BXwHc0l%2Fy0FO6EKQf8KKS789VPxm7nuruv67jGp1uOb79xL9sW7vi2pGBhX5lhSu6Vtat6OjhDczuZtSP22kBpL2UutG1%2BjI7xsM1RIL6py%2BAtTTKYjuVwXqjNe&amp;amp;X-Amz-Signature=36343d8fe2cfa9b9adec02ca36e63266bc0f7262acb563698b77633ad58c7ce1&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-amz-checksum-mode=ENABLED&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Lead harvest</title><link href="https://oberron.github.io/spark-fi/lead-harvest.html" rel="alternate"/><published>2024-09-09T07:09:00+00:00</published><updated>2024-09-09T07:09:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-09:/spark-fi/lead-harvest.html</id><content type="html">&lt;h1&gt;Lead harvest&lt;/h1&gt;
+&lt;img alt="" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/4be26ae0-4bf9-4a8c-9ea5-b6960242f41c/d9162cd2-83ad-4602-981c-c1bb27ed54c3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=ASIAZI2LB466ZXFGFLFE%2F20250403%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20250403T161426Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDWLkaE%2BDCVSXwrqC5EHk9FXZq8qh9haUC%2BKfsJ2STH%2BwIgeTVMbcy4WM6kMpjiVZeIME0JZcmO6wa9UtWcx%2BnyQLoqiAQI8P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDC7jhYNEf%2Fv8xa6j7CrcA%2BopQKlBZfJIXPWQgrrzn4OaRu%2BmRhrQYc300VPEPRRLQzwMo3S672dZDSZ%2BcEANoDsW%2BqRUp17LiSic1IkELh7nyNV5FHNwIKkry%2FStkHwFew3WcwHEctR%2FbBvSNAmVWHMxBlqlxcnPMM1tFg%2BBeMX9fOJQgjU8xljtebxy6OLJ0xbQDJylkJt9gTFFMAdEDaUPF66h7n%2FkRRIeAVCbGzXZwf0O%2Fl5i1JaFj8ez4UX4K8Shj6YnEcojcGvpqjkRfp%2FyBKlg1m3gq%2FFMz07RUwxTatseSpupQflJiZ4s23nZS8u4QctlpdBjDs04S827eelUmOrcbAcspfWuJuwnM83eu%2F6GuRAsG9rg9eO7D29yp7u3paIVtGXYmRItGXiFQNXP9zqZhhuJv8wegMef4Mh1ZQQUie0rUDPQOAGst%2Fcsds5oSGO%2FfY35I01ycqubzJqjQxD9AFC92Gkc9ThDZeQP7PHnmqei%2FGk762eyzBQEZ5PMUFTxLqiufvSzB2iHQE2dfFZ4hHgsaTT3cJnyd1kh0L7MdZ6Om1HHRVHSVp11M7N%2F6VrylplyCI2tL8E30vCUfS%2Bzs%2Be7yGdKu8MpMGxvyGIJ1Qbpb8uuH6%2Bvf0n8CB%2FqPsXaOulqTXCFMJ7Nur8GOqUBqtK6HqzlTBvi%2FmafzJMgTHTKIofI3tiFgdUCnZMkDf8m4D8WRsPjBp7B%2F5zRO%2F7KscxUBLzfX98mnIeF%2FV1B4tIfrsxOgxZQCumjcLTJN8Vmm8u3RdxTlFulK8py1FbM5Cf8aIXJU0y5EJI2pCsi8sBbRIbslWzdwcVh540MvneFtU53gWZfa6xgoV58IOOAccCnGux%2FKQsCMCpmBGnc7XG0eCXh&amp;amp;X-Amz-Signature=02ef0c903975985ffbc35466a4c0e0f83ffcd17742c9f9875fd60308dd406cd3&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject"&gt;&lt;/p&gt;</content><category term="notion"/></entry><entry><title>Lead harvest</title><link href="https://oberron.github.io/spark-fi/lead-harvest.html" rel="alternate"/><published>2024-09-09T07:09:00+00:00</published><updated>2024-09-09T07:09:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-09-09:/spark-fi/lead-harvest.html</id><content type="html">&lt;h1&gt;Lead harvest&lt;/h1&gt;
 &lt;p&gt;Death was smiling :&lt;/p&gt;
 &lt;p&gt;the microplastic harvest was orders of magnitude better than what 🛍️🛍️🛍️&lt;/p&gt;
 &lt;p&gt;the lead based harvest in Rome had been &lt;/p&gt;</content><category term="notion"/></entry><entry><title>Micro SF/F 2024-08-03</title><link href="https://oberron.github.io/spark-fi/micro-sff-2024-08-03.html" rel="alternate"/><published>2024-08-09T09:24:00+00:00</published><updated>2024-08-09T09:24:00+00:00</updated><author><name>Oberron</name></author><id>tag:oberron.github.io,2024-08-09:/spark-fi/micro-sff-2024-08-03.html</id><summary type="html">&lt;h1&gt;Micro SF/F 2024-08-03&lt;/h1&gt;
